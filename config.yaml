@@ -1,0 +1,64 @@
+# HSK Knowledge Agent Configuration
+
+# PDF Extraction Settings
+pdf:
+  input_dir: "HSK-Textbooks"  # Relative to project root
+  levels: [1, 2, 3]           # HSK levels to process
+  extract_images: false       # Extract images from PDFs
+
+# Content Parsing Settings
+parsing:
+  extract_vocabulary: true
+  extract_grammar: true
+  extract_examples: true
+  extract_strokes: true
+  extract_radicals: true
+
+# Vector Embedding Settings
+embeddings:
+  model: "sentence-transformers/distilbert-base-multilingual-cased"
+  embedding_dim: 384
+  batch_size: 32
+
+# Vector Store (FAISS) Settings
+vectorstore:
+  index_type: "flat"      # flat, ivf, hnsw
+  similarity_threshold: 0.6
+  top_k_results: 5
+  store_path: "hsk_data/faiss_index"
+
+# Claude API Settings
+claude:
+  model: "claude-3-5-sonnet-20241022"
+  api_key: "${ANTHROPIC_API_KEY}"
+  temperature: 0.3        # Lower = more deterministic, focused on facts
+  max_tokens: 1000
+
+# Knowledge Graph Settings (Graphify)
+graph:
+  enabled: true
+  output_path: "hsk_data/knowledge_graph.json"
+  relationship_types:
+    - "grammar_rule"
+    - "vocabulary_context"
+    - "example_sentence"
+    - "level_progression"
+    - "component_part"
+
+# Agent Settings
+agent:
+  strict_citations: true          # Require citations for all facts
+  fallback_response: "This information is not found in the HSK textbooks. Please consult official HSK resources."
+  context_window: 5               # Previous messages to include
+  enable_reasoning: true
+
+# Data Storage
+storage:
+  db_path: "hsk_data/hsk_knowledge.db"
+  cache_embeddings: true
+  cache_path: "hsk_data/cache"
+
+# Logging
+logging:
+  level: "INFO"
+  log_file: "hsk_agent.log"
