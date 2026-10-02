@@ -25,7 +25,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 
-from agent import prompts, retrieval
+from agent import prompts, retrieval, teacher
 from agent.providers import get_provider
 
 app = FastAPI(
@@ -40,6 +40,7 @@ class AskRequest(BaseModel):
     dfs: bool = False
     budget: int = 2000
     provider: Optional[str] = None
+    mode: str = "answer"  # "answer" (short cited answer) or "teach" (structured lesson)
 
 
 class AskResponse(BaseModel):
@@ -75,13 +76,21 @@ INDEX_HTML = """<!doctype html>
 <body>
 <h1>HSK Knowledge Agent</h1>
 <p>Answers are pulled strictly from the HSK knowledge graph (<code>graphify-out/graph.json</code>) -- see <a href="/docs">/docs</a> for the raw API.</p>
-<textarea id="q" rows="3" placeholder="e.g. What does 把字句 mean?"></textarea>
+<textarea id="q" rows="3" placeholder="e.g. Teach me 把字句"></textarea>
 <div class="row">
   <button id="ask">Ask</button>
-  <label><input type="checkbox" id="dfs"> DFS (trace a specific chain instead of broad context)</label>
+  <label><input type="radio" name="mode" value="teach" checked> 🧑‍🏫 Teach me (lesson + practice)</label>
+  <label><input type="radio" name="mode" value="answer"> Quick answer</label>
 </div>
+<p class="meta">Ctrl+Enter to send. Lessons from a local model can take a minute or two.</p>
 <div id="out"></div>
 <script>
+function renderMd(s) {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/^#{1,4} (.*)$/gm, '<strong>$1</strong>')
+    .replace(/\\*\\*(.+?)\\*\\*/g, '<strong>$1</strong>')
+    .replace(/(^|[^*])\\*([^*\\n]+)\\*/g, '$1<em>$2</em>');
+}
 const out = document.getElementById('out');
 const btn = document.getElementById('ask');
 async function ask() {
@@ -93,7 +102,7 @@ async function ask() {
     const resp = await fetch('/ask', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({question, dfs: document.getElementById('dfs').checked})
+      body: JSON.stringify({question, mode: document.querySelector('input[name=mode]:checked').value})
     });
     const data = await resp.json();
     if (!resp.ok) {
@@ -102,7 +111,7 @@ async function ask() {
     }
     const sources = (data.sources || []).map(s => '<li>' + s + '</li>').join('');
     out.innerHTML =
-      '<div class="answer">' + data.answer.replace(/</g, '&lt;') + '</div>' +
+      '<div class="answer">' + renderMd(data.answer) + '</div>' +
       (sources ? '<div class="sources"><strong>Sources</strong><ul>' + sources + '</ul></div>' : '') +
       '<div class="meta">provider: ' + (data.provider_used || '(none configured -- raw graph context shown)') + '</div>' +
       '<details><summary>Raw graph context</summary><pre>' + data.raw_context.replace(/</g, '&lt;') + '</pre></details>';
@@ -147,6 +156,20 @@ def graph_info():
 
 @app.post("/ask", response_model=AskResponse)
 def ask(req: AskRequest):
+    if req.mode == "teach":
+        try:
+            lesson = teacher.teach(req.question, provider_name=req.provider, dfs=req.dfs)
+        except RuntimeError as e:
+            raise HTTPException(status_code=400, detail=str(e))
+        return AskResponse(
+            question=req.question,
+            found=lesson.found,
+            answer=lesson.answer,
+            sources=lesson.sources,
+            provider_used=lesson.provider_used,
+            raw_context=lesson.context,
+        )
+
     result = retrieval.query(req.question, dfs=req.dfs, budget=req.budget)
 
     if result.error:

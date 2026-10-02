@@ -41,6 +41,18 @@ python -m agent.server
 - `GET /graph/info` — node/edge/community counts
 - `GET /healthz` — liveness check
 
+## Teach mode (virtual teacher)
+
+`python -m agent.cli --teach "Teach me 把字句"`, or pick "Teach me" in the web UI (`"mode": "teach"` in the `/ask` body).
+
+How it stays grounded (`agent/teacher.py`):
+
+1. The Chinese term is pulled out of the question and the transcripts are searched directly for the section that **explains** it (grammar headings with the term quoted, e.g. `### 3 "了"表变化`) -- the graph alone sometimes points at table-of-contents pages instead.
+2. Those full textbook pages are given to the model with a teacher prompt: what it is → the book's explanation and examples (cited) → how to use it → an optional **Teacher's note (not from the textbook)** → practice questions.
+3. After the model answers, code checks it: every citation must be a page the model was actually given, and every Chinese example sentence shown under a citation must actually appear on that page. Anything invented or mis-cited is flagged in a ⚠️ Fact check block at the end of the lesson.
+
+Small local models (e.g. `gemma3n:e4b`) follow the lesson structure but do sometimes mis-cite or improvise; the fact check catches that, but a larger model gives noticeably better lessons.
+
 ## LLM providers
 
 ### Ollama (local, no API key)

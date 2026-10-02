@@ -140,6 +140,107 @@ def query(question: str, *, dfs: bool = False, budget: int = 2000) -> RetrievalR
     )
 
 
+TRANSCRIPTS_DIR = PROJECT_ROOT / "hsk_data" / "transcripts"
+CJK_RUN_RE = re.compile(r"[一-鿿]+")
+QUOTES_RE = re.compile(r"[\"“”'‘’「」]")
+GRAMMAR_NUM_RE = re.compile(r"^\*\*\d+\*\*")
+
+
+def key_terms(question: str) -> list[str]:
+    """Chinese terms in the question (e.g. '了', '把字句'); empty if none."""
+    return CJK_RUN_RE.findall(question)
+
+
+def page_citation(rel_path: str) -> str:
+    m = re.search(r"level([123]).*?page_(\d+)", rel_path.replace("\\", "/"))
+    return f"(HSK Level {m.group(1)}, page {int(m.group(2))})" if m else f"({rel_path})"
+
+
+def find_explanation_pages(terms: list[str], limit: int = 4) -> list[str]:
+    """
+    Rank transcript pages by how directly they *explain* the given terms.
+
+    The graph extraction anchored some grammar concepts to table-of-contents
+    pages (where they're first listed) rather than the lesson pages that
+    actually teach them, so for teaching we search the transcripts directly:
+    a section heading naming the term scores far above a passing mention, and
+    mentions inside table rows (TOCs, vocab indexes) barely count.
+    """
+    if not terms:
+        return []
+    scored: list[tuple[int, str]] = []
+    for path in TRANSCRIPTS_DIR.glob("level*/page_*.md"):
+        text = path.read_text(encoding="utf-8")
+        if "SKIPPED:" in text[:300]:
+            continue
+        heading_score = 0
+        body_score = 0
+        for line in text.splitlines():
+            stripped = line.strip()
+            if stripped.startswith("|"):
+                continue  # TOC / vocab-index table rows
+            normalized = QUOTES_RE.sub("", stripped)
+            # Grammar notes are written either as '### 3 "了"表变化' or
+            # '**1** "把"字句1：...' -- a heading-like line with the term quoted.
+            is_heading = stripped.startswith("#") or GRAMMAR_NUM_RE.match(stripped) is not None
+            for term in terms:
+                if term not in normalized:
+                    continue
+                quoted = any(q in stripped for q in (f'"{term}"', f"“{term}”", f'"{term[0]}"', f"“{term[0]}”"))
+                if is_heading and quoted:
+                    heading_score += 50
+                elif is_heading:
+                    heading_score += 10
+                else:
+                    body_score += 1
+        score = heading_score + min(body_score, 8)
+        if score:
+            scored.append((score, path.relative_to(TRANSCRIPTS_DIR).as_posix()))
+    scored.sort(key=lambda x: (-x[0], x[1]))
+    return [p for _, p in scored[:limit]]
+
+
+def load_source_pages(
+    result: RetrievalResult,
+    max_pages: int = 4,
+    max_chars: int = 12000,
+    priority_pages: list[str] | None = None,
+) -> tuple[str, list[str]]:
+    """
+    Load full transcribed textbook pages for teaching.
+
+    `priority_pages` (from find_explanation_pages) come first, then pages
+    behind the top-ranked graph nodes. Returns (page text, list of
+    citations for the pages actually included) -- the citation list is what
+    answers get validated against.
+    """
+    ordered = list(priority_pages or []) + [n.source_file.replace("\\", "/") for n in result.nodes]
+    seen: set[str] = set()
+    chunks: list[str] = []
+    citations: list[str] = []
+    total = 0
+    for src in ordered:
+        if src in seen:
+            continue
+        seen.add(src)
+        path = TRANSCRIPTS_DIR / src
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        if "SKIPPED:" in text[:300]:
+            continue
+        citation = page_citation(src)
+        block = f"=== PAGE {citation} ===\n{text.strip()}\n"
+        if total + len(block) > max_chars and chunks:
+            break
+        chunks.append(block)
+        citations.append(citation)
+        total += len(block)
+        if len(chunks) >= max_pages:
+            break
+    return "\n".join(chunks), citations
+
+
 def explain(node_name: str) -> RetrievalResult:
     """Run `graphify explain` for a plain-language single-node lookup."""
     if not graph_exists():

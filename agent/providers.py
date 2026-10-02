@@ -44,10 +44,14 @@ class OllamaProvider(Provider):
 
     name = "ollama"
 
-    def __init__(self, model: str | None = None, base_url: str | None = None, timeout: int = 120):
+    def __init__(self, model: str | None = None, base_url: str | None = None, timeout: int = 300):
         self.model = model or os.environ.get("OLLAMA_MODEL", "gemma3n:e4b")
         self.base_url = (base_url or os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")).rstrip("/")
         self.timeout = timeout
+        # Ollama's default context is ~2K tokens and it silently truncates the
+        # prompt from the front -- which drops the system prompt (all the
+        # grounding rules) first. Textbook pages + graph context need far more.
+        self.num_ctx = int(os.environ.get("OLLAMA_NUM_CTX", "16384"))
 
     def complete(self, system_prompt: str, user_message: str) -> str:
         payload = {
@@ -57,7 +61,7 @@ class OllamaProvider(Provider):
                 {"role": "user", "content": user_message},
             ],
             "stream": False,
-            "options": {"temperature": 0.2},
+            "options": {"temperature": 0.2, "num_ctx": self.num_ctx},
         }
         req = urllib.request.Request(
             f"{self.base_url}/api/chat",

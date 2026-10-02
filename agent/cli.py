@@ -15,11 +15,24 @@ from __future__ import annotations
 import argparse
 import sys
 
-from agent import prompts, retrieval
+from agent import prompts, retrieval, teacher
 from agent.providers import get_provider
 
 
-def answer(question: str, *, dfs: bool = False, budget: int = 2000, provider_name: str | None = None) -> str:
+def answer(
+    question: str,
+    *,
+    dfs: bool = False,
+    budget: int = 2000,
+    provider_name: str | None = None,
+    mode: str = "answer",
+) -> str:
+    if mode == "teach":
+        try:
+            return teacher.teach(question, provider_name=provider_name, dfs=dfs).answer
+        except RuntimeError as e:
+            return f"Error: {e}"
+
     result = retrieval.query(question, dfs=dfs, budget=budget)
 
     if result.error:
@@ -49,9 +62,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--dfs", action="store_true", help="Use depth-first traversal (trace a specific chain)")
     parser.add_argument("--budget", type=int, default=2000, help="Token budget for graph context (default 2000)")
     parser.add_argument("--provider", default=None, help="Override HSK_AGENT_PROVIDER env var")
+    parser.add_argument("--teach", action="store_true", help="Teacher mode: a structured lesson with practice questions")
     args = parser.parse_args(argv)
 
-    print(answer(args.question, dfs=args.dfs, budget=args.budget, provider_name=args.provider))
+    mode = "teach" if args.teach else "answer"
+    print(answer(args.question, dfs=args.dfs, budget=args.budget, provider_name=args.provider, mode=mode))
     return 0
 
 
