@@ -100,6 +100,60 @@ class OllamaProvider(Provider):
         return data["message"]["content"]
 
 
+class LlamaCppProvider(Provider):
+    """
+    A local `llama-server` (llama.cpp, or a fork such as PrismML's for the
+    ternary Bonsai models) via its OpenAI-compatible /v1/chat/completions API.
+
+    Defaults follow the Ternary Bonsai 2 model card's *instruct* settings,
+    with reasoning switched off (`reasoning_effort: "none"`) -- a chat tutor
+    wants a direct reply, not a long thinking trace first. Override with
+    LLAMACPP_REASONING=medium (or xhigh) to let the model think.
+    """
+
+    name = "llamacpp"
+
+    def __init__(self, base_url: str | None = None, timeout: int = 900):
+        self.base_url = (base_url or os.environ.get("LLAMACPP_BASE_URL", "http://localhost:8080")).rstrip("/")
+        self.timeout = timeout
+        self.reasoning = os.environ.get("LLAMACPP_REASONING", "none")
+        self.max_tokens = int(os.environ.get("LLAMACPP_MAX_TOKENS", "2048" if self.reasoning == "none" else "16384"))
+
+    def chat(self, system_prompt: str, messages: list[dict]) -> str:
+        payload = {
+            "messages": [{"role": "system", "content": system_prompt}, *messages],
+            "temperature": 0.7,
+            "top_p": 0.8,
+            "top_k": 20,
+            "min_p": 0.0,
+            "max_tokens": self.max_tokens,
+            "reasoning_effort": self.reasoning,
+        }
+        req = urllib.request.Request(
+            f"{self.base_url}/v1/chat/completions",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode("utf-8", errors="replace")[:500]
+            raise RuntimeError(f"llama-server error {e.code}: {detail}") from e
+        except urllib.error.URLError as e:
+            raise RuntimeError(
+                f"Could not reach llama-server at {self.base_url} (is it running?): {e}"
+            ) from e
+        except TimeoutError as e:
+            raise RuntimeError(f"llama-server timed out after {self.timeout}s.") from e
+
+        content = data["choices"][0]["message"].get("content") or ""
+        if not content.strip():
+            raise RuntimeError("llama-server returned an empty reply (output limit hit during reasoning?).")
+        return content
+
+
 # Example of what another provider looks like, for whenever one is chosen:
 #
 #   class AnthropicProvider(Provider):
@@ -124,6 +178,7 @@ class OllamaProvider(Provider):
 
 PROVIDERS: dict[str, type[Provider]] = {
     "ollama": OllamaProvider,
+    "llamacpp": LlamaCppProvider,
     # "anthropic": AnthropicProvider,
     # "openai": OpenAIProvider,
     # "gemini": GeminiProvider,
