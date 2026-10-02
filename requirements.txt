@@ -1,8 +1,18 @@
-pypdf==4.0.1
-pdfplumber==0.10.3
-anthropic==0.28.0
-faiss-cpu==1.7.4
-sentence-transformers==2.2.2
-numpy==1.24.3
-pyyaml==6.0
-python-dotenv==1.0.0
+# Page-image extraction (ingest/extract_pages.py)
+pypdf
+pillow
+
+# Knowledge graph (installed separately too via `pip install graphifyy`,
+# listed here so `pip install -r requirements.txt` is sufficient)
+graphifyy
+
+# Standalone API / web server (agent/server.py, agent/cli.py)
+fastapi
+uvicorn
+pydantic
+
+# LLM provider for agent/providers.py -- uncomment whichever you configure
+# via HSK_AGENT_PROVIDER (see agent/providers.py for how to register one):
+# anthropic
+# openai
+# google-genai

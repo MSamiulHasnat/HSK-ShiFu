@@ -1,0 +1,16 @@
+# Ruflo local secrets and runtime data
+.env
+.env.local
+.env.*.local
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+.swarm/
+
+# graphify regenerable caches (not needed to ship; speeds up local `graphify update`)
+graphify-out/cache/
+hsk_data/transcripts/graphify-out/
+
+# Python
+__pycache__/
+*.pyc

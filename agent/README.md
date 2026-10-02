@@ -1,0 +1,53 @@
+# HSK Agent — standalone CLI / API path
+
+This is the integration path for using the HSK knowledge graph **outside** a coding agent (Claude Code / Antigravity / Codex) — e.g. your own script, a web UI, or just the terminal with your own LLM API key.
+
+Every answer is still pulled strictly from `graphify-out/graph.json` (see `../AGENTS.md` for the grounding rules — the same rules apply here). This package never invents Chinese-language facts; the only thing it adds on top of retrieval is optional LLM synthesis for readability.
+
+## How it fits together
+
+```
+your question
+     │
+     ▼
+agent/retrieval.py   ──► shells out to `graphify query` (same tool the coding agents use)
+     │                    returns cited graph nodes, or "not found"
+     ▼
+agent/prompts.py     ──► wraps the retrieved context + strict grounding rules
+     │
+     ▼
+agent/providers.py   ──► OPTIONAL: hands it to a configured LLM to write a readable answer
+                          (no provider configured yet — see below)
+```
+
+If no LLM provider is configured, you still get a fully grounded answer — just as the raw retrieved graph facts (node labels + citations) instead of LLM-written prose. This is intentional: retrieval never depends on having an API key.
+
+## CLI
+
+```bash
+pip install -r ../requirements.txt
+python -m agent.cli "What does 把字句 mean?"
+python -m agent.cli --dfs "How does the 把-construction connect to the passive voice?"
+```
+
+## Web server
+
+```bash
+python -m agent.server
+# -> http://127.0.0.1:8000
+```
+
+- `POST /ask` — `{"question": "...", "dfs": false, "budget": 2000}` → grounded answer + citations
+- `GET /graph/info` — node/edge/community counts
+- `GET /healthz` — liveness check
+
+## Adding an LLM provider
+
+None is wired up yet (by design, until a provider is chosen). To add one:
+
+1. Open `agent/providers.py`.
+2. Subclass `Provider`, implement `complete(system_prompt, user_message) -> str`.
+3. Add it to the `PROVIDERS` dict.
+4. Set `HSK_AGENT_PROVIDER=<name>` (env var) or pass `--provider <name>` / `"provider": "<name>"` to the CLI/API.
+
+A worked example (Anthropic) is commented directly in `providers.py`.
