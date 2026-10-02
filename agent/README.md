@@ -41,13 +41,27 @@ python -m agent.server
 - `GET /graph/info` — node/edge/community counts
 - `GET /healthz` — liveness check
 
-## Adding an LLM provider
+## LLM providers
 
-None is wired up yet (by design, until a provider is chosen). To add one:
+### Ollama (local, no API key)
+
+Wired up and ready. Requires [Ollama](https://ollama.com) running locally:
+
+```bash
+ollama pull gemma3n:e4b      # or any model you prefer
+export HSK_AGENT_PROVIDER=ollama
+python -m agent.cli "What does 把字句 mean?"
+```
+
+Defaults: model `gemma3n:e4b` (override with `OLLAMA_MODEL`), server `http://localhost:11434` (override with `OLLAMA_BASE_URL`). Or per-call: `python -m agent.cli --provider ollama "..."` / `{"provider": "ollama"}` in the `/ask` request body.
+
+### Adding another provider (Anthropic, OpenAI, Gemini, ...)
+
+None of the cloud providers are wired up yet (by design, until one is chosen). To add one:
 
 1. Open `agent/providers.py`.
 2. Subclass `Provider`, implement `complete(system_prompt, user_message) -> str`.
 3. Add it to the `PROVIDERS` dict.
 4. Set `HSK_AGENT_PROVIDER=<name>` (env var) or pass `--provider <name>` / `"provider": "<name>"` to the CLI/API.
 
-A worked example (Anthropic) is commented directly in `providers.py`.
+A worked example (Anthropic) is commented directly in `providers.py`, following the same shape as `OllamaProvider`.

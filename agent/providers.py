@@ -15,7 +15,10 @@ instructions in CLAUDE.md / AGENTS.md / GEMINI.md.
 
 from __future__ import annotations
 
+import json
 import os
+import urllib.error
+import urllib.request
 from abc import ABC, abstractmethod
 
 
@@ -29,7 +32,70 @@ class Provider(ABC):
         raise NotImplementedError
 
 
-# Example of what a real provider looks like, for whenever one is chosen:
+class OllamaProvider(Provider):
+    """
+    Local, no-API-key provider backed by a running Ollama server
+    (https://ollama.com). Uses Ollama's native /api/chat endpoint via
+    stdlib urllib, so no extra dependency is needed.
+
+    Requires `ollama serve` running (the desktop app runs this for you) and
+    the model pulled first: `ollama pull <model>`.
+    """
+
+    name = "ollama"
+
+    def __init__(self, model: str | None = None, base_url: str | None = None, timeout: int = 120):
+        self.model = model or os.environ.get("OLLAMA_MODEL", "gemma3n:e4b")
+        self.base_url = (base_url or os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")).rstrip("/")
+        self.timeout = timeout
+
+    def complete(self, system_prompt: str, user_message: str) -> str:
+        payload = {
+            "model": self.model,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_message},
+            ],
+            "stream": False,
+            "options": {"temperature": 0.2},
+        }
+        req = urllib.request.Request(
+            f"{self.base_url}/api/chat",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            # Reached the server, but it returned an error status (e.g. 404 for
+            # an unpulled model) -- the body is still the JSON {"error": ...}.
+            try:
+                body = json.loads(e.read().decode("utf-8"))
+                detail = body.get("error", str(e))
+            except (json.JSONDecodeError, UnicodeDecodeError):
+                detail = str(e)
+            raise RuntimeError(
+                f"Ollama error for model {self.model!r}: {detail} "
+                f"(pull it first: `ollama pull {self.model}`)"
+            ) from e
+        except urllib.error.URLError as e:
+            raise RuntimeError(
+                f"Could not reach Ollama at {self.base_url} (is `ollama serve` running?): {e}"
+            ) from e
+        except TimeoutError as e:
+            raise RuntimeError(f"Ollama request timed out after {self.timeout}s (model: {self.model}).") from e
+
+        if "error" in data:
+            raise RuntimeError(
+                f"Ollama error for model {self.model!r}: {data['error']} "
+                f"(pull it first: `ollama pull {self.model}`)"
+            )
+        return data["message"]["content"]
+
+
+# Example of what another provider looks like, for whenever one is chosen:
 #
 #   class AnthropicProvider(Provider):
 #       name = "anthropic"
@@ -52,10 +118,10 @@ class Provider(ABC):
 # Then register it below: PROVIDERS["anthropic"] = AnthropicProvider
 
 PROVIDERS: dict[str, type[Provider]] = {
+    "ollama": OllamaProvider,
     # "anthropic": AnthropicProvider,
     # "openai": OpenAIProvider,
     # "gemini": GeminiProvider,
-    # "ollama": OllamaProvider,
 }
 
 

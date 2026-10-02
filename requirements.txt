@@ -11,8 +11,10 @@ fastapi
 uvicorn
 pydantic
 
-# LLM provider for agent/providers.py -- uncomment whichever you configure
-# via HSK_AGENT_PROVIDER (see agent/providers.py for how to register one):
+# LLM providers for agent/providers.py, selected via HSK_AGENT_PROVIDER:
+# - ollama: no package needed (uses stdlib urllib against a local
+#   `ollama serve`) -- just install Ollama itself: https://ollama.com
+# - others: uncomment whichever you register in agent/providers.py
 # anthropic
 # openai
 # google-genai
