@@ -19,7 +19,7 @@ OUT_DIR = ROOT / "hsk_data" / "page_images"
 BOOKS = {
     1: "HSK-Level1-Version2.0.pdf",
     2: "HSK-Level2-Version2.0.pdf",
-    3: "HSK-Level3-Version3.0.pdf",
+    3: "HSK-Level3-Version2.0.pdf",
 }
 
 
