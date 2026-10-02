@@ -6,8 +6,11 @@ Run:
     # or: uvicorn agent.server:app --reload --port 8000
 
 Endpoints:
-    GET  /           a minimal browser UI to ask questions (this is what "it's not
-                      working" usually means -- there was no page here before)
+    GET  /           chat UI with the tutor (agent/static/index.html)
+    POST /chat       {"message": "...", "session_id": null}
+                      -> {"session_id", "reply", "sources", "topic_changed"}
+                      multi-turn tutoring; pass back session_id to continue
+    POST /chat/reset {"session_id": "..."} -- forget a conversation
     POST /ask        {"question": "...", "dfs": false, "budget": 2000, "provider": null}
                       -> {"question", "found", "answer", "sources", "provider_used", "raw_context"}
     GET  /graph/info  basic stats about the loaded graph (node/edge/community counts)
@@ -25,7 +28,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 
-from agent import prompts, retrieval, teacher
+from agent import prompts, retrieval, teacher, tutor
 from agent.providers import get_provider
 
 app = FastAPI(
@@ -52,87 +55,45 @@ class AskResponse(BaseModel):
     raw_context: str
 
 
-INDEX_HTML = """<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HSK Knowledge Agent</title>
-<style>
-  :root { color-scheme: light dark; }
-  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
-  h1 { font-size: 1.4rem; }
-  textarea { width: 100%; box-sizing: border-box; font-size: 1rem; padding: 0.6rem; border-radius: 6px; border: 1px solid #8884; }
-  button { margin-top: 0.6rem; padding: 0.5rem 1.2rem; font-size: 1rem; border-radius: 6px; border: 1px solid #8884; cursor: pointer; }
-  button:disabled { opacity: 0.5; cursor: default; }
-  .row { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; margin-top: 0.4rem; }
-  .answer { margin-top: 1.2rem; padding: 1rem; border-radius: 8px; border: 1px solid #8884; white-space: pre-wrap; }
-  .sources { margin-top: 0.6rem; font-size: 0.9rem; opacity: 0.8; }
-  .meta { margin-top: 0.4rem; font-size: 0.85rem; opacity: 0.6; }
-  details { margin-top: 0.8rem; }
-  code { font-size: 0.85em; }
-</style>
-</head>
-<body>
-<h1>HSK Knowledge Agent</h1>
-<p>Answers are pulled strictly from the HSK knowledge graph (<code>graphify-out/graph.json</code>) -- see <a href="/docs">/docs</a> for the raw API.</p>
-<textarea id="q" rows="3" placeholder="e.g. Teach me 把字句"></textarea>
-<div class="row">
-  <button id="ask">Ask</button>
-  <label><input type="radio" name="mode" value="teach" checked> 🧑‍🏫 Teach me (lesson + practice)</label>
-  <label><input type="radio" name="mode" value="answer"> Quick answer</label>
-</div>
-<p class="meta">Ctrl+Enter to send. Lessons from a local model can take a minute or two.</p>
-<div id="out"></div>
-<script>
-function renderMd(s) {
-  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;')
-    .replace(/^#{1,4} (.*)$/gm, '<strong>$1</strong>')
-    .replace(/\\*\\*(.+?)\\*\\*/g, '<strong>$1</strong>')
-    .replace(/(^|[^*])\\*([^*\\n]+)\\*/g, '$1<em>$2</em>');
-}
-const out = document.getElementById('out');
-const btn = document.getElementById('ask');
-async function ask() {
-  const question = document.getElementById('q').value.trim();
-  if (!question) return;
-  btn.disabled = true;
-  out.innerHTML = '<p class="meta">Thinking&hellip;</p>';
-  try {
-    const resp = await fetch('/ask', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({question, mode: document.querySelector('input[name=mode]:checked').value})
-    });
-    const data = await resp.json();
-    if (!resp.ok) {
-      out.innerHTML = '<p class="answer">Error: ' + (data.detail || resp.statusText) + '</p>';
-      return;
-    }
-    const sources = (data.sources || []).map(s => '<li>' + s + '</li>').join('');
-    out.innerHTML =
-      '<div class="answer">' + renderMd(data.answer) + '</div>' +
-      (sources ? '<div class="sources"><strong>Sources</strong><ul>' + sources + '</ul></div>' : '') +
-      '<div class="meta">provider: ' + (data.provider_used || '(none configured -- raw graph context shown)') + '</div>' +
-      '<details><summary>Raw graph context</summary><pre>' + data.raw_context.replace(/</g, '&lt;') + '</pre></details>';
-  } catch (e) {
-    out.innerHTML = '<p class="answer">Request failed: ' + e + '</p>';
-  } finally {
-    btn.disabled = false;
-  }
-}
-btn.addEventListener('click', ask);
-document.getElementById('q').addEventListener('keydown', e => {
-  if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) ask();
-});
-</script>
-</body>
-</html>"""
+class ChatRequest(BaseModel):
+    message: str
+    session_id: Optional[str] = None
+    provider: Optional[str] = None
+
+
+class ChatResponse(BaseModel):
+    session_id: str
+    reply: str
+    sources: list[str]
+    topic_changed: bool
+
+
+class ResetRequest(BaseModel):
+    session_id: str
+
+
+STATIC_DIR = Path(__file__).resolve().parent / "static"
+
+
+@app.post("/chat", response_model=ChatResponse)
+def chat(req: ChatRequest):
+    if not req.message.strip():
+        raise HTTPException(status_code=400, detail="Empty message.")
+    try:
+        return tutor.turn(req.session_id, req.message, provider_name=req.provider)
+    except RuntimeError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+
+@app.post("/chat/reset")
+def chat_reset(req: ResetRequest):
+    tutor.reset(req.session_id)
+    return {"ok": True}
 
 
 @app.get("/", response_class=HTMLResponse)
 def index():
-    return INDEX_HTML
+    return (STATIC_DIR / "index.html").read_text(encoding="utf-8")
 
 
 @app.get("/healthz")

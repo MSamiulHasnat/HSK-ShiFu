@@ -28,8 +28,12 @@ class Provider(ABC):
     name: str
 
     @abstractmethod
-    def complete(self, system_prompt: str, user_message: str) -> str:
+    def chat(self, system_prompt: str, messages: list[dict]) -> str:
+        """Multi-turn: messages are [{"role": "user"|"assistant", "content": str}, ...]."""
         raise NotImplementedError
+
+    def complete(self, system_prompt: str, user_message: str) -> str:
+        return self.chat(system_prompt, [{"role": "user", "content": user_message}])
 
 
 class OllamaProvider(Provider):
@@ -53,13 +57,10 @@ class OllamaProvider(Provider):
         # grounding rules) first. Textbook pages + graph context need far more.
         self.num_ctx = int(os.environ.get("OLLAMA_NUM_CTX", "16384"))
 
-    def complete(self, system_prompt: str, user_message: str) -> str:
+    def chat(self, system_prompt: str, messages: list[dict]) -> str:
         payload = {
             "model": self.model,
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_message},
-            ],
+            "messages": [{"role": "system", "content": system_prompt}, *messages],
             "stream": False,
             "options": {"temperature": 0.2, "num_ctx": self.num_ctx},
         }
@@ -109,13 +110,13 @@ class OllamaProvider(Provider):
 #           self.client = Anthropic(api_key=api_key)  # reads ANTHROPIC_API_KEY if None
 #           self.model = model
 #
-#       def complete(self, system_prompt: str, user_message: str) -> str:
+#       def chat(self, system_prompt: str, messages: list[dict]) -> str:
 #           resp = self.client.messages.create(
 #               model=self.model,
-#               max_tokens=1000,
-#               temperature=0.2,
+#               max_tokens=1500,
+#               temperature=0.3,
 #               system=system_prompt,
-#               messages=[{"role": "user", "content": user_message}],
+#               messages=messages,
 #           )
 #           return resp.content[0].text
 #

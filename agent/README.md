@@ -41,7 +41,17 @@ python -m agent.server
 - `GET /graph/info` — node/edge/community counts
 - `GET /healthz` — liveness check
 
-## Teach mode (virtual teacher)
+## Chat tutor (interactive, multi-turn)
+
+The web UI at `http://localhost:8000` is a chat with 王老师: tell it what you want to learn, it teaches one small step, asks you a question, waits for your answer, says whether it's right and why, and follows up. API: `POST /chat {"message": "...", "session_id": null}` → pass the returned `session_id` back to continue; `POST /chat/reset` to forget a conversation (`agent/tutor.py`).
+
+- **Grounding is per topic.** When you ask to learn something ("teach me 了"), the explaining pages are located and pinned to the session; your practice answers don't trigger new searches.
+- **Explanation language** is fixed from your first message (English stays English even while you practise in Chinese).
+- **Fact check** on every tutor message: citations must be pinned pages, and a cited `汉字 (pinyin)` example must appear on that page.
+- Sessions live in server memory (reset on restart, expire after 6 hours idle).
+- Known limit with small local models: they follow the conversation well but can misdiagnose *why* an answer is wrong. A larger model (e.g. a 7B+ Qwen, which is strong at Chinese) helps most here.
+
+## Teach mode (one-shot lesson)
 
 `python -m agent.cli --teach "Teach me 把字句"`, or pick "Teach me" in the web UI (`"mode": "teach"` in the `/ask` body).
 

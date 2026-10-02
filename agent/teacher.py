@@ -56,7 +56,12 @@ def _citation_to_path(citation: str):
     return retrieval.TRANSCRIPTS_DIR / f"level{m.group(1)}" / f"page_{int(m.group(2)):03d}.md"
 
 
-def _check_example_sentences(text: str, citations: list[str]) -> list[str]:
+PINYIN_AFTER_RE = re.compile(r"\s*[(（]\s*[A-Za-zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙ]")
+
+
+def _check_example_sentences(
+    text: str, citations: list[str], carry: bool = True, examples_only: bool = False
+) -> list[str]:
     """
     Verify that Chinese sentences presented under a textbook citation really
     appear on that page. Tracks the most recent citation within a section
@@ -79,11 +84,17 @@ def _check_example_sentences(text: str, citations: list[str]) -> list[str]:
         found = [f"(HSK Level {m.group(1)}, page {int(m.group(2))})" for m in CITATION_RE.finditer(line)]
         if found:
             current = found[-1]
+        elif not carry:
+            current = None
         if not current:
             continue
         for m in CJK_SENTENCE_RE.finditer(line):
             sentence = CJK_ONLY_RE.sub("", m.group(0))
             if len(sentence) < 4:
+                continue
+            # In chat the tutor writes explanatory prose in Chinese too; only
+            # "hanzi (pinyin)" pairs are presented as quoted examples.
+            if examples_only and not PINYIN_AFTER_RE.match(line, m.end()):
                 continue
             if sentence in page_text.get(current, ""):
                 continue
