@@ -15,6 +15,6 @@ pydantic
 # - ollama: no package needed (uses stdlib urllib against a local
 #   `ollama serve`) -- just install Ollama itself: https://ollama.com
 # - others: uncomment whichever you register in agent/providers.py
-# anthropic
+anthropic
 # openai
 # google-genai

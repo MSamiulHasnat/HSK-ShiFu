@@ -1,11 +1,10 @@
 """
 Pluggable LLM provider interface for the standalone API/server path.
 
-No provider is implemented yet -- the CLI and server import `get_provider()`
-below and work fine with it returning None (they just show the raw graph
-context and skip synthesis). When a provider is chosen, implement it here by
-subclassing `Provider` and registering it in `PROVIDERS`; nothing else in
-`agent/` needs to change.
+The CLI and server import `get_provider()` below and work fine with it
+returning None (they just show the raw graph context and skip synthesis) if
+none is configured. To add another provider, subclass `Provider` and
+register it in `PROVIDERS`; nothing else in `agent/` needs to change.
 
 This only matters for the standalone CLI/server. Claude Code, Antigravity,
 and Codex never go through this file -- they ARE the LLM, synthesizing
@@ -26,6 +25,10 @@ class Provider(ABC):
     """A synthesis backend: takes a system prompt + user message, returns text."""
 
     name: str
+    # Set by chat() when the backend returned a separate reasoning/thinking
+    # trace alongside the answer (e.g. llama-server with reasoning enabled).
+    # None for providers that don't support it, or when it wasn't requested.
+    last_reasoning: str | None = None
 
     @abstractmethod
     def chat(self, system_prompt: str, messages: list[dict]) -> str:
@@ -148,38 +151,71 @@ class LlamaCppProvider(Provider):
         except TimeoutError as e:
             raise RuntimeError(f"llama-server timed out after {self.timeout}s.") from e
 
-        content = data["choices"][0]["message"].get("content") or ""
+        message = data["choices"][0]["message"]
+        self.last_reasoning = message.get("reasoning_content") or None
+        content = message.get("content") or ""
         if not content.strip():
             raise RuntimeError("llama-server returned an empty reply (output limit hit during reasoning?).")
         return content
 
 
-# Example of what another provider looks like, for whenever one is chosen:
-#
-#   class AnthropicProvider(Provider):
-#       name = "anthropic"
-#
-#       def __init__(self, model: str = "claude-sonnet-5", api_key: str | None = None):
-#           from anthropic import Anthropic
-#           self.client = Anthropic(api_key=api_key)  # reads ANTHROPIC_API_KEY if None
-#           self.model = model
-#
-#       def chat(self, system_prompt: str, messages: list[dict]) -> str:
-#           resp = self.client.messages.create(
-#               model=self.model,
-#               max_tokens=1500,
-#               temperature=0.3,
-#               system=system_prompt,
-#               messages=messages,
-#           )
-#           return resp.content[0].text
-#
-# Then register it below: PROVIDERS["anthropic"] = AnthropicProvider
+class AnthropicProvider(Provider):
+    """
+    Claude via the Anthropic API (api.anthropic.com) -- a paid API key,
+    separate from a claude.ai subscription. Get one at console.anthropic.com
+    and set ANTHROPIC_API_KEY.
+
+    Defaults to Sonnet 5.5 with its own adaptive thinking left on (omitting
+    `thinking` runs it at the model's default effort). Don't add a
+    `temperature` override here: with thinking on, a non-default sampling
+    param is a 400 on this model.
+    """
+
+    name = "anthropic"
+
+    def __init__(self, model: str | None = None, api_key: str | None = None):
+        from anthropic import Anthropic
+
+        self.client = Anthropic(api_key=api_key)  # reads ANTHROPIC_API_KEY if None
+        self.model = model or os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5-5")
+        self.max_tokens = int(os.environ.get("ANTHROPIC_MAX_TOKENS", "4096"))
+        self.effort = os.environ.get("ANTHROPIC_EFFORT")  # low|medium|high|xhigh|max; unset = model default
+
+    def chat(self, system_prompt: str, messages: list[dict]) -> str:
+        import anthropic
+
+        kwargs = dict(model=self.model, max_tokens=self.max_tokens, system=system_prompt, messages=messages)
+        if self.effort:
+            kwargs["output_config"] = {"effort": self.effort}
+
+        try:
+            resp = self.client.messages.create(**kwargs)
+        except TypeError as e:
+            # No credential configured at all -- the SDK validates this client-side
+            # before any request goes out, so it raises TypeError, not AuthenticationError.
+            raise RuntimeError("No Anthropic API key configured -- set ANTHROPIC_API_KEY.") from e
+        except anthropic.AuthenticationError as e:
+            raise RuntimeError("Anthropic API key invalid -- check ANTHROPIC_API_KEY.") from e
+        except anthropic.RateLimitError as e:
+            raise RuntimeError(f"Anthropic rate limit hit: {e.message}") from e
+        except anthropic.APIStatusError as e:
+            raise RuntimeError(f"Anthropic API error {e.status_code}: {e.message}") from e
+        except anthropic.APIConnectionError as e:
+            raise RuntimeError(f"Could not reach the Anthropic API: {e}") from e
+
+        if resp.stop_reason == "refusal" and resp.stop_details:
+            raise RuntimeError(f"Claude declined to answer ({resp.stop_details.category}).")
+
+        text = "".join(b.text for b in resp.content if b.type == "text")
+        if not text.strip():
+            raise RuntimeError("Anthropic API returned an empty reply.")
+        return text
+
 
 PROVIDERS: dict[str, type[Provider]] = {
     "ollama": OllamaProvider,
     "llamacpp": LlamaCppProvider,
-    # "anthropic": AnthropicProvider,
+    "anthropic": AnthropicProvider,
     # "openai": OpenAIProvider,
     # "gemini": GeminiProvider,
 }

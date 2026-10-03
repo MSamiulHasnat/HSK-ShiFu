@@ -43,12 +43,12 @@ python -m agent.server
 
 ## Chat tutor (interactive, multi-turn)
 
-The web UI at `http://localhost:8000` is a chat with 王老师: tell it what you want to learn, it teaches one small step, asks you a question, waits for your answer, says whether it's right and why, and follows up. API: `POST /chat {"message": "...", "session_id": null}` → pass the returned `session_id` back to continue; `POST /chat/reset` to forget a conversation (`agent/tutor.py`).
+The web UI at `http://localhost:8000` is a chat with 王老师: tell it what you want to learn, it teaches one small step, asks you a question, waits for your answer, says whether it's right and why, and follows up. API: `POST /chat {"message": "...", "session_id": null}` → pass the returned `session_id` back to continue; `POST /chat/reset {"session_id": "..."}` to delete a conversation; `GET /chat/sessions` to list past conversations; `GET /chat/sessions/{id}` to fetch one's full history (`agent/tutor.py`).
 
 - **Grounding is per topic.** When you ask to learn something ("teach me 了"), the explaining pages are located and pinned to the session; your practice answers don't trigger new searches.
 - **Explanation language** is fixed from your first message (English stays English even while you practise in Chinese).
 - **Fact check** on every tutor message: citations must be pinned pages, and a cited `汉字 (pinyin)` example must appear on that page.
-- Sessions live in server memory (reset on restart, expire after 6 hours idle).
+- **Chat history persists** across server restarts in a local SQLite file (`agent/data/chat_sessions.db`, git-ignored). The sidebar in the web UI lists past conversations by title (the first message) and lets you resume or delete them. The 6-hour idle TTL only evicts a conversation from the in-memory cache, not from storage.
 - Known limit with small local models: they follow the conversation well but can misdiagnose *why* an answer is wrong. A larger model (e.g. a 7B+ Qwen, which is strong at Chinese) helps most here.
 
 ## Teach mode (one-shot lesson)
@@ -77,13 +77,33 @@ python -m agent.cli "What does 把字句 mean?"
 
 Defaults: model `gemma3n:e4b` (override with `OLLAMA_MODEL`), server `http://localhost:11434` (override with `OLLAMA_BASE_URL`). Or per-call: `python -m agent.cli --provider ollama "..."` / `{"provider": "ollama"}` in the `/ask` request body.
 
-### Adding another provider (Anthropic, OpenAI, Gemini, ...)
+### llama.cpp / llama-server (local, no API key)
 
-None of the cloud providers are wired up yet (by design, until one is chosen). To add one:
+For GGUF models `ollama` can't run (e.g. ternary quants like Bonsai 2 27B) -- points at any OpenAI-compatible `llama-server`:
+
+```bash
+export HSK_AGENT_PROVIDER=llamacpp
+export LLAMACPP_BASE_URL=http://localhost:8080   # default
+```
+
+Defaults: `reasoning_effort=none` (override with `LLAMACPP_REASONING`), `max_tokens` 2048 (16384 if reasoning is on; override with `LLAMACPP_MAX_TOKENS`).
+
+### Anthropic (Claude, paid API key)
+
+Note: this is the Anthropic **API**, billed per-token at console.anthropic.com -- separate from a claude.ai subscription, which doesn't include API access.
+
+```bash
+pip install anthropic   # already in requirements.txt
+export ANTHROPIC_API_KEY=sk-ant-...
+export HSK_AGENT_PROVIDER=anthropic
+python -m agent.cli "What does 把字句 mean?"
+```
+
+Defaults: model `claude-sonnet-5-5` (override with `ANTHROPIC_MODEL`), `max_tokens` 4096 (override with `ANTHROPIC_MAX_TOKENS`). Thinking is left on at the model's own default effort; set `ANTHROPIC_EFFORT` (`low`/`medium`/`high`/`xhigh`/`max`) to tune cost vs. quality.
+
+### Adding another provider (OpenAI, Gemini, ...)
 
 1. Open `agent/providers.py`.
-2. Subclass `Provider`, implement `complete(system_prompt, user_message) -> str`.
+2. Subclass `Provider`, implement `chat(system_prompt, messages) -> str` (the base class derives `complete(system_prompt, user_message)` from it for free).
 3. Add it to the `PROVIDERS` dict.
 4. Set `HSK_AGENT_PROVIDER=<name>` (env var) or pass `--provider <name>` / `"provider": "<name>"` to the CLI/API.
-
-A worked example (Anthropic) is commented directly in `providers.py`, following the same shape as `OllamaProvider`.

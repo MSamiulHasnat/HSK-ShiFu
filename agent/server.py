@@ -10,7 +10,9 @@ Endpoints:
     POST /chat       {"message": "...", "session_id": null}
                       -> {"session_id", "reply", "sources", "topic_changed"}
                       multi-turn tutoring; pass back session_id to continue
-    POST /chat/reset {"session_id": "..."} -- forget a conversation
+    POST /chat/reset {"session_id": "..."} -- delete a conversation
+    GET  /chat/sessions         list past conversations (id, title, timestamps)
+    GET  /chat/sessions/{id}    full history for one conversation, for resuming it
     POST /ask        {"question": "...", "dfs": false, "budget": 2000, "provider": null}
                       -> {"question", "found", "answer", "sources", "provider_used", "raw_context"}
     GET  /graph/info  basic stats about the loaded graph (node/edge/community counts)
@@ -66,6 +68,7 @@ class ChatResponse(BaseModel):
     reply: str
     sources: list[str]
     topic_changed: bool
+    thinking: Optional[str] = None
 
 
 class ResetRequest(BaseModel):
@@ -89,6 +92,19 @@ def chat(req: ChatRequest):
 def chat_reset(req: ResetRequest):
     tutor.reset(req.session_id)
     return {"ok": True}
+
+
+@app.get("/chat/sessions")
+def chat_sessions():
+    return tutor.list_sessions()
+
+
+@app.get("/chat/sessions/{session_id}")
+def chat_session(session_id: str):
+    data = tutor.get_history_for_display(session_id)
+    if data is None:
+        raise HTTPException(status_code=404, detail="Session not found.")
+    return data
 
 
 @app.get("/", response_class=HTMLResponse)
