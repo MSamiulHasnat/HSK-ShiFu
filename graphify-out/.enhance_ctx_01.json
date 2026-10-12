@@ -1,0 +1,505 @@
+{
+"level1/page_001.md": [
+{
+"id": "hsk_data_transcripts_level1_page_001_cover",
+"label": "HSK Standard Course 1 — Front Cover",
+"file_type": "document"
+}
+],
+"level1/page_002.md": [
+{
+"id": "hsk_data_transcripts_level1_page_002_colophon",
+"label": "HSK Standard Course 1 — Editorial Colophon/Credits",
+"file_type": "document"
+}
+],
+"level1/page_009.md": [
+{
+"id": "hsk_data_transcripts_level1_page_009_grammar_de_particle",
+"label": "The Structural Particle 的",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_grammar_duoda_phrase",
+"label": "Interrogative Phrase 多+大",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_grammar_ji_interrogative",
+"label": "Interrogative Pronoun 几 (how many)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_grammar_le_change",
+"label": "了 Indicating a Change",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_grammar_ma_question",
+"label": "Interrogative Sentences with 吗",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_grammar_ne_particle_1",
+"label": "The Interrogative Particle 呢 (1)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_grammar_numbers_below_100",
+"label": "Numbers Below 100",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_grammar_shenme_interrogative",
+"label": "Interrogative Pronoun 什么 (what)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_grammar_shi_sentence",
+"label": "The 是 Sentence",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_grammar_shui_na_interrogative",
+"label": "Interrogative Pronouns 谁 and 哪",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_lesson3_ni_jiao_shenme_mingzi",
+"label": "Lesson 3: 你叫什么名字 (What's Your Name)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_lesson4_ta_shi_wo_de_hanyu_laoshi",
+"label": "Lesson 4: 她是我的汉语老师 (She Is My Chinese Teacher)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_lesson5_ta_nver_jinnian_ershisui",
+"label": "Lesson 5: 她女儿今年二十岁 (Her Daughter Is 20)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_009_toc_lessons_1_5",
+"label": "Table of Contents — Lessons 1-5",
+"file_type": "document"
+}
+],
+"level1/page_010.md": [
+{
+"id": "hsk_data_transcripts_level1_page_010_syllabus_lessons_1_5",
+"label": "Pinyin & Hanzi Syllabus — Lessons 1-5",
+"file_type": "document"
+}
+],
+"level1/page_011.md": [
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_adjectival_predicate",
+"label": "Sentences with an Adjectival Predicate",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_date_expression_1",
+"label": "Expression of a Date (1): month, date, day of week",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_duoshao_interrogative",
+"label": "Interrogative Pronoun 多少",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_he_conjunction",
+"label": "The Conjunction 和",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_hui_modal_1",
+"label": "The Modal Verb 会 (1)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_measure_words_ge_kou",
+"label": "Measure Words 个 and 口",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_money_expression",
+"label": "Expression of the Amount of Money",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_naer_interrogative",
+"label": "Interrogative Pronoun 哪儿",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_ne_particle_2",
+"label": "The Interrogative Particle 呢 (2)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_neng_modal",
+"label": "The Modal Verb 能",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_nominal_predicate",
+"label": "Sentences with a Nominal Predicate",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_qing_imperative",
+"label": "Imperative Sentences with 请",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_serial_verb_1",
+"label": "Serial Verb Construction (1): 去+place+to do sth.",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_xiang_modal",
+"label": "The Modal Verb 想",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_you_sentence",
+"label": "The 有 Sentence: Indicating Existence",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_zai_preposition",
+"label": "The Preposition 在",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_zai_verb",
+"label": "The Verb 在",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_grammar_zenme_interrogative_1",
+"label": "Interrogative Pronoun 怎么 (1)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_lesson10_wo_neng_zuo_zher_ma",
+"label": "Lesson 10: 我能坐这儿吗 (Can I Sit Here)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_lesson6_wo_hui_shuo_hanyu",
+"label": "Lesson 6: 我会说汉语 (I Can Speak Chinese)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_lesson7_jintian_jihao",
+"label": "Lesson 7: 今天几号 (What's the Date Today)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_lesson8_wo_xiang_he_cha",
+"label": "Lesson 8: 我想喝茶 (I'd Like Some Tea)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_lesson9_ni_erzi_zai_naer_gongzuo",
+"label": "Lesson 9: 你儿子在哪儿工作 (Where Does Your Son Work)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_011_toc_lessons_6_10",
+"label": "Table of Contents — Lessons 6-10",
+"file_type": "document"
+}
+],
+"level1/page_012.md": [
+{
+"id": "hsk_data_transcripts_level1_page_012_hanzi_radicals_set",
+"label": "Chinese Radicals: 氵, 讠, 牛, 艹, 辶, 门, 口, 衤",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_012_hanzi_structure_types",
+"label": "Structure of Chinese Characters (single/compound, left-right, top-bottom, enclosure)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_012_neutral_tone_pronunciation_rules",
+"label": "Pronunciation of Neutral-Tone/Reduplicated Syllables and Suffix Words",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_012_tone_collocation_disyllabic_1",
+"label": "Tone Collocation in Disyllabic Words (1): 1st tone + any",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_012_tone_collocation_disyllabic_2",
+"label": "Tone Collocation in Disyllabic Words (2): 2nd tone + any",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_012_tone_collocation_disyllabic_3",
+"label": "Tone Collocation in Disyllabic Words (3): 3rd tone + any",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_012_tone_collocation_disyllabic_4",
+"label": "Tone Collocation in Disyllabic Words (4): 4th tone + any",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_012_syllabus_lessons_6_10",
+"label": "Pinyin & Hanzi Syllabus — Lessons 6-10",
+"file_type": "document"
+}
+],
+"level1/page_013.md": [
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_a_particle",
+"label": "The Modal Particle 啊",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_dou_adverb",
+"label": "The Adverb 都",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_hou_noun",
+"label": "The Noun 后",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_le_occurrence_completion",
+"label": "了 Indicating Occurrence or Completion",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_lesson14_ta_maile_bushao_yifu",
+"label": "Lesson 14: 她买了不少衣服 (She Has Bought Quite a Few Clothes)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_ba_particle",
+"label": "The Modal Particle 吧",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_date_expression_2",
+"label": "Expression of a Date (2): year, month, date, day of week",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_phone_number_expression",
+"label": "Expression of Telephone Numbers",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_shi_de_structure",
+"label": "The Structure 是……的: Emphasizing Time, Place, Manner",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_wei_interjection",
+"label": "The Interjection 喂",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_zai_ne_progressive",
+"label": "在……呢 Indicating an Action in Progress",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_lesson13_ta_zai_xue_zuo_zhongguocai_ne",
+"label": "Lesson 13: 他在学做中国菜呢 (He Is Learning to Cook Chinese Food)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_lesson15_wo_shi_zuo_feiji_laide",
+"label": "Lesson 15: 我是坐飞机来的 (I Came Here by Air)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_toc_lessons_11_15",
+"label": "Table of Contents — Lessons 11-15",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_hui_modal_2",
+"label": "The Modal Verb 会 (2)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_subject_predicate_predicate",
+"label": "Sentences with a Subject-Predicate Phrase as the Predicate",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_tai_adverb",
+"label": "The Adverb 太",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_zenmeyang_interrogative",
+"label": "Interrogative Pronoun 怎么样",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_lesson12_mingtian_tianqi_zenmeyang",
+"label": "Lesson 12: 明天天气怎么样 (What Will the Weather Be Like Tomorrow)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_qian_noun",
+"label": "The Noun 前",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_time_expression",
+"label": "Expression of Time",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_grammar_time_word_adverbial",
+"label": "Time Word Used as an Adverbial",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_013_lesson11_xianzai_jidian",
+"label": "Lesson 11: 现在几点 (What's the Time Now)",
+"file_type": "concept"
+}
+],
+"level1/page_014.md": [
+{
+"id": "hsk_data_transcripts_level1_page_014_hanzi_radicals_set2",
+"label": "Chinese Radicals: 阝, 亻, 扌, 父, 彐, 刂, 门, 艹, 宀",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_014_tone_collocation_trisyllabic_2",
+"label": "Tone Collocation in Trisyllabic Words (2): starts 2nd tone",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_014_tone_collocation_trisyllabic_3",
+"label": "Tone Collocation in Trisyllabic Words (3): starts 3rd tone",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_014_tone_collocation_trisyllabic_4",
+"label": "Tone Collocation in Trisyllabic Words (4): starts 4th tone",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_014_syllabus_lessons_11_15",
+"label": "Pinyin & Hanzi Syllabus — Lessons 11-15",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_014_tone_collocation_trisyllabic_1",
+"label": "Tone Collocation in Trisyllabic Words (1): starts 1st tone",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_014_neutral_tone_function",
+"label": "Function of Neutral-Tone Syllables",
+"file_type": "concept"
+}
+],
+"level1/page_015.md": [
+{
+"id": "hsk_data_transcripts_level1_page_015_lesson1_nihao",
+"label": "Lesson 1: 你好 (Hello)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_015_vocab_duibuqi",
+"label": "对不起 (duìbuqǐ) — to be sorry",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_015_vocab_hao",
+"label": "好 (hǎo) — good, fine",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_015_vocab_meiguanxi",
+"label": "没关系 (méi guānxi) — that's OK",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_015_vocab_ni",
+"label": "你 (nǐ) — you",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_015_vocab_nimen",
+"label": "你们 (nǐmen) — you (plural)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_015_vocab_nin",
+"label": "您 (nín) — you (polite)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_015_lesson1_text",
+"label": "Lesson 1 Text Page (你好)",
+"file_type": "document"
+}
+],
+"level1/page_016.md": [
+{
+"id": "hsk_data_transcripts_level1_page_016_four_tones",
+"label": "Tones (Four Tones)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_016_initials_finals_set1",
+"label": "Initials and Finals of Chinese Pinyin (1)",
+"file_type": "concept"
+}
+],
+"level1/page_017.md": [
+{
+"id": "hsk_data_transcripts_level1_page_017_syllable_structure",
+"label": "Chinese Syllables (initial+final+tone)",
+"file_type": "concept"
+}
+],
+"level1/page_018.md": [
+{
+"id": "hsk_data_transcripts_level1_page_018_tone_sandhi_3rd_3rd",
+"label": "Tone Sandhi: 3rd Tone + 3rd Tone",
+"file_type": "concept"
+}
+],
+"level1/page_019.md": [
+{
+"id": "hsk_data_transcripts_level1_page_019_strokes_set1",
+"label": "Strokes of Chinese Characters (1): 一, 丨, 丿, 丶, ㇏",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_019_classroom_expressions_1",
+"label": "Classroom Expressions — Set 1",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_019_single_component_chars_1_2",
+"label": "Single-Component Characters: 一, 二",
+"file_type": "concept"
+}
+],
+"level1/page_020.md": [
+{
+"id": "hsk_data_transcripts_level1_page_020_single_component_chars_3_6",
+"label": "Single-Component Characters: 三, 十, 八, 六",
+"file_type": "concept"
+}
+]
+}

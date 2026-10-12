@@ -1,0 +1,432 @@
+{
+"level1/page_041.md": [
+{
+"id": "hsk_data_transcripts_level1_page_041_strokes4",
+"label": "Strokes of Chinese Characters (4): 乚, 乙",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_041_er",
+"label": "儿 (ér) \"son/child\" — pictograph origin",
+"file_type": "rationale"
+},
+{
+"id": "hsk_data_transcripts_level1_page_041_ji_char",
+"label": "几 (jǐ) \"small table\" — pictograph origin",
+"file_type": "rationale"
+},
+{
+"id": "hsk_data_transcripts_level1_page_041_qi",
+"label": "七 (qī) \"seven\" — pictograph origin",
+"file_type": "rationale"
+}
+],
+"level1/page_042.md": [
+{
+"id": "hsk_data_transcripts_level1_page_042_stroke_order2",
+"label": "Stroke Order Rule 2: top before bottom, left before right",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_042_er_num",
+"label": "二 (èr) \"two\" — stroke-order example character",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_042_san",
+"label": "三 (sān) \"three\" — stroke-order example character",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_042_jiu",
+"label": "九 (jiǔ) \"nine\" — pictograph origin",
+"file_type": "rationale"
+}
+],
+"level1/page_043.md": [
+{
+"id": "hsk_data_transcripts_level1_page_043_jia",
+"label": "家 (jiā) \"family\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_043_kou",
+"label": "口 (kǒu) — measure word for family members",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_043_lesson5",
+"label": "Lesson 5: 她女儿今年二十岁 (Her daughter is 20 years old this year)",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_043_you",
+"label": "有 (yǒu) \"to have, there be\"",
+"file_type": "document"
+}
+],
+"level1/page_044.md": [
+{
+"id": "hsk_data_transcripts_level1_page_044_da",
+"label": "大 (dà) \"old\" (of age)",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_044_duo",
+"label": "多 (duō) — adverb indicating degree/extent",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_044_jinnian",
+"label": "今年 (jīnnián) \"this year\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_044_le",
+"label": "了 (le) — particle indicating a change/new circumstance",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_044_nver",
+"label": "女儿 (nǚ'ér) \"daughter\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_044_sui",
+"label": "岁 (suì) — measure word, year of age",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_044_ji",
+"label": "几 (jǐ) \"how many\" (pronoun)",
+"file_type": "document"
+}
+],
+"level1/page_045.md": [
+{
+"id": "hsk_data_transcripts_level1_page_045_ji_grammar",
+"label": "Grammar: Interrogative Pronoun 几",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_045_le_grammar",
+"label": "Grammar: 了 Indicating a Change",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_045_numbers100",
+"label": "Numbers below 100",
+"file_type": "concept"
+}
+],
+"level1/page_046.md": [
+{
+"id": "hsk_data_transcripts_level1_page_046_duoda_grammar",
+"label": "Grammar: Interrogative Phrase 多+大",
+"file_type": "concept"
+}
+],
+"level1/page_047.md": [
+{
+"id": "hsk_data_transcripts_level1_page_047_erhua",
+"label": "Pinyin: the Retroflex Final 儿化",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_047_finals_with_without",
+"label": "Pinyin: finals with/without i, u, ü",
+"file_type": "concept"
+}
+],
+"level1/page_048.md": [
+{
+"id": "hsk_data_transcripts_level1_page_048_aspirated",
+"label": "Pinyin: aspirated vs. unaspirated initials",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_048_pinyin_rule4",
+"label": "Pinyin Rule 4: syllable-dividing mark",
+"file_type": "concept"
+}
+],
+"level1/page_049.md": [
+{
+"id": "hsk_data_transcripts_level1_page_049_strokes5",
+"label": "Strokes of Chinese Characters (5)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_049_shui",
+"label": "水 (shuǐ) \"water\" — pictograph origin",
+"file_type": "rationale"
+}
+],
+"level1/page_050.md": [
+{
+"id": "hsk_data_transcripts_level1_page_050_da_char",
+"label": "大 (dà) \"big\" — pictograph origin (person with arms/legs outstretched)",
+"file_type": "rationale"
+},
+{
+"id": "hsk_data_transcripts_level1_page_050_le_char",
+"label": "了 (le) — pictograph origin (reversed 子, newborn infant)",
+"file_type": "rationale"
+},
+{
+"id": "hsk_data_transcripts_level1_page_050_nu",
+"label": "女 (nǚ) \"woman\" — pictograph origin",
+"file_type": "rationale"
+},
+{
+"id": "hsk_data_transcripts_level1_page_050_stroke_order3",
+"label": "Stroke Order Rule 3: outside before inside, middle before sides",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_050_si",
+"label": "四 (sì) \"four\" — stroke-order example character",
+"file_type": "document"
+}
+],
+"level1/page_051.md": [
+{
+"id": "hsk_data_transcripts_level1_page_051_baba",
+"label": "爸爸 bàba (father)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_051_didi",
+"label": "弟弟 dìdi (younger brother)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_051_family_application",
+"label": "Family Pair/Group Work Application (Lesson 5)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_051_gege",
+"label": "哥哥 gēge (elder brother)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_051_jiejie",
+"label": "姐姐 jiějie (elder sister)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_051_mama",
+"label": "妈妈 māma (mother)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_051_meimei",
+"label": "妹妹 mèimei (younger sister)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_051_nainai",
+"label": "奶奶 nǎinai (paternal grandma)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_051_yeye",
+"label": "爷爷 yéye (paternal grandpa)",
+"file_type": "concept"
+}
+],
+"level1/page_052.md": [
+{
+"id": "hsk_data_transcripts_level1_page_052_age_inquiry_culture",
+"label": "Ways of Asking a Chinese Person's Age (culture note)",
+"file_type": "concept"
+}
+],
+"level1/page_053.md": [
+{
+"id": "hsk_data_transcripts_level1_page_053_hui",
+"label": "会 huì (mod. can, to be able to)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_053_lesson6_wo_hui_shuo_hanyu",
+"label": "Lesson 6: 我会说汉语 (I can speak Chinese)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_053_shuo",
+"label": "说 shuō (v. to speak, to say)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_053_zai_xuexiao_text",
+"label": "在学校 In the school (dialogue)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_053_mama",
+"label": "妈妈 māma (n. mother)",
+"file_type": "concept"
+}
+],
+"level1/page_054.md": [
+{
+"id": "hsk_data_transcripts_level1_page_054_cai",
+"label": "菜 cài (n. dish, cuisine)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_054_haochi",
+"label": "好吃 hǎochī (adj. delicious, tasty)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_054_hen",
+"label": "很 hěn (adv. very, quite)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_054_xie",
+"label": "写 xiě (v. to write)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_054_zai_chufang_text",
+"label": "在厨房 In the kitchen (dialogue)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_054_zuo",
+"label": "做 zuò (v. to make, to produce)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_054_du",
+"label": "读 dú (v. to read)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_054_hanzi",
+"label": "汉字 Hànzì (n. Chinese character)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_054_zai_tushuguan_text",
+"label": "在图书馆 In the library (dialogue)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_054_zenme",
+"label": "怎么 zěnme (pron. how)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_054_zi",
+"label": "字 zì (n. character, word)",
+"file_type": "concept"
+}
+],
+"level1/page_055.md": [
+{
+"id": "hsk_data_transcripts_level1_page_055_adjectival_predicate",
+"label": "形容词谓语句 Sentences with an Adjectival Predicate",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_055_hui_modal_note",
+"label": "能愿动词\"会\"（1） The Modal Verb 会 (1)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_055_zenme_note",
+"label": "疑问代词\"怎么\"（1） The Interrogative Pronoun 怎么 (1)",
+"file_type": "concept"
+}
+],
+"level1/page_056.md": [
+{
+"id": "hsk_data_transcripts_level1_page_056_lesson6_exercises",
+"label": "Lesson 6 Exercises",
+"file_type": "concept"
+}
+],
+"level1/page_057.md": [
+{
+"id": "hsk_data_transcripts_level1_page_057_tone_collocation_1",
+"label": "双音节词语的声调搭配（1）：一声和各声调的搭配 (Tone Collocation 1)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_057_pieshe_stroke",
+"label": "㇒ 撇折 piězhé (left-falling-to-turning stroke)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_057_ti_stroke",
+"label": "㇀ 提 tí (rising stroke)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_057_xiegou_stroke",
+"label": "㇁ 斜钩 xiégōu (slanting hook stroke)",
+"file_type": "concept"
+}
+],
+"level1/page_058.md": [
+{
+"id": "hsk_data_transcripts_level1_page_058_dong_char",
+"label": "东 dōng (character, east)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_058_xi_char",
+"label": "西 xī (character, west)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_058_hanzi_structure_1",
+"label": "汉字结构（1）：独体结构与合体结构 (Character Structure 1: single vs compound)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_058_wo_char",
+"label": "我 wǒ (character, I/me)",
+"file_type": "concept"
+}
+],
+"level1/page_059.md": [
+{
+"id": "hsk_data_transcripts_level1_page_059_structure_table",
+"label": "独体结构/合体结构 Example Table (人,我,中 / 你,做)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_059_fayu",
+"label": "法语 Fǎyǔ (French, supplementary word)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_059_lesson6_application",
+"label": "Lesson 6 Pair/Group Work Application",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_059_riyu",
+"label": "日语 Rìyǔ (Japanese, supplementary word)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_059_yingyu",
+"label": "英语 Yīngyǔ (English, supplementary word)",
+"file_type": "concept"
+}
+],
+"level1/page_060.md": [
+{
+"id": "hsk_data_transcripts_level1_page_060_group_activity_table",
+"label": "Lesson 6 Group Activity Record Table (大卫 Dàwèi example)",
+"file_type": "concept"
+}
+]
+}

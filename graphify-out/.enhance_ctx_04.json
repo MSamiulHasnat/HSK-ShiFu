@@ -1,0 +1,492 @@
+{
+"level1/page_061.md": [
+{
+"id": "hsk_data_transcripts_level1_page_061_hao",
+"label": "号 hào (n. date of month, number)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_jintian",
+"label": "今天 jīntiān (n. today)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_lesson7_jintian_jihao",
+"label": "Lesson 7: 今天几号 (What's the date today)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_qing",
+"label": "请 qǐng (v. please)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_wen",
+"label": "问 wèn (v. to ask, to inquire)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_xingqi",
+"label": "星期 xīngqī (n. week)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_yue",
+"label": "月 yuè (n. month)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_zai_yinhang_text",
+"label": "在银行 In a bank (dialogue)",
+"file_type": "concept"
+}
+],
+"level1/page_062.md": [
+{
+"id": "hsk_data_transcripts_level1_page_062_kan",
+"label": "看 kàn (v. to look at, to watch, to read)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_kan_rili_text",
+"label": "看日历 Look at the calendar (dialogue)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_mingtian",
+"label": "明天 míngtiān (n. tomorrow)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_qu",
+"label": "去 qù (v. to go)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_shu",
+"label": "书 shū (n. book)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_xuexiao",
+"label": "学校 xuéxiào (n. school)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_zai_kafeiguan_text",
+"label": "在咖啡馆儿 In a coffee house (dialogue)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_zuotian",
+"label": "昨天 zuótiān (n. yesterday)",
+"file_type": "concept"
+}
+],
+"level1/page_063.md": [
+{
+"id": "hsk_data_transcripts_level1_page_063_date_expression_note",
+"label": "日期的表达（1）：月、日/号、星期 Expression of a Date (1)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_063_nominal_predicate_note",
+"label": "名词谓语句 Sentences with a Nominal Predicate",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_063_serial_verb_note",
+"label": "连动句（1）：去+地方+做什么 Serial Verb Construction (1)",
+"file_type": "concept"
+}
+],
+"level1/page_064.md": [
+{
+"id": "hsk_data_transcripts_level1_page_064_lesson7_exercises",
+"label": "Lesson 7 Exercises",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_064_months_table",
+"label": "月份 Months Table (一月–十二月)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_064_weekdays_table",
+"label": "星期 Weekdays Table (星期一–星期日/星期天)",
+"file_type": "concept"
+}
+],
+"level1/page_065.md": [
+{
+"id": "hsk_data_transcripts_level1_page_065_tone_collocation_2",
+"label": "双音节词语的声调搭配（2）：二声和各声调的搭配 (Tone Collocation 2)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_065_describe_pictures_exercise",
+"label": "Lesson 7 Describe-the-Pictures Exercise",
+"file_type": "concept"
+}
+],
+"level1/page_066.md": [
+{
+"id": "hsk_data_transcripts_level1_page_066_shu_char",
+"label": "书 shū (character etymology: writing/book)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_066_si_char",
+"label": "四 sì (character, four)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_066_wu_char",
+"label": "五 wǔ (character, five)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_066_hanzi_structure_2",
+"label": "汉字结构（2）：左右结构与左中右结构 (Character Structure 2: left-right / left-middle-right)",
+"file_type": "concept"
+}
+],
+"level1/page_067.md": [
+{
+"id": "hsk_data_transcripts_level1_page_067_lesson7_application",
+"label": "Lesson 7 Pair Work Application",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_067_radical_yan",
+"label": "讠 Radical (speech/language-related)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_067_radical_shui",
+"label": "氵 Radical (water-related)",
+"file_type": "concept"
+}
+],
+"level1/page_068.md": [
+{
+"id": "hsk_data_transcripts_level1_page_068_lesson7_group_activity",
+"label": "Lesson 7 Group Work: Birthday Survey",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_068_shengri",
+"label": "生日 shēngrì (birthday, supplementary word)",
+"file_type": "concept"
+}
+],
+"level1/page_069.md": [
+{
+"id": "hsk_data_transcripts_level1_page_069_lesson8_wo_xiang_he_cha",
+"label": "Lesson 8: 我想喝茶 (I'd like some tea)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_069_xiang",
+"label": "想 xiǎng (mod. to want, would like)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_069_cha",
+"label": "茶 chá (n. tea)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_069_chi",
+"label": "吃 chī (v. to eat)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_069_he",
+"label": "喝 hē (v. to drink)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_069_mifan",
+"label": "米饭 mǐfàn (n. cooked rice)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_069_zai_fanguan_text",
+"label": "在饭馆儿 In a restaurant (dialogue)",
+"file_type": "concept"
+}
+],
+"level1/page_070.md": [
+{
+"id": "hsk_data_transcripts_level1_page_070_beizi",
+"label": "杯子 bēizi (n. cup, glass)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_070_ge",
+"label": "个 gè (m. general measure word)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_070_mai",
+"label": "买 mǎi (v. to buy, to purchase)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_070_shangdian",
+"label": "商店 shāngdiàn (n. shop, store)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_070_xiawu",
+"label": "下午 xiàwǔ (n. afternoon)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_070_zai_keting_text",
+"label": "在客厅 In the living room (dialogue)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_070_duoshao",
+"label": "多少 duōshao (pron. how many, how much)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_070_kuai",
+"label": "块 kuài (m. unit of money, same as yuan)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_070_na",
+"label": "那 nà (pron. that)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_070_qian",
+"label": "钱 qián (n. money)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_070_zai_shangdian_text",
+"label": "在商店 In a store (dialogue)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_070_zhe",
+"label": "这 zhè (pron. this)",
+"file_type": "concept"
+}
+],
+"level1/page_071.md": [
+{
+"id": "hsk_data_transcripts_level1_page_071_ge_kou_measure_note",
+"label": "量词\"个\"、\"口\" The Measure Words 个 and 口",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_071_xiang_modal_note",
+"label": "能愿动词\"想\" The Modal Verb 想",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_071_duoshao_note",
+"label": "疑问代词\"多少\" The Interrogative Pronoun 多少",
+"file_type": "concept"
+}
+],
+"level1/page_072.md": [
+{
+"id": "hsk_data_transcripts_level1_page_072_lesson8_exercises",
+"label": "Lesson 8 Exercises",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_072_money_expression_note",
+"label": "钱数的表达 Expression of the Amount of Money",
+"file_type": "concept"
+}
+],
+"level1/page_073.md": [
+{
+"id": "hsk_data_transcripts_level1_page_073_tone_collocation_3",
+"label": "双音节词语的声调搭配（3）：三声和各声调的搭配 (Tone Collocation 3)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_073_describe_pictures_exercise_l8",
+"label": "Lesson 8 Describe-the-Pictures Exercise",
+"file_type": "concept"
+}
+],
+"level1/page_074.md": [
+{
+"id": "hsk_data_transcripts_level1_page_074_shao_char",
+"label": "少 shǎo (character, few/little)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_074_ge_char",
+"label": "个 gè (character etymology: one individual person → measure word)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_074_hanzi_structure_3",
+"label": "汉字结构（3）：上下结构与上中下结构 (Character Structure 3: top-bottom / top-middle-bottom)",
+"file_type": "concept"
+}
+],
+"level1/page_075.md": [
+{
+"id": "hsk_data_transcripts_level1_page_075_lesson8_application",
+"label": "Lesson 8 Pair Work Application",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_075_radical_jin",
+"label": "钅 Radical (metal-related)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_075_radical_kou",
+"label": "口 Radical (mouth-related)",
+"file_type": "concept"
+}
+],
+"level1/page_076.md": [
+{
+"id": "hsk_data_transcripts_level1_page_076_group_work_weekly_plan",
+"label": "Weekly Plan Group Activity (Lesson 8 continued)",
+"file_type": "concept"
+}
+],
+"level1/page_077.md": [
+{
+"id": "hsk_data_transcripts_level1_page_077_lesson9",
+"label": "Lesson 9: Where Does Your Son Work (你儿子在哪儿工作)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_077_vocab_zai_verb",
+"label": "在 (zài) verb - to be in/on/at",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_077_text1_at_home",
+"label": "Text 1: At Home dialogue (Lesson 9)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_077_vocab_gou",
+"label": "狗 (gǒu) - dog",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_077_vocab_mao",
+"label": "猫 (māo) - cat",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_077_vocab_nar",
+"label": "那儿 (nàr) - there",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_077_vocab_xiao",
+"label": "小 (xiǎo) - small, little",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_077_vocab_yizi",
+"label": "椅子 (yǐzi) - chair",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_077_warmup_vocab_match",
+"label": "Warm-up Picture Matching Exercise (Lesson 9)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_077_vocab_xiamian",
+"label": "下面（下） (xiàmiàn/xià) - under, below",
+"file_type": "concept"
+}
+],
+"level1/page_078.md": [
+{
+"id": "hsk_data_transcripts_level1_page_078_vocab_yisheng",
+"label": "医生 (yīshēng) - doctor",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_078_vocab_yiyuan",
+"label": "医院 (yīyuàn) - hospital",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_078_text2_at_railway_station",
+"label": "Text 2: At the Railway Station dialogue (Lesson 9)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_078_text3_on_the_phone",
+"label": "Text 3: On the Phone dialogue (Lesson 9)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_078_vocab_baba",
+"label": "爸爸 (bàba) - father",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_078_vocab_erzi",
+"label": "儿子 (érzi) - son",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_078_vocab_gongzuo",
+"label": "工作 (gōngzuò) - to work; job",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_078_vocab_nar_pron",
+"label": "哪儿 (nǎr) - where",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_078_vocab_zai_prep",
+"label": "在 (zài) prep - in/on/at",
+"file_type": "concept"
+}
+],
+"level1/page_079.md": [
+{
+"id": "hsk_data_transcripts_level1_page_079_grammar_prep_zai",
+"label": "Grammar: The Preposition 在",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_079_grammar_verb_zai",
+"label": "Grammar: The Verb 在",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_079_grammar_naer",
+"label": "Grammar: Interrogative Pronoun 哪儿",
+"file_type": "concept"
+}
+],
+"level1/page_080.md": [
+{
+"id": "hsk_data_transcripts_level1_page_080_exercises",
+"label": "Lesson 9 Exercises",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_080_grammar_ne_particle",
+"label": "Grammar: Interrogative Particle 呢 (2)",
+"file_type": "concept"
+}
+]
+}

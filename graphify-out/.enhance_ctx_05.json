@@ -1,0 +1,412 @@
+{
+"level1/page_081.md": [
+{
+"id": "hsk_data_transcripts_level1_page_081_hanzi_zai_character",
+"label": "Hanzi: 在 character origin",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_081_pinyin_tone_collocation_4th",
+"label": "Pinyin: Tone Collocation (4), 4th tone + others",
+"file_type": "concept"
+}
+],
+"level1/page_082.md": [
+{
+"id": "hsk_data_transcripts_level1_page_082_hanzi_structure_half_enclosure",
+"label": "Hanzi Structure (4): Half-enclosure",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_082_hanzi_gong_character",
+"label": "Hanzi: 工 character origin",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_082_hanzi_zi_character",
+"label": "Hanzi: 子 character origin",
+"file_type": "concept"
+}
+],
+"level1/page_083.md": [
+{
+"id": "hsk_data_transcripts_level1_page_083_pair_work",
+"label": "Lesson 9 Pair Work Application",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_083_radical_chuo",
+"label": "Radical 辶 (zǒuzhī, walking)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_083_radical_men",
+"label": "Radical 门 (mén, door/room)",
+"file_type": "concept"
+}
+],
+"level1/page_084.md": [
+{
+"id": "hsk_data_transcripts_level1_page_084_group_work_jobs",
+"label": "Lesson 9 Group Work: Jobs of Friends/Classmates",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_084_proper_noun_li_peng",
+"label": "李朋 (Lǐ Péng) - name",
+"file_type": "concept"
+}
+],
+"level1/page_085.md": [
+{
+"id": "hsk_data_transcripts_level1_page_085_vocab_diannao",
+"label": "电脑 (diànnǎo) - computer",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_085_lesson10",
+"label": "Lesson 10: Can I Sit Here (我能坐这儿吗)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_085_text1_in_the_office",
+"label": "Text 1: In the Office dialogue (Lesson 10)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_085_vocab_ben",
+"label": "本 (běn) - measure word for books",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_085_vocab_he",
+"label": "和 (hé) - and",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_085_vocab_li",
+"label": "里 (li) - inner, inside, interior",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_085_vocab_shang",
+"label": "上 (shang) - up, above",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_085_vocab_zhuozi",
+"label": "桌子 (zhuōzi) - desk, table",
+"file_type": "concept"
+}
+],
+"level1/page_086.md": [
+{
+"id": "hsk_data_transcripts_level1_page_086_vocab_houmian",
+"label": "后面 (hòumiàn) - back",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_086_proper_noun_wang_fang",
+"label": "王方 (Wáng Fāng) - name",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_086_proper_noun_xie_peng",
+"label": "谢朋 (Xiè Péng) - name",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_086_text2_in_the_gym",
+"label": "Text 2: In the Gym dialogue (Lesson 10)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_086_vocab_qianmian",
+"label": "前面 (qiánmiàn) - front",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_086_text3_in_the_library",
+"label": "Text 3: In the Library dialogue (Lesson 10)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_086_vocab_meiyou",
+"label": "没有（没） (méiyǒu/méi) - there is not",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_086_vocab_neng",
+"label": "能 (néng) - can, may",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_086_vocab_zher",
+"label": "这儿 (zhèr) - here",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_086_vocab_zuo",
+"label": "坐 (zuò) - to sit, to be seated",
+"file_type": "concept"
+}
+],
+"level1/page_087.md": [
+{
+"id": "hsk_data_transcripts_level1_page_087_grammar_modal_neng",
+"label": "Grammar: The Modal Verb 能",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_087_grammar_you_sentence",
+"label": "Grammar: The 有 Sentence (Existence)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_087_grammar_conjunction_he",
+"label": "Grammar: The Conjunction 和",
+"file_type": "concept"
+}
+],
+"level1/page_088.md": [
+{
+"id": "hsk_data_transcripts_level1_page_088_exercises",
+"label": "Lesson 10 Exercises",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_088_grammar_qing_imperative",
+"label": "Grammar: Imperative Sentences with 请",
+"file_type": "concept"
+}
+],
+"level1/page_089.md": [
+{
+"id": "hsk_data_transcripts_level1_page_089_exercise_measure_words",
+"label": "Exercise: Measure Word Fill-in (个口本块)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_089_pinyin_neutral_tone",
+"label": "Pinyin: Pronunciation of Neutral-Tone Syllables",
+"file_type": "concept"
+}
+],
+"level1/page_090.md": [
+{
+"id": "hsk_data_transcripts_level1_page_090_pinyin_reduplicated_syllables",
+"label": "Pinyin: Pronunciation of Reduplicated Syllables",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_090_pinyin_suffix_words",
+"label": "Pinyin: Suffix Words -们/-子/-头",
+"file_type": "concept"
+}
+],
+"level1/page_091.md": [
+{
+"id": "hsk_data_transcripts_level1_page_091_hanzi_structure_enclosure",
+"label": "Hanzi Structure (5): Enclosure",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_091_hanzi_ben_character",
+"label": "Hanzi: 本 character origin",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_091_hanzi_mo_character",
+"label": "Hanzi: 末 character origin",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_091_hanzi_shang_character",
+"label": "Hanzi: 上 character origin",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_091_hanzi_xia_character",
+"label": "Hanzi: 下 character origin",
+"file_type": "concept"
+}
+],
+"level1/page_092.md": [
+{
+"id": "hsk_data_transcripts_level1_page_092_radical_shi",
+"label": "Radical 礻 (shì, deity/sacrifice)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_092_radical_wei",
+"label": "Radical 囗 (wéi, enclosure)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_092_pair_work",
+"label": "Lesson 10 Pair Work Application",
+"file_type": "concept"
+}
+],
+"level1/page_093.md": [
+{
+"id": "hsk_data_transcripts_level1_page_093_group_work_seating",
+"label": "Lesson 10 Group Work: Seating Location",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_093_proper_noun_dawei",
+"label": "大卫 (Dàwèi) - David",
+"file_type": "concept"
+}
+],
+"level1/page_094.md": [
+{
+"id": "hsk_data_transcripts_level1_page_094_culture_chinese_names",
+"label": "Culture: Features of Chinese People's Names",
+"file_type": "concept"
+}
+],
+"level1/page_095.md": [
+{
+"id": "hsk_data_transcripts_level1_page_095_lesson11",
+"label": "Lesson 11: What's the Time Now (现在几点)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_095_text1_in_the_library",
+"label": "Text 1: In the Library dialogue (Lesson 11)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_095_vocab_chifan",
+"label": "吃饭 (chī fàn) - to eat a meal",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_095_vocab_dian",
+"label": "点 (diǎn) - o'clock",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_095_vocab_fen",
+"label": "分 (fēn) - minute",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_095_vocab_xianzai",
+"label": "现在 (xiànzài) - now",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_095_vocab_zhongwu",
+"label": "中午 (zhōngwǔ) - noon",
+"file_type": "concept"
+}
+],
+"level1/page_096.md": [
+{
+"id": "hsk_data_transcripts_level1_page_096_proper_noun_beijing",
+"label": "北京 (Běijīng) - Beijing",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_text2_at_home",
+"label": "Text 2: At Home dialogue (Lesson 11)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_text3_at_home",
+"label": "Text 3: At Home dialogue, going to Beijing (Lesson 11)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_vocab_dianying",
+"label": "电影 (diànyǐng) - film, movie",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_vocab_hui",
+"label": "回 (huí) - to come/go back, to return",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_vocab_qian",
+"label": "前 (qián) - before, earlier than",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_vocab_shihou",
+"label": "时候 (shíhou) - time, moment",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_vocab_women",
+"label": "我们 (wǒmen) - we, us",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_vocab_zhu",
+"label": "住 (zhù) - to live, to stay",
+"file_type": "concept"
+}
+],
+"level1/page_097.md": [
+{
+"id": "hsk_data_transcripts_level1_page_097_grammar_time_expression",
+"label": "Grammar: Expression of Time",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_097_grammar_time_word_adverbial",
+"label": "Grammar: Time Word Used as an Adverbial",
+"file_type": "concept"
+}
+],
+"level1/page_098.md": [
+{
+"id": "hsk_data_transcripts_level1_page_098_exercises",
+"label": "Lesson 11 Exercises",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_098_grammar_noun_qian",
+"label": "Grammar: The Noun 前",
+"file_type": "concept"
+}
+],
+"level1/page_099.md": [
+{
+"id": "hsk_data_transcripts_level1_page_099_exercise_picture_description",
+"label": "Exercise: Picture Description (Lesson 11)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_099_pinyin_neutral_tone_function",
+"label": "Pinyin: Function of Neutral-Tone Syllables",
+"file_type": "concept"
+}
+],
+"level1/page_100.md": [
+{
+"id": "hsk_data_transcripts_level1_page_100_hanzi_dian_character",
+"label": "Hanzi: 电 character origin",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_100_hanzi_wu_character",
+"label": "Hanzi: 午 character origin",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_100_radical_ren",
+"label": "Radical 亻 (dānrénpáng, person)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_100_radical_fu",
+"label": "Radical 阝 (ěrdāo, landform/location)",
+"file_type": "concept"
+}
+]
+}

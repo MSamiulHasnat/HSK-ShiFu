@@ -1,0 +1,144 @@
+{
+  "existing_nodes": 1708,
+  "new_nodes_raw": 4929,
+  "new_nodes_deduped": 4929,
+  "collisions_with_existing": 0,
+  "collisions_sample": [],
+  "duplicates_within_new": 0,
+  "new_edges_raw": 9888,
+  "new_edges_clean": 9888,
+  "dropped_dangling_edges": 0,
+  "dropped_dangling_edges_sample": [],
+  "recurs_in_edges": 1633,
+  "recurring_headwords": 908,
+  "dropped_hyperedges": 0,
+  "total_merged_nodes": 6637,
+  "total_merged_edges": 13836,
+  "chunk_stats": [
+    {
+      "file": "graphify-out\\.enhance_result_01.json",
+      "nodes": 29,
+      "edges": 110
+    },
+    {
+      "file": "graphify-out\\.enhance_result_02.json",
+      "nodes": 161,
+      "edges": 491
+    },
+    {
+      "file": "graphify-out\\.enhance_result_03.json",
+      "nodes": 127,
+      "edges": 437
+    },
+    {
+      "file": "graphify-out\\.enhance_result_04.json",
+      "nodes": 162,
+      "edges": 584
+    },
+    {
+      "file": "graphify-out\\.enhance_result_05.json",
+      "nodes": 140,
+      "edges": 352
+    },
+    {
+      "file": "graphify-out\\.enhance_result_06.json",
+      "nodes": 196,
+      "edges": 524
+    },
+    {
+      "file": "graphify-out\\.enhance_result_07.json",
+      "nodes": 283,
+      "edges": 828
+    },
+    {
+      "file": "graphify-out\\.enhance_result_08.json",
+      "nodes": 229,
+      "edges": 247
+    },
+    {
+      "file": "graphify-out\\.enhance_result_09.json",
+      "nodes": 184,
+      "edges": 396
+    },
+    {
+      "file": "graphify-out\\.enhance_result_10.json",
+      "nodes": 211,
+      "edges": 505
+    },
+    {
+      "file": "graphify-out\\.enhance_result_11.json",
+      "nodes": 154,
+      "edges": 349
+    },
+    {
+      "file": "graphify-out\\.enhance_result_12.json",
+      "nodes": 144,
+      "edges": 249
+    },
+    {
+      "file": "graphify-out\\.enhance_result_13.json",
+      "nodes": 170,
+      "edges": 248
+    },
+    {
+      "file": "graphify-out\\.enhance_result_14.json",
+      "nodes": 145,
+      "edges": 255
+    },
+    {
+      "file": "graphify-out\\.enhance_result_15.json",
+      "nodes": 274,
+      "edges": 535
+    },
+    {
+      "file": "graphify-out\\.enhance_result_16.json",
+      "nodes": 99,
+      "edges": 195
+    },
+    {
+      "file": "graphify-out\\.enhance_result_17.json",
+      "nodes": 229,
+      "edges": 456
+    },
+    {
+      "file": "graphify-out\\.enhance_result_18.json",
+      "nodes": 187,
+      "edges": 288
+    },
+    {
+      "file": "graphify-out\\.enhance_result_19.json",
+      "nodes": 209,
+      "edges": 375
+    },
+    {
+      "file": "graphify-out\\.enhance_result_20.json",
+      "nodes": 190,
+      "edges": 326
+    },
+    {
+      "file": "graphify-out\\.enhance_result_21.json",
+      "nodes": 259,
+      "edges": 522
+    },
+    {
+      "file": "graphify-out\\.enhance_result_22.json",
+      "nodes": 301,
+      "edges": 359
+    },
+    {
+      "file": "graphify-out\\.enhance_result_23.json",
+      "nodes": 224,
+      "edges": 423
+    },
+    {
+      "file": "graphify-out\\.enhance_result_24.json",
+      "nodes": 212,
+      "edges": 305
+    },
+    {
+      "file": "graphify-out\\.enhance_result_25.json",
+      "nodes": 410,
+      "edges": 529
+    }
+  ]
+}

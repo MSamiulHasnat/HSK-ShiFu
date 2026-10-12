@@ -1,0 +1,1064 @@
+[
+ {
+  "grammar": "hsk_data_transcripts_level1_page_032_gram_bu_sandhi_unchanged",
+  "label": "Grammar: 不 keeps its tone (bù) before a syllable in the first, second or third tone",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "不"
+  ],
+  "n_hits": 49,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent3",
+    "text": "我不是老师。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_028_sent2",
+    "text": "我不是老师，我是学生。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_028_sent4",
+    "text": "我不是中国人，我是美国人。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_030_sent3",
+    "text": "我不是____，我是学生，我是____人。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_030_sent4",
+    "text": "我是____，我不是学生，我是____人。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_021_sent2",
+    "text": "不谢！",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_015_sent5",
+    "text": "对不起！",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_021_sent4",
+    "text": "不客气！",
+    "same_chapter": false
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_040_gram_yi_sandhi_to_fourth",
+  "label": "Grammar: 一 changes to the fourth tone (yì) before a syllable in the first, second or third tone",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "一"
+  ],
+  "n_hits": 23,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_025_sent4",
+    "text": "一起读。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_025_sent3",
+    "text": "再读一遍。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_070_sent4",
+    "text": "我想买一个杯子。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_071_sent3",
+    "text": "我想买一个杯子。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_072_sent5",
+    "text": "一个杯子多少钱？",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_096_sent5",
+    "text": "我星期一去北京。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_087_sent2",
+    "text": "学校里有一个商店。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_117_sent4",
+    "text": "我买了一点儿苹果。",
+    "same_chapter": false
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_040_gram_yi_sandhi_to_second",
+  "label": "Grammar: 一 changes to the second tone (yí) before a syllable in the fourth tone",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "一"
+  ],
+  "n_hits": 23,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_025_sent4",
+    "text": "一起读。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_025_sent3",
+    "text": "再读一遍。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_070_sent4",
+    "text": "我想买一个杯子。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_071_sent3",
+    "text": "我想买一个杯子。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_072_sent5",
+    "text": "一个杯子多少钱？",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_096_sent5",
+    "text": "我星期一去北京。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_087_sent2",
+    "text": "学校里有一个商店。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_117_sent4",
+    "text": "我买了一点儿苹果。",
+    "same_chapter": false
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_040_gram_yi_sandhi_unchanged",
+  "label": "Grammar: 一 keeps its tone (yī) when used alone or in a number",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "一"
+  ],
+  "n_hits": 23,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_025_sent4",
+    "text": "一起读。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_025_sent3",
+    "text": "再读一遍。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_070_sent4",
+    "text": "我想买一个杯子。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_071_sent3",
+    "text": "我想买一个杯子。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_072_sent5",
+    "text": "一个杯子多少钱？",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_096_sent5",
+    "text": "我星期一去北京。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_087_sent2",
+    "text": "学校里有一个商店。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_117_sent4",
+    "text": "我买了一点儿苹果。",
+    "same_chapter": false
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_009_grammar_duoda_phrase",
+  "label": "Interrogative Phrase 多+大",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "多",
+   "大"
+  ],
+  "n_hits": 24,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_046_sent1",
+    "text": "你多大了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_044_sent3",
+    "text": "李老师多大了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_046_sent3",
+    "text": "李老师多大了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_046_sent5",
+    "text": "你今年多大了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_052_sent2",
+    "text": "你今年多大了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_046_sent2",
+    "text": "你女儿今年多大了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_052_sent3",
+    "text": "您今年多大年纪了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_046_sent6",
+    "text": "你的汉语老师今年多大了？",
+    "same_chapter": true
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_009_grammar_shenme_interrogative",
+  "label": "Interrogative Pronoun 什么 (what)",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "什么"
+  ],
+  "n_hits": 59,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_028_sent6",
+    "text": "这是什么？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_028_sent7",
+    "text": "这是什么书？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_027_sent1",
+    "text": "你叫什么名字？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_028_sent5",
+    "text": "你叫什么名字？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent7",
+    "text": "你叫什么名字？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_069_sent1",
+    "text": "你想喝什么？",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_069_sent3",
+    "text": "你想吃什么？",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_070_sent3",
+    "text": "你想买什么？",
+    "same_chapter": false
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_009_grammar_ji_interrogative",
+  "label": "Interrogative Pronoun 几 (how many)",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "几"
+  ],
+  "n_hits": 31,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_043_sent1",
+    "text": "你家有几口人？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_044_sent1",
+    "text": "你女儿几岁了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_045_sent3",
+    "text": "你女儿几岁了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_045_sent6",
+    "text": "你女儿几岁了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_046_sent4",
+    "text": "你家有几口人？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_051_sent1",
+    "text": "你家有几口人？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_052_sent1",
+    "text": "你今年几岁了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_045_sent1",
+    "text": "你有几个汉语老师？",
+    "same_chapter": true
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_009_grammar_shui_na_interrogative",
+  "label": "Interrogative Pronouns 谁 and 哪",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "谁",
+   "哪"
+  ],
+  "n_hits": 7,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_035_sent1",
+    "text": "她是谁？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_036_sent10",
+    "text": "他是谁？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_036_sent4",
+    "text": "他是谁？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_036_sent9",
+    "text": "她是谁？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_036_sent8",
+    "text": "谁是李月？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_042_sent1",
+    "text": "他/她是谁？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_037_sent14",
+    "text": "你的中国朋友是谁？",
+    "same_chapter": true
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_009_grammar_ma_question",
+  "label": "Interrogative Sentences with 吗",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "吗"
+  ],
+  "n_hits": 55,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_028_sent1",
+    "text": "你是老师吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent10",
+    "text": "你是老师吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent11",
+    "text": "你是学生吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent6",
+    "text": "你是老师吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_028_sent3",
+    "text": "你是中国人吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent4",
+    "text": "你是美国人吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent5",
+    "text": "你是中国人吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent8",
+    "text": "你是中国人吗？",
+    "same_chapter": true
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_009_grammar_ne_particle_1",
+  "label": "The Interrogative Particle 呢 (1)",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "呢"
+  ],
+  "n_hits": 34,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_037_sent8",
+    "text": "她叫李月。他呢？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_036_sent2",
+    "text": "我是美国人。你呢？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_037_sent9",
+    "text": "我是美国人。你呢？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_036_sent6",
+    "text": "她呢？她是你同学吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_037_sent7",
+    "text": "我不是老师，我是学生。你呢？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_112_sent3",
+    "text": "你呢？",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_062_sent3",
+    "text": "明天呢？",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_103_sent3",
+    "text": "明天呢？",
+    "same_chapter": false
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_009_grammar_de_particle",
+  "label": "The Structural Particle 的",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "的"
+  ],
+  "n_hits": 84,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_037_sent5",
+    "text": "这是我的书。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_037_sent4",
+    "text": "李月是我的老师。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_037_sent14",
+    "text": "你的中国朋友是谁？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_037_sent12",
+    "text": "你的汉语老师是哪国人？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_037_sent13",
+    "text": "你的汉语老师叫什么名字？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_035_sent2",
+    "text": "她是我的汉语老师，她叫李月。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_038_sent4",
+    "text": "他叫大卫，他是我们的____。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_126_sent8",
+    "text": "是的。",
+    "same_chapter": false
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_009_grammar_shi_sentence",
+  "label": "The 是 Sentence",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "是"
+  ],
+  "n_hits": 119,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_028_sent6",
+    "text": "这是什么？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_028_sent1",
+    "text": "你是老师吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_028_sent7",
+    "text": "这是什么书？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent1",
+    "text": "李月是老师。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent10",
+    "text": "你是老师吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent11",
+    "text": "你是学生吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent2",
+    "text": "我是美国人。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_029_sent3",
+    "text": "我不是老师。",
+    "same_chapter": true
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_009_grammar_le_change",
+  "label": "了 Indicating a Change",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "了"
+  ],
+  "n_hits": 59,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_046_sent1",
+    "text": "你多大了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_044_sent1",
+    "text": "你女儿几岁了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_044_sent2",
+    "text": "她今年四岁了。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_044_sent3",
+    "text": "李老师多大了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_045_sent3",
+    "text": "你女儿几岁了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_045_sent6",
+    "text": "你女儿几岁了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_046_sent3",
+    "text": "李老师多大了？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_046_sent5",
+    "text": "你今年多大了？",
+    "same_chapter": true
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_097_grammar_liang_dian",
+  "label": "Grammar: 2 o'clock is 两点 (liǎng diǎn), not 二点 (èr diǎn)",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "两点",
+   "二点"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level1_page_098_qian_phrases",
+  "label": "前 time phrases: 三天前, 一个星期前, 四点前, 星期五前 (three days ago, a week ago, before four o'clock, before Friday)",
+  "levels": [
+   1
+  ],
+  "keys": [
+   "前",
+   "三天前",
+   "一个星期前",
+   "四点前",
+   "星期五前"
+  ],
+  "n_hits": 7,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level1_page_096_sent8",
+    "text": "星期五前能回家吗？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_098_sent5",
+    "text": "八点前。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_098_sent7",
+    "text": "星期六前。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_099_sent4",
+    "text": "她上午不喝茶，下午________前喝茶。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_106_sent1",
+    "text": "爸爸八点前会回家吗？",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_086_sent1",
+    "text": "前面那个人叫什么名字？",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_094_sent1",
+    "text": "中国人的名字一般是姓氏在前、名字在后，比如“李月”、“谢朋”、“王方”。 - A Chinese name starts with the family name and ends with the given name, e.g. 李月, 谢朋 and 王方, where 李, 谢, 王 are family names and 月, 朋, 方 are given names.",
+    "same_chapter": false
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l4_1",
+  "label": "Grammar: \"是……的\"句：强调施事 (The Structure \"是……的\": used to emphasize the agent of an action) - Lesson 4 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "是",
+   "的",
+   "句",
+   "强调施事"
+  ],
+  "n_hits": 255,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level2_page_052_sent6",
+    "text": "是妈妈做的。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_052_sent8",
+    "text": "不是我买的。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_046_sent2",
+    "text": "这是送给你的！",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_046_sent8",
+    "text": "电话是谁打的？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_048_sent3",
+    "text": "电话是谁打的？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_052_sent4",
+    "text": "对，是我写的。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_048_sent1",
+    "text": "这本书是我买的。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_048_sent2",
+    "text": "晚饭是妈妈做的。",
+    "same_chapter": true
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l3_1",
+  "label": "Grammar: \"的\"字短语 (The \"的\" Phrase) - Lesson 3 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "的",
+   "字短语"
+  ],
+  "n_hits": 281,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level2_page_043_sent4",
+    "text": "是我的。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_038_sent2",
+    "text": "不是我的。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_043_sent2",
+    "text": "不是我的。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_038_sent3",
+    "text": "是我爸爸的。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_038_sent4",
+    "text": "多少钱买的？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_039_sent4",
+    "text": "都是粉色的。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_039_sent1",
+    "text": "这是谁的房间？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_038_sent7",
+    "text": "不是，是昨天的。",
+    "same_chapter": true
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l3_2",
+  "label": "Grammar: 一下 (The Numeral Classifier \"一下\") - Lesson 3 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "一下"
+  ],
+  "n_hits": 8,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level2_page_038_sent9",
+    "text": "我看一下。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_040_sent4",
+    "text": "我看一下。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_040_sent5",
+    "text": "你休息一下吧。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_040_sent6",
+    "text": "我问一下老师。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_046_sent10",
+    "text": "好，晚上我问一下儿子。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_055_sent6",
+    "text": "休息一下吧，喝咖啡吗？",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_054_sent5",
+    "text": "帮我看一下这件衣服怎么样。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_100_sent7",
+    "text": "如果你有机会来中国，一定要体验一下中国的茶文化。",
+    "same_chapter": false
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l2_2",
+  "label": "Grammar: 代词\"每\" (The Pronoun \"每\") - Lesson 2 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "代词",
+   "每"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l5_1",
+  "label": "Grammar: 副词\"就\" (The Adverb \"就\") - Lesson 5 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "副词",
+   "就"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l1_1",
+  "label": "Grammar: 助动词\"要\" (The Auxiliary Verb \"要\") - Lesson 1 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "助动词",
+   "要"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l4_3",
+  "label": "Grammar: 时间副词\"已经\" (The Adverb of Time \"已经\") - Lesson 4 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "时间副词",
+   "已经"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l1_3",
+  "label": "Grammar: 概数的表达：几、多 (\"几\" and \"多\": expressions of approximate numbers) - Lesson 1 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "概数的表达",
+   "几",
+   "多"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l2_1",
+  "label": "Grammar: 用\"是不是\"的问句 (Questions Using \"是不是\") - Lesson 2 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "用",
+   "是不是",
+   "的问句"
+  ],
+  "n_hits": 3,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level2_page_006_sent3",
+    "text": "这种设计遵循汉语国际教育的理念，注重教材的普适性、应用性和实用性，海内外教学机构可根据学时建议来设计每册书完成的年限。比如，一级的《教程1》规定用34学时完成，如果国内周课时是8课时的话，大概一个月左右就能学完；在海外如果一周是4课时的话，就需要两个月的时间能学完。以此类推。一般来说，学完《教程1》就能通过一级考试，同样学完《教程2》就能通过二级考试，等等。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_132_sent1",
+    "text": "在中国，常用的通信工具有电话机和手机两种。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level1_page_094_sent6",
+    "text": "在称呼时，可以用一个人的姓加上这个人的工作或者职业。 - A person can be addressed with his/her family name followed by his/her job or profession.",
+    "same_chapter": false
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l2_3",
+  "label": "Grammar: 疑问代词\"多\" (The Interrogative Pronoun \"多\") - Lesson 2 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "疑问代词",
+   "多"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l1_2",
+  "label": "Grammar: 程度副词\"最\" (The Adverb of Degree \"最\") - Lesson 1 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "程度副词",
+   "最"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l5_3",
+  "label": "Grammar: 程度副词\"有点儿\" (The Adverbial Modifier \"有点儿\") - Lesson 5 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "程度副词",
+   "有点儿"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_015_gram_l4_2",
+  "label": "Grammar: 表示时间：……的时候 (\"……的时候\" Indicating Time) - Lesson 4 grammar point (listed in Contents)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "表示时间",
+   "的时候"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ }
+]

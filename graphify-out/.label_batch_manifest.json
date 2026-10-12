@@ -1,0 +1,47 @@
+[
+  {
+    "batch": 1,
+    "path": "graphify-out\\.label_batch_01.json",
+    "community_count": 40
+  },
+  {
+    "batch": 2,
+    "path": "graphify-out\\.label_batch_02.json",
+    "community_count": 40
+  },
+  {
+    "batch": 3,
+    "path": "graphify-out\\.label_batch_03.json",
+    "community_count": 40
+  },
+  {
+    "batch": 4,
+    "path": "graphify-out\\.label_batch_04.json",
+    "community_count": 40
+  },
+  {
+    "batch": 5,
+    "path": "graphify-out\\.label_batch_05.json",
+    "community_count": 40
+  },
+  {
+    "batch": 6,
+    "path": "graphify-out\\.label_batch_06.json",
+    "community_count": 40
+  },
+  {
+    "batch": 7,
+    "path": "graphify-out\\.label_batch_07.json",
+    "community_count": 40
+  },
+  {
+    "batch": 8,
+    "path": "graphify-out\\.label_batch_08.json",
+    "community_count": 40
+  },
+  {
+    "batch": 9,
+    "path": "graphify-out\\.label_batch_09.json",
+    "community_count": 21
+  }
+]

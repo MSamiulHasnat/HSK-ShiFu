@@ -1,0 +1,3440 @@
+{
+ "meta": {
+  "seed": 42,
+  "input_N": 5379,
+  "input_raw_edges": 36419,
+  "graph": "undirected, simple (multi-edges collapsed, self-loops dropped)",
+  "runtime_seconds": 36.6,
+  "libraries": {
+   "networkx": "3.7",
+   "numpy": "2.5.2",
+   "powerlaw": "2.0.0"
+  }
+ },
+ "basic": {
+  "N": 5379,
+  "L": 32076,
+  "raw_edge_records": 36419,
+  "multi_edge_records_collapsed": 4343,
+  "self_loops_dropped": 0,
+  "density": 0.002218,
+  "mean_degree": 11.9264,
+  "k2": 866.1342,
+  "k2_over_k": 72.6234,
+  "kmax": 745,
+  "kmin": 1,
+  "median_degree": 8.0,
+  "isolated_nodes": 0,
+  "components": 1,
+  "giant_size": 5379,
+  "giant_fraction": 1.0,
+  "largest_components": [
+   5379
+  ],
+  "giant_edges": 32076,
+  "node_types": {
+   "book": 3,
+   "chapter": 50,
+   "char": 932,
+   "culture": 73,
+   "grammar": 311,
+   "phonetics": 197,
+   "radical": 122,
+   "sentence": 2850,
+   "text": 190,
+   "word": 651
+  },
+  "edge_relations": {
+   "sentence_has_char": 14057,
+   "sentence_has_word": 6651,
+   "contains_word": 3415,
+   "sentence_in_chapter": 2845,
+   "illustrates_grammar": 1699,
+   "char_in_word": 1440,
+   "word_in_chapter": 1226,
+   "contains_sentence": 1080,
+   "conceptually_related_to": 893,
+   "content_in_chapter": 527,
+   "recurs_in": 462,
+   "references": 394,
+   "cites": 249,
+   "grammar_in_chapter": 222,
+   "introduces_word": 96,
+   "example_of": 82,
+   "has_example": 81,
+   "character_in": 77,
+   "built_from": 76,
+   "part_of": 72,
+   "semantically_similar_to": 65,
+   "contains_dialogue": 52,
+   "composed_of_learned_word": 51,
+   "chapter_in_book": 50,
+   "teaches_grammar": 47,
+   "has_example_character": 46,
+   "contains": 45,
+   "has_grammar": 45,
+   "reinforces": 45,
+   "composed_of": 38,
+   "builds_on": 33,
+   "has_radical": 32,
+   "includes_example": 32,
+   "same_grammar_family": 28,
+   "category_member_of": 24,
+   "formed_from": 23,
+   "practices": 23,
+   "example_of_radical": 16,
+   "has_phonetic_component": 12,
+   "has_semantic_component": 12,
+   "contrasts_with": 12,
+   "covers_grammar": 10,
+   "contains_rule": 4,
+   "contains_stroke": 4,
+   "elaborates": 4,
+   "illustrated_by_character": 4,
+   "illustrates": 4,
+   "contains_section": 4,
+   "explains": 3,
+   "responds_to": 3,
+   "lists_word": 2,
+   "illustrated_by_word": 1,
+   "related_to_word": 1
+  },
+  "provenance_raw": {
+   "text": 28560,
+   "llm": 1208,
+   "match": 6651
+  },
+  "provenance_raw_fraction": {
+   "text": 0.7842,
+   "llm": 0.0332,
+   "match": 0.1826
+  },
+  "provenance_simple_edges": {
+   "text": 26146,
+   "llm": 1000,
+   "match": 4930
+  },
+  "provenance_simple_fraction": {
+   "text": 0.8151,
+   "llm": 0.0312,
+   "match": 0.1537
+  },
+  "input_meta": {
+   "dropped_isolates": 61,
+   "types": {
+    "text": 190,
+    "char": 932,
+    "word": 651,
+    "grammar": 311,
+    "radical": 122,
+    "culture": 73,
+    "phonetics": 197,
+    "sentence": 2850,
+    "chapter": 50,
+    "book": 3
+   },
+   "edge_types": {
+    "char_in_word": 1440,
+    "references": 394,
+    "cites": 249,
+    "built_from": 76,
+    "category_member_of": 24,
+    "character_in": 77,
+    "composed_of": 38,
+    "composed_of_learned_word": 51,
+    "conceptually_related_to": 893,
+    "contains": 45,
+    "contains_dialogue": 52,
+    "contains_rule": 4,
+    "contains_sentence": 1080,
+    "contains_stroke": 4,
+    "contains_word": 3415,
+    "covers_grammar": 10,
+    "elaborates": 4,
+    "example_of": 82,
+    "example_of_radical": 16,
+    "explains": 3,
+    "formed_from": 23,
+    "has_example": 81,
+    "has_example_character": 46,
+    "has_grammar": 45,
+    "has_phonetic_component": 12,
+    "has_radical": 32,
+    "has_semantic_component": 12,
+    "illustrated_by_character": 4,
+    "illustrated_by_word": 1,
+    "illustrates": 4,
+    "illustrates_grammar": 1699,
+    "includes_example": 32,
+    "introduces_word": 96,
+    "lists_word": 2,
+    "part_of": 72,
+    "practices": 23,
+    "recurs_in": 462,
+    "teaches_grammar": 47,
+    "semantically_similar_to": 65,
+    "builds_on": 33,
+    "contrasts_with": 12,
+    "same_grammar_family": 28,
+    "reinforces": 45,
+    "related_to_word": 1,
+    "responds_to": 3,
+    "contains_section": 4,
+    "sentence_has_char": 14057,
+    "sentence_has_word": 6651,
+    "content_in_chapter": 527,
+    "word_in_chapter": 1226,
+    "grammar_in_chapter": 222,
+    "sentence_in_chapter": 2845,
+    "chapter_in_book": 50
+   },
+   "prov": {
+    "text": 28560,
+    "llm": 1208,
+    "match": 6651
+   }
+  }
+ },
+ "degree": {
+  "log_binned": [
+   [
+    1.0,
+    0.081799591002045
+   ],
+   [
+    2.0,
+    0.05298382598996096
+   ],
+   [
+    3.4641,
+    0.04480386688975646
+   ],
+   [
+    5.9161,
+    0.08266716242176365
+   ],
+   [
+    9.3808,
+    0.07324781557910393
+   ],
+   [
+    14.2829,
+    0.02246390283200099
+   ],
+   [
+    21.6333,
+    0.004854268657949639
+   ],
+   [
+    32.8634,
+    0.0016067776803973123
+   ],
+   [
+    50.01,
+    0.0004957550969820908
+   ],
+   [
+    75.5248,
+    0.0002758637233206796
+   ],
+   [
+    113.697,
+    0.00019777463975349368
+   ],
+   [
+    171.0555,
+    4.2493294027036355e-05
+   ],
+   [
+    256.7879,
+    1.0623323506759089e-05
+   ],
+   [
+    385.5905,
+    3.529901798131976e-06
+   ],
+   [
+    579.1002,
+    2.3532678654213174e-06
+   ],
+   [
+    869.1605,
+    5.236849616008002e-07
+   ]
+  ],
+  "ccdf": [
+   [
+    1,
+    1.0
+   ],
+   [
+    2,
+    0.9182
+   ],
+   [
+    3,
+    0.865217
+   ],
+   [
+    4,
+    0.825804
+   ],
+   [
+    5,
+    0.775609
+   ],
+   [
+    6,
+    0.711099
+   ],
+   [
+    7,
+    0.626696
+   ],
+   [
+    8,
+    0.527607
+   ],
+   [
+    9,
+    0.438929
+   ],
+   [
+    10,
+    0.353226
+   ],
+   [
+    11,
+    0.282952
+   ],
+   [
+    12,
+    0.234616
+   ],
+   [
+    13,
+    0.198736
+   ],
+   [
+    14,
+    0.167875
+   ],
+   [
+    15,
+    0.145008
+   ],
+   [
+    16,
+    0.126975
+   ],
+   [
+    17,
+    0.110987
+   ],
+   [
+    18,
+    0.099833
+   ],
+   [
+    19,
+    0.091653
+   ],
+   [
+    20,
+    0.084774
+   ],
+   [
+    21,
+    0.078081
+   ],
+   [
+    22,
+    0.074363
+   ],
+   [
+    23,
+    0.071203
+   ],
+   [
+    24,
+    0.066741
+   ],
+   [
+    25,
+    0.062279
+   ],
+   [
+    26,
+    0.059119
+   ],
+   [
+    27,
+    0.056144
+   ],
+   [
+    28,
+    0.054471
+   ],
+   [
+    29,
+    0.052798
+   ],
+   [
+    30,
+    0.050567
+   ],
+   [
+    31,
+    0.046105
+   ],
+   [
+    32,
+    0.04499
+   ],
+   [
+    33,
+    0.043874
+   ],
+   [
+    34,
+    0.042387
+   ],
+   [
+    35,
+    0.042015
+   ],
+   [
+    36,
+    0.039598
+   ],
+   [
+    37,
+    0.038297
+   ],
+   [
+    38,
+    0.036438
+   ],
+   [
+    39,
+    0.035694
+   ],
+   [
+    40,
+    0.034765
+   ],
+   [
+    41,
+    0.033649
+   ],
+   [
+    42,
+    0.032906
+   ],
+   [
+    43,
+    0.032162
+   ],
+   [
+    44,
+    0.031604
+   ],
+   [
+    45,
+    0.030675
+   ],
+   [
+    46,
+    0.030303
+   ],
+   [
+    47,
+    0.029559
+   ],
+   [
+    48,
+    0.028816
+   ],
+   [
+    49,
+    0.027886
+   ],
+   [
+    50,
+    0.027143
+   ],
+   [
+    52,
+    0.026585
+   ],
+   [
+    53,
+    0.026027
+   ],
+   [
+    54,
+    0.025284
+   ],
+   [
+    55,
+    0.024912
+   ],
+   [
+    56,
+    0.024354
+   ],
+   [
+    58,
+    0.024168
+   ],
+   [
+    60,
+    0.023796
+   ],
+   [
+    61,
+    0.02361
+   ],
+   [
+    63,
+    0.023239
+   ],
+   [
+    64,
+    0.022681
+   ],
+   [
+    67,
+    0.021937
+   ],
+   [
+    68,
+    0.021751
+   ],
+   [
+    70,
+    0.021379
+   ],
+   [
+    71,
+    0.021194
+   ],
+   [
+    72,
+    0.021008
+   ],
+   [
+    73,
+    0.020636
+   ],
+   [
+    74,
+    0.020264
+   ],
+   [
+    75,
+    0.020078
+   ],
+   [
+    76,
+    0.01952
+   ],
+   [
+    77,
+    0.019149
+   ],
+   [
+    78,
+    0.018963
+   ],
+   [
+    79,
+    0.018405
+   ],
+   [
+    80,
+    0.018033
+   ],
+   [
+    81,
+    0.017289
+   ],
+   [
+    82,
+    0.017104
+   ],
+   [
+    83,
+    0.016732
+   ],
+   [
+    85,
+    0.016546
+   ],
+   [
+    86,
+    0.015988
+   ],
+   [
+    88,
+    0.01543
+   ],
+   [
+    89,
+    0.015244
+   ],
+   [
+    91,
+    0.015059
+   ],
+   [
+    94,
+    0.014687
+   ],
+   [
+    95,
+    0.014315
+   ],
+   [
+    96,
+    0.013943
+   ],
+   [
+    97,
+    0.013757
+   ],
+   [
+    98,
+    0.013385
+   ],
+   [
+    99,
+    0.013014
+   ],
+   [
+    100,
+    0.012642
+   ],
+   [
+    101,
+    0.011898
+   ],
+   [
+    102,
+    0.011712
+   ],
+   [
+    103,
+    0.01134
+   ],
+   [
+    105,
+    0.010783
+   ],
+   [
+    106,
+    0.010411
+   ],
+   [
+    109,
+    0.010225
+   ],
+   [
+    110,
+    0.009481
+   ],
+   [
+    112,
+    0.009295
+   ],
+   [
+    115,
+    0.008924
+   ],
+   [
+    116,
+    0.008552
+   ],
+   [
+    118,
+    0.008366
+   ],
+   [
+    119,
+    0.00818
+   ],
+   [
+    120,
+    0.007994
+   ],
+   [
+    121,
+    0.007622
+   ],
+   [
+    122,
+    0.007436
+   ],
+   [
+    124,
+    0.007065
+   ],
+   [
+    125,
+    0.006879
+   ],
+   [
+    132,
+    0.006321
+   ],
+   [
+    134,
+    0.006135
+   ],
+   [
+    135,
+    0.005949
+   ],
+   [
+    138,
+    0.005763
+   ],
+   [
+    139,
+    0.005577
+   ],
+   [
+    141,
+    0.005391
+   ],
+   [
+    143,
+    0.005205
+   ],
+   [
+    144,
+    0.00502
+   ],
+   [
+    148,
+    0.004648
+   ],
+   [
+    149,
+    0.004462
+   ],
+   [
+    152,
+    0.004276
+   ],
+   [
+    153,
+    0.00409
+   ],
+   [
+    154,
+    0.003904
+   ],
+   [
+    156,
+    0.003718
+   ],
+   [
+    161,
+    0.003532
+   ],
+   [
+    164,
+    0.003346
+   ],
+   [
+    170,
+    0.00316
+   ],
+   [
+    174,
+    0.002975
+   ],
+   [
+    194,
+    0.002789
+   ],
+   [
+    196,
+    0.002603
+   ],
+   [
+    224,
+    0.002417
+   ],
+   [
+    241,
+    0.002231
+   ],
+   [
+    244,
+    0.002045
+   ],
+   [
+    258,
+    0.001859
+   ],
+   [
+    263,
+    0.001673
+   ],
+   [
+    301,
+    0.001487
+   ],
+   [
+    330,
+    0.001301
+   ],
+   [
+    376,
+    0.001115
+   ],
+   [
+    417,
+    0.00093
+   ],
+   [
+    632,
+    0.000744
+   ],
+   [
+    645,
+    0.000558
+   ],
+   [
+    680,
+    0.000372
+   ],
+   [
+    745,
+    0.000186
+   ]
+  ],
+  "powerlaw": {
+   "alpha": 2.7542,
+   "alpha_sigma": 0.0329,
+   "xmin": 8,
+   "ks_distance": 0.0411,
+   "n_tail": 2838,
+   "tail_fraction": 0.5276,
+   "vs_lognormal": {
+    "R": -6.0039,
+    "p": 0.320962,
+    "favoured_at_p<0.1": "inconclusive"
+   },
+   "vs_exponential": {
+    "R": 1113.2703,
+    "p": 0.0,
+    "favoured_at_p<0.1": "power_law"
+   },
+   "vs_truncated_power_law": {
+    "R": 0.0,
+    "p": 0.995624,
+    "favoured_at_p<0.1": "inconclusive"
+   },
+   "vs_stretched_exponential": {
+    "R": 30.4404,
+    "p": 0.0,
+    "favoured_at_p<0.1": "power_law"
+   },
+   "lognormal_mu": -801.0255,
+   "lognormal_sigma": 21.4358,
+   "exponential_lambda": 0.088877,
+   "note": "discrete MLE fit (Clauset-Shalizi-Newman via the powerlaw package); R>0 favours the power law, p is the significance of R"
+  },
+  "hubs": [
+   {
+    "id": "c_我",
+    "label": "我 wǒ (character, I/me)",
+    "type": "char",
+    "degree": 745
+   },
+   {
+    "id": "c_你",
+    "label": "你 (nǐ) — you",
+    "type": "char",
+    "degree": 680
+   },
+   {
+    "id": "c_的",
+    "label": "的 (de) - attributive particle",
+    "type": "char",
+    "degree": 645
+   },
+   {
+    "id": "c_了",
+    "label": "了 (le) — particle indicating a change/new circumstance",
+    "type": "char",
+    "degree": 632
+   },
+   {
+    "id": "c_是",
+    "label": "是 (shì) - to be",
+    "type": "char",
+    "degree": 417
+   },
+   {
+    "id": "c_不",
+    "label": "不 (bù) — no, not",
+    "type": "char",
+    "degree": 376
+   },
+   {
+    "id": "w_什么",
+    "label": "什么 (shénme) \"what\"",
+    "type": "word",
+    "degree": 330
+   },
+   {
+    "id": "c_去",
+    "label": "去 qù (v. to go)",
+    "type": "char",
+    "degree": 301
+   },
+   {
+    "id": "c_吗",
+    "label": "吗 (ma) — question particle",
+    "type": "char",
+    "degree": 263
+   },
+   {
+    "id": "c_好",
+    "label": "好 (hǎo) — good, fine",
+    "type": "char",
+    "degree": 258
+   },
+   {
+    "id": "c_个",
+    "label": "个 gè (m. general measure word)",
+    "type": "char",
+    "degree": 244
+   },
+   {
+    "id": "c_在",
+    "label": "在 (zài) verb - to be in/on/at",
+    "type": "char",
+    "degree": 241
+   },
+   {
+    "id": "c_一",
+    "label": "一 (yī) - one (num., Lesson 5 (notes))",
+    "type": "char",
+    "degree": 224
+   },
+   {
+    "id": "c_有",
+    "label": "有 (yǒu) \"to have, there be\"",
+    "type": "char",
+    "degree": 196
+   },
+   {
+    "id": "c_他",
+    "label": "他 (tā) \"he, him\"",
+    "type": "char",
+    "degree": 194
+   },
+   {
+    "id": "w_怎么",
+    "label": "怎么 zěnme (pron. how)",
+    "type": "word",
+    "degree": 174
+   },
+   {
+    "id": "ch_3_15",
+    "label": "HSK 3 Lesson 15: The rest of them are all OK 其他都没什么问题",
+    "type": "chapter",
+    "degree": 170
+   },
+   {
+    "id": "c_多",
+    "label": "多 (duō) — adverb indicating degree/extent",
+    "type": "char",
+    "degree": 164
+   },
+   {
+    "id": "ch_3_13",
+    "label": "HSK 3 Lesson 13: I walked back 我是走回来的",
+    "type": "chapter",
+    "degree": 161
+   },
+   {
+    "id": "c_这",
+    "label": "这 zhè (pron. this)",
+    "type": "char",
+    "degree": 156
+   }
+  ]
+ },
+ "smallworld": {
+  "real": {
+   "n": 5379,
+   "m": 32076,
+   "avg_clustering": 0.1639,
+   "transitivity": 0.0151,
+   "avg_path_giant": 3.4508,
+   "diameter_giant": 8,
+   "giant_fraction": 1.0
+  },
+  "erdos_renyi": [
+   {
+    "n": 5379,
+    "m": 32076,
+    "avg_clustering": 0.002,
+    "transitivity": 0.0021,
+    "avg_path_giant": 3.7338,
+    "diameter_giant": 6,
+    "giant_fraction": 1.0
+   },
+   {
+    "n": 5379,
+    "m": 32076,
+    "avg_clustering": 0.0021,
+    "transitivity": 0.002,
+    "avg_path_giant": 3.7334,
+    "diameter_giant": 6,
+    "giant_fraction": 1.0
+   },
+   {
+    "n": 5379,
+    "m": 32076,
+    "avg_clustering": 0.0021,
+    "transitivity": 0.0021,
+    "avg_path_giant": 3.733,
+    "diameter_giant": 6,
+    "giant_fraction": 1.0
+   }
+  ],
+  "rewired": [
+   {
+    "n": 5379,
+    "m": 32076,
+    "avg_clustering": 0.0569,
+    "transitivity": 0.0258,
+    "avg_path_giant": 3.1309,
+    "diameter_giant": 8,
+    "giant_fraction": 1.0
+   },
+   {
+    "n": 5379,
+    "m": 32076,
+    "avg_clustering": 0.0565,
+    "transitivity": 0.0256,
+    "avg_path_giant": 3.1181,
+    "diameter_giant": 7,
+    "giant_fraction": 0.99851
+   },
+   {
+    "n": 5379,
+    "m": 32076,
+    "avg_clustering": 0.0546,
+    "transitivity": 0.0252,
+    "avg_path_giant": 3.1271,
+    "diameter_giant": 7,
+    "giant_fraction": 1.0
+   }
+  ],
+  "vs_erdos_renyi": {
+   "sigma": 85.8165,
+   "omega": 0.8413,
+   "C_ratio": 79.3195,
+   "L_ratio": 0.9243,
+   "C_random_mean": 0.00207,
+   "L_random_mean": 3.7334
+  },
+  "vs_rewired": {
+   "sigma": 2.6512,
+   "omega": 0.6651,
+   "C_ratio": 2.9273,
+   "L_ratio": 1.1041,
+   "C_random_mean": 0.056,
+   "L_random_mean": 3.1254
+  },
+  "sigma": 85.8165,
+  "omega": 0.8413,
+  "c_lattice_approx": 0.6814,
+  "l_theory_random": 3.4656,
+  "note": "clustering over all nodes; path length and diameter exact on the giant component; sigma=(C/Cr)/(L/Lr); omega=Lr/L - C/Clattice with Clattice=3(k-2)/(4(k-1)) for a ring lattice of mean degree k (omega near 0 small-world, -1 lattice-like, +1 random-like); top-level sigma/omega use the ER baseline"
+ },
+ "centrality": {
+  "top10": {
+   "degree": [
+    {
+     "id": "c_我",
+     "label": "我 wǒ (character, I/me)",
+     "type": "char",
+     "degree": 745,
+     "value": 745.0
+    },
+    {
+     "id": "c_你",
+     "label": "你 (nǐ) — you",
+     "type": "char",
+     "degree": 680,
+     "value": 680.0
+    },
+    {
+     "id": "c_的",
+     "label": "的 (de) - attributive particle",
+     "type": "char",
+     "degree": 645,
+     "value": 645.0
+    },
+    {
+     "id": "c_了",
+     "label": "了 (le) — particle indicating a change/new circumstance",
+     "type": "char",
+     "degree": 632,
+     "value": 632.0
+    },
+    {
+     "id": "c_是",
+     "label": "是 (shì) - to be",
+     "type": "char",
+     "degree": 417,
+     "value": 417.0
+    },
+    {
+     "id": "c_不",
+     "label": "不 (bù) — no, not",
+     "type": "char",
+     "degree": 376,
+     "value": 376.0
+    },
+    {
+     "id": "w_什么",
+     "label": "什么 (shénme) \"what\"",
+     "type": "word",
+     "degree": 330,
+     "value": 330.0
+    },
+    {
+     "id": "c_去",
+     "label": "去 qù (v. to go)",
+     "type": "char",
+     "degree": 301,
+     "value": 301.0
+    },
+    {
+     "id": "c_吗",
+     "label": "吗 (ma) — question particle",
+     "type": "char",
+     "degree": 263,
+     "value": 263.0
+    },
+    {
+     "id": "c_好",
+     "label": "好 (hǎo) — good, fine",
+     "type": "char",
+     "degree": 258,
+     "value": 258.0
+    }
+   ],
+   "closeness": [
+    {
+     "id": "c_的",
+     "label": "的 (de) - attributive particle",
+     "type": "char",
+     "degree": 645,
+     "value": 0.394832
+    },
+    {
+     "id": "c_我",
+     "label": "我 wǒ (character, I/me)",
+     "type": "char",
+     "degree": 745,
+     "value": 0.390786
+    },
+    {
+     "id": "c_你",
+     "label": "你 (nǐ) — you",
+     "type": "char",
+     "degree": 680,
+     "value": 0.383923
+    },
+    {
+     "id": "c_了",
+     "label": "了 (le) — particle indicating a change/new circumstance",
+     "type": "char",
+     "degree": 632,
+     "value": 0.380098
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_169_sent2",
+     "label": "到了一个新环境，你会觉得什么都很新鲜，而且还会觉得有点奇怪：有些国家的人名写在姓前面，有些国家的人名写在姓后面，但是只要经过一段时间，就会慢慢地习惯。 (Dàole yí ge xīn huánjìng, nǐ huì juéde shénme dōu hěn xīnxiān, érqiě hái huì juéde yǒudiǎnr qíguài: yǒuxiē guójiā de rénmíng xiě zài xìng qiánmiàn, yǒuxiē guójiā de rénmíng xiě zài xìng hòumiàn, dànshì zhǐyào jīngguò yí duàn shíjiān, jiù huì mànman de xíguàn.) - When you arrive in a new environment, everything feels fresh and you will also find it a little strange: in some countries personal names are written before the surname, in others after it, but as long as some time passes, you will slowly get used to it.",
+     "type": "sentence",
+     "degree": 41,
+     "value": 0.380071
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_116_sent2",
+     "label": "每次下课前，我都会把下次学生需要带的东西写在黑板上，但是每次上课时，总会有学生忘了拿铅笔，所以我有点儿生气，不是因为他们没带铅笔，是因为他们没有好的学习习惯。 (Měi cì xià kè qián, wǒ dōu huì bǎ xià cì xuésheng xūyào dài de dōngxi xiě zài hēibǎn shang, dànshì měi cì shàng kè shí, zǒng huì yǒu xuésheng wàngle ná qiānbǐ, suǒyǐ wǒ yǒudiǎnr shēng qì, bú shì yīnwèi tāmen méi dài qiānbǐ, shì yīnwèi tāmen méiyǒu hǎo de xuéxí xíguàn.) - Before each class ends I write on the blackboard what students need to bring next time, but every class some student forgets a pencil, so I am a bit angry - not because they didn't bring a pencil, but because they lack good study habits.",
+     "type": "sentence",
+     "degree": 41,
+     "value": 0.379883
+    },
+    {
+     "id": "hsk_data_transcripts_level2_page_006_sent1",
+     "label": "内容的多样性和丰富性，一般来说，一个主题确定后，通过接触和这个主题相关的多个方面的学习内容，加速学生对新内容的内化和理解，进而深入探究，培养学生的创造能力。\"教程\"为了联系学生的实际，开阔学生的视野，从四级分册开始以主题引领，每个主题下又分为若干小主题，主题之间相互联系形成有机的知识网络，使之牢固地镶嵌在学生的记忆深处，不易遗忘。 (Nèiróng de duōyàngxìng hé fēngfùxìng, yībān lái shuō, yī gè zhǔtí quèdìng hòu, tōngguò jiēchù hé zhège zhǔtí xiāngguān de duō gè fāngmiàn de xuéxí nèiróng, jiāsù xuéshēng duì xīn nèiróng de nèihuà hé lǐjiě, jìn'ér shēnrù tànjiū, péiyǎng xuéshēng de chuàngzào nénglì. \"Jiàochéng\" wèile liánxì xuéshēng de shíjì, kāikuò xuéshēng de shìyě, cóng sì jí fēncè kāishǐ yǐ zhǔtí yǐnlǐng, měi gè zhǔtí xià yòu fēnwéi ruògān xiǎo zhǔtí, zhǔtí zhījiān xiānghù liánxì xíngchéng yǒujī de zhīshì wǎngluò, shǐ zhī láogù de xiāngqiàn zài xuéshēng de jìyì shēnchù, bùyì yíwàng.) - Once a topic is fixed, exposure to multiple aspects of learning content related to it accelerates students' internalization and understanding of new content, leads to deeper exploration, and cultivates creative ability; starting from the fourth-level volumes the Course is led by themes, each divided into sub-themes, interconnected into an organic network of knowledge firmly embedded in students' memory.",
+     "type": "sentence",
+     "degree": 100,
+     "value": 0.374018
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_124_sent10",
+     "label": "我今天看见你和一个女的进了咖啡店，她是谁啊？ (Wǒ jīntiān kànjiàn nǐ hé yí ge nǚ de jìnle kāfēidiàn, tā shì shéi a?) - I saw you go into a coffee shop with a woman today. Who is she?",
+     "type": "sentence",
+     "degree": 19,
+     "value": 0.370207
+    },
+    {
+     "id": "c_是",
+     "label": "是 (shì) - to be",
+     "type": "char",
+     "degree": 417,
+     "value": 0.369622
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_122_sent3",
+     "label": "这句话告诉我们要养成好的习惯，不要觉得不好的事情只做一次没关系，如果不注意，慢慢就会变成很自然的事，到时候就不容易发现错误，也不容易改变了。 (Zhè jù huà gàosu wǒmen yào yǎngchéng hǎo de xíguàn, bú yào juéde bù hǎo de shìqing zhǐ zuò yí cì méi guānxi, rúguǒ bú zhùyì, mànmàn jiù huì biànchéng hěn zìrán de shì, dào shíhou jiù bù róngyì fāxiàn cuòwù, yě bù róngyì gǎibiàn le.) - It tells us to form good habits and not to think a bad thing done just once does not matter; if we are not careful it gradually becomes natural, and then the mistake is hard to notice or change.",
+     "type": "sentence",
+     "degree": 41,
+     "value": 0.367701
+    }
+   ],
+   "betweenness_sampled_k300": [
+    {
+     "id": "c_的",
+     "label": "的 (de) - attributive particle",
+     "type": "char",
+     "degree": 645,
+     "value": 0.095424
+    },
+    {
+     "id": "c_我",
+     "label": "我 wǒ (character, I/me)",
+     "type": "char",
+     "degree": 745,
+     "value": 0.087454
+    },
+    {
+     "id": "c_你",
+     "label": "你 (nǐ) — you",
+     "type": "char",
+     "degree": 680,
+     "value": 0.084613
+    },
+    {
+     "id": "c_了",
+     "label": "了 (le) — particle indicating a change/new circumstance",
+     "type": "char",
+     "degree": 632,
+     "value": 0.082158
+    },
+    {
+     "id": "c_是",
+     "label": "是 (shì) - to be",
+     "type": "char",
+     "degree": 417,
+     "value": 0.042009
+    },
+    {
+     "id": "c_不",
+     "label": "不 (bù) — no, not",
+     "type": "char",
+     "degree": 376,
+     "value": 0.036053
+    },
+    {
+     "id": "w_什么",
+     "label": "什么 (shénme) \"what\"",
+     "type": "word",
+     "degree": 330,
+     "value": 0.023291
+    },
+    {
+     "id": "c_一",
+     "label": "一 (yī) - one (num., Lesson 5 (notes))",
+     "type": "char",
+     "degree": 224,
+     "value": 0.022185
+    },
+    {
+     "id": "c_个",
+     "label": "个 gè (m. general measure word)",
+     "type": "char",
+     "degree": 244,
+     "value": 0.02156
+    },
+    {
+     "id": "c_在",
+     "label": "在 (zài) verb - to be in/on/at",
+     "type": "char",
+     "degree": 241,
+     "value": 0.019031
+    }
+   ],
+   "eigenvector": [
+    {
+     "id": "c_我",
+     "label": "我 wǒ (character, I/me)",
+     "type": "char",
+     "degree": 745,
+     "value": 0.296726
+    },
+    {
+     "id": "c_的",
+     "label": "的 (de) - attributive particle",
+     "type": "char",
+     "degree": 645,
+     "value": 0.279827
+    },
+    {
+     "id": "c_你",
+     "label": "你 (nǐ) — you",
+     "type": "char",
+     "degree": 680,
+     "value": 0.24632
+    },
+    {
+     "id": "c_了",
+     "label": "了 (le) — particle indicating a change/new circumstance",
+     "type": "char",
+     "degree": 632,
+     "value": 0.243351
+    },
+    {
+     "id": "c_是",
+     "label": "是 (shì) - to be",
+     "type": "char",
+     "degree": 417,
+     "value": 0.164998
+    },
+    {
+     "id": "c_不",
+     "label": "不 (bù) — no, not",
+     "type": "char",
+     "degree": 376,
+     "value": 0.136457
+    },
+    {
+     "id": "c_去",
+     "label": "去 qù (v. to go)",
+     "type": "char",
+     "degree": 301,
+     "value": 0.093003
+    },
+    {
+     "id": "c_吗",
+     "label": "吗 (ma) — question particle",
+     "type": "char",
+     "degree": 263,
+     "value": 0.0828
+    },
+    {
+     "id": "c_个",
+     "label": "个 gè (m. general measure word)",
+     "type": "char",
+     "degree": 244,
+     "value": 0.081377
+    },
+    {
+     "id": "c_好",
+     "label": "好 (hǎo) — good, fine",
+     "type": "char",
+     "degree": 258,
+     "value": 0.081132
+    }
+   ],
+   "pagerank": [
+    {
+     "id": "c_我",
+     "label": "我 wǒ (character, I/me)",
+     "type": "char",
+     "degree": 745,
+     "value": 0.009652
+    },
+    {
+     "id": "c_你",
+     "label": "你 (nǐ) — you",
+     "type": "char",
+     "degree": 680,
+     "value": 0.008836
+    },
+    {
+     "id": "c_的",
+     "label": "的 (de) - attributive particle",
+     "type": "char",
+     "degree": 645,
+     "value": 0.008297
+    },
+    {
+     "id": "c_了",
+     "label": "了 (le) — particle indicating a change/new circumstance",
+     "type": "char",
+     "degree": 632,
+     "value": 0.008181
+    },
+    {
+     "id": "c_是",
+     "label": "是 (shì) - to be",
+     "type": "char",
+     "degree": 417,
+     "value": 0.005476
+    },
+    {
+     "id": "c_不",
+     "label": "不 (bù) — no, not",
+     "type": "char",
+     "degree": 376,
+     "value": 0.004892
+    },
+    {
+     "id": "w_什么",
+     "label": "什么 (shénme) \"what\"",
+     "type": "word",
+     "degree": 330,
+     "value": 0.004449
+    },
+    {
+     "id": "c_去",
+     "label": "去 qù (v. to go)",
+     "type": "char",
+     "degree": 301,
+     "value": 0.003913
+    },
+    {
+     "id": "c_吗",
+     "label": "吗 (ma) — question particle",
+     "type": "char",
+     "degree": 263,
+     "value": 0.003476
+    },
+    {
+     "id": "c_好",
+     "label": "好 (hǎo) — good, fine",
+     "type": "char",
+     "degree": 258,
+     "value": 0.003416
+    }
+   ],
+   "kcore": [
+    {
+     "id": "c_我",
+     "label": "我 wǒ (character, I/me)",
+     "type": "char",
+     "degree": 745,
+     "value": 9.0
+    },
+    {
+     "id": "c_你",
+     "label": "你 (nǐ) — you",
+     "type": "char",
+     "degree": 680,
+     "value": 9.0
+    },
+    {
+     "id": "c_的",
+     "label": "的 (de) - attributive particle",
+     "type": "char",
+     "degree": 645,
+     "value": 9.0
+    },
+    {
+     "id": "c_了",
+     "label": "了 (le) — particle indicating a change/new circumstance",
+     "type": "char",
+     "degree": 632,
+     "value": 9.0
+    },
+    {
+     "id": "c_是",
+     "label": "是 (shì) - to be",
+     "type": "char",
+     "degree": 417,
+     "value": 9.0
+    },
+    {
+     "id": "c_不",
+     "label": "不 (bù) — no, not",
+     "type": "char",
+     "degree": 376,
+     "value": 9.0
+    },
+    {
+     "id": "w_什么",
+     "label": "什么 (shénme) \"what\"",
+     "type": "word",
+     "degree": 330,
+     "value": 9.0
+    },
+    {
+     "id": "c_去",
+     "label": "去 qù (v. to go)",
+     "type": "char",
+     "degree": 301,
+     "value": 9.0
+    },
+    {
+     "id": "c_吗",
+     "label": "吗 (ma) — question particle",
+     "type": "char",
+     "degree": 263,
+     "value": 9.0
+    },
+    {
+     "id": "c_好",
+     "label": "好 (hǎo) — good, fine",
+     "type": "char",
+     "degree": 258,
+     "value": 9.0
+    }
+   ],
+   "katz": [
+    {
+     "id": "c_我",
+     "label": "我 wǒ (character, I/me)",
+     "type": "char",
+     "degree": 745,
+     "value": 0.24883
+    },
+    {
+     "id": "c_的",
+     "label": "的 (de) - attributive particle",
+     "type": "char",
+     "degree": 645,
+     "value": 0.232219
+    },
+    {
+     "id": "c_你",
+     "label": "你 (nǐ) — you",
+     "type": "char",
+     "degree": 680,
+     "value": 0.214624
+    },
+    {
+     "id": "c_了",
+     "label": "了 (le) — particle indicating a change/new circumstance",
+     "type": "char",
+     "degree": 632,
+     "value": 0.208202
+    },
+    {
+     "id": "c_是",
+     "label": "是 (shì) - to be",
+     "type": "char",
+     "degree": 417,
+     "value": 0.141285
+    },
+    {
+     "id": "c_不",
+     "label": "不 (bù) — no, not",
+     "type": "char",
+     "degree": 376,
+     "value": 0.121035
+    },
+    {
+     "id": "c_去",
+     "label": "去 qù (v. to go)",
+     "type": "char",
+     "degree": 301,
+     "value": 0.087577
+    },
+    {
+     "id": "w_什么",
+     "label": "什么 (shénme) \"what\"",
+     "type": "word",
+     "degree": 330,
+     "value": 0.082028
+    },
+    {
+     "id": "c_吗",
+     "label": "吗 (ma) — question particle",
+     "type": "char",
+     "degree": 263,
+     "value": 0.077173
+    },
+    {
+     "id": "c_好",
+     "label": "好 (hǎo) — good, fine",
+     "type": "char",
+     "degree": 258,
+     "value": 0.076521
+    }
+   ]
+  },
+  "spearman_giant_component": {
+   "degree": {
+    "degree": 1.0,
+    "closeness": 0.7723,
+    "betweenness": 0.8158,
+    "eigenvector": 0.7315,
+    "katz": 0.7652,
+    "pagerank": 0.9749,
+    "kcore": 0.9397
+   },
+   "closeness": {
+    "degree": 0.7723,
+    "closeness": 1.0,
+    "betweenness": 0.8117,
+    "eigenvector": 0.9717,
+    "katz": 0.9732,
+    "pagerank": 0.6943,
+    "kcore": 0.8309
+   },
+   "betweenness": {
+    "degree": 0.8158,
+    "closeness": 0.8117,
+    "betweenness": 1.0,
+    "eigenvector": 0.7858,
+    "katz": 0.8098,
+    "pagerank": 0.8059,
+    "kcore": 0.7924
+   },
+   "eigenvector": {
+    "degree": 0.7315,
+    "closeness": 0.9717,
+    "betweenness": 0.7858,
+    "eigenvector": 1.0,
+    "katz": 0.9969,
+    "pagerank": 0.6429,
+    "kcore": 0.8036
+   },
+   "katz": {
+    "degree": 0.7652,
+    "closeness": 0.9732,
+    "betweenness": 0.8098,
+    "eigenvector": 0.9969,
+    "katz": 1.0,
+    "pagerank": 0.681,
+    "kcore": 0.8271
+   },
+   "pagerank": {
+    "degree": 0.9749,
+    "closeness": 0.6943,
+    "betweenness": 0.8059,
+    "eigenvector": 0.6429,
+    "katz": 0.681,
+    "pagerank": 1.0,
+    "kcore": 0.8775
+   },
+   "kcore": {
+    "degree": 0.9397,
+    "closeness": 0.8309,
+    "betweenness": 0.7924,
+    "eigenvector": 0.8036,
+    "katz": 0.8271,
+    "pagerank": 0.8775,
+    "kcore": 1.0
+   }
+  },
+  "top5_by_degree_per_type": {
+   "book": [
+    {
+     "id": "book_3",
+     "label": "HSK Standard Course 3",
+     "type": "book",
+     "degree": 20
+    },
+    {
+     "id": "book_1",
+     "label": "HSK Standard Course 1",
+     "type": "book",
+     "degree": 15
+    },
+    {
+     "id": "book_2",
+     "label": "HSK Standard Course 2",
+     "type": "book",
+     "degree": 15
+    }
+   ],
+   "chapter": [
+    {
+     "id": "ch_3_15",
+     "label": "HSK 3 Lesson 15: The rest of them are all OK 其他都没什么问题",
+     "type": "chapter",
+     "degree": 170
+    },
+    {
+     "id": "ch_3_13",
+     "label": "HSK 3 Lesson 13: I walked back 我是走回来的",
+     "type": "chapter",
+     "degree": 161
+    },
+    {
+     "id": "ch_3_14",
+     "label": "HSK 3 Lesson 14: Please bring the fruit here 你把水果拿过来",
+     "type": "chapter",
+     "degree": 135
+    },
+    {
+     "id": "ch_3_19",
+     "label": "HSK 3 Lesson 19: Didn't you recognise him 你没看出来吗",
+     "type": "chapter",
+     "degree": 125
+    },
+    {
+     "id": "ch_3_20",
+     "label": "HSK 3 Lesson 20: I've been influenced by him 我被他影响了",
+     "type": "chapter",
+     "degree": 125
+    }
+   ],
+   "char": [
+    {
+     "id": "c_我",
+     "label": "我 wǒ (character, I/me)",
+     "type": "char",
+     "degree": 745
+    },
+    {
+     "id": "c_你",
+     "label": "你 (nǐ) — you",
+     "type": "char",
+     "degree": 680
+    },
+    {
+     "id": "c_的",
+     "label": "的 (de) - attributive particle",
+     "type": "char",
+     "degree": 645
+    },
+    {
+     "id": "c_了",
+     "label": "了 (le) — particle indicating a change/new circumstance",
+     "type": "char",
+     "degree": 632
+    },
+    {
+     "id": "c_是",
+     "label": "是 (shì) - to be",
+     "type": "char",
+     "degree": 417
+    }
+   ],
+   "culture": [
+    {
+     "id": "hsk_data_transcripts_level2_page_140_culture_spring_festival",
+     "label": "Culture Note: 春节 Spring Festival (Chinese New Year)",
+     "type": "culture",
+     "degree": 17
+    },
+    {
+     "id": "hsk_data_transcripts_level1_page_094_culture_chinese_names",
+     "label": "Culture: Features of Chinese People's Names",
+     "type": "culture",
+     "degree": 15
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_150_zhongguoren_guo_shengri",
+     "label": "中国人过生日吃什么 (What Chinese People Eat on Birthdays)",
+     "type": "culture",
+     "degree": 10
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_035_saying_fan_hou_baibu_zou",
+     "label": "饭后百步走，活到九十九 (A walk after dinner makes one live to 99)",
+     "type": "culture",
+     "degree": 10
+    },
+    {
+     "id": "hsk_data_transcripts_level2_page_100_chinese_tea_culture",
+     "label": "中国的茶文化 Chinese Tea Culture",
+     "type": "culture",
+     "degree": 9
+    }
+   ],
+   "grammar": [
+    {
+     "id": "hsk_data_transcripts_level1_page_127_grammar_shi_de",
+     "label": "Grammar: 是……的 structure (emphasize time/place/manner)",
+     "type": "grammar",
+     "degree": 37
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_030_grammar_simple_complement_of_direction",
+     "label": "简单趋向补语 Simple Complements of Direction (V+来/去)",
+     "type": "grammar",
+     "degree": 36
+    },
+    {
+     "id": "hsk_data_transcripts_level2_page_048_grammar_shi_de_emphasis",
+     "label": "Grammar: 是……的 Emphasizing the Agent",
+     "type": "grammar",
+     "degree": 29
+    },
+    {
+     "id": "hsk_data_transcripts_level1_page_113_zai_ne_progressive",
+     "label": "Grammar Note: 在……呢 Indicating Action in Progress",
+     "type": "grammar",
+     "degree": 28
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_100_note_bijiaoju2",
+     "label": "Grammar Note: 比较句2 A比B+Adj+一点儿/一些/得多/多了 (degree of difference)",
+     "type": "grammar",
+     "degree": 25
+    }
+   ],
+   "phonetics": [
+    {
+     "id": "hsk_data_transcripts_level1_page_115_pinyin_tone_2nd_syllable",
+     "label": "Pinyin: Trisyllabic Tone Collocation (2) — Starting with Second Tone",
+     "type": "phonetics",
+     "degree": 19
+    },
+    {
+     "id": "hsk_data_transcripts_level1_page_122_pinyin_tone_3rd_syllable",
+     "label": "Pinyin: Trisyllabic Tone Collocation (3) — Starting with Third Tone",
+     "type": "phonetics",
+     "degree": 18
+    },
+    {
+     "id": "hsk_data_transcripts_level1_page_107_pinyin_tone_1st_syllable",
+     "label": "Pinyin: Trisyllabic Tone Collocation (1) — Starting with First Tone",
+     "type": "phonetics",
+     "degree": 18
+    },
+    {
+     "id": "hsk_data_transcripts_level1_page_129_pinyin_tone_trisyllabic",
+     "label": "Pinyin: Tone Collocation in Trisyllabic Words (4) - fourth-tone start",
+     "type": "phonetics",
+     "degree": 17
+    },
+    {
+     "id": "hsk_data_transcripts_level1_page_022_initials_finals_set2",
+     "label": "Initials and Finals of Chinese Pinyin (2)",
+     "type": "phonetics",
+     "degree": 16
+    }
+   ],
+   "radical": [
+    {
+     "id": "hsk_data_transcripts_level1_page_019_strokes_set1",
+     "label": "Strokes of Chinese Characters (1): 一, 丨, 丿, 丶, ㇏",
+     "type": "radical",
+     "degree": 12
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_165_character_note_pictophonetic3",
+     "label": "Character note: 形声字3 (Pictophonetic Characters 3)",
+     "type": "radical",
+     "degree": 11
+    },
+    {
+     "id": "s59_huiyizi",
+     "label": "会意字 (Associative Compound Characters)",
+     "type": "radical",
+     "degree": 10
+    },
+    {
+     "id": "hsk_data_transcripts_level1_page_082_hanzi_structure_half_enclosure",
+     "label": "Hanzi Structure (4): Half-enclosure",
+     "type": "radical",
+     "degree": 9
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_024_character_note_zhishizi",
+     "label": "Character Note: Self-Explanatory Characters (指事字)",
+     "type": "radical",
+     "degree": 8
+    }
+   ],
+   "sentence": [
+    {
+     "id": "hsk_data_transcripts_level2_page_006_sent1",
+     "label": "内容的多样性和丰富性，一般来说，一个主题确定后，通过接触和这个主题相关的多个方面的学习内容，加速学生对新内容的内化和理解，进而深入探究，培养学生的创造能力。\"教程\"为了联系学生的实际，开阔学生的视野，从四级分册开始以主题引领，每个主题下又分为若干小主题，主题之间相互联系形成有机的知识网络，使之牢固地镶嵌在学生的记忆深处，不易遗忘。 (Nèiróng de duōyàngxìng hé fēngfùxìng, yībān lái shuō, yī gè zhǔtí quèdìng hòu, tōngguò jiēchù hé zhège zhǔtí xiāngguān de duō gè fāngmiàn de xuéxí nèiróng, jiāsù xuéshēng duì xīn nèiróng de nèihuà hé lǐjiě, jìn'ér shēnrù tànjiū, péiyǎng xuéshēng de chuàngzào nénglì. \"Jiàochéng\" wèile liánxì xuéshēng de shíjì, kāikuò xuéshēng de shìyě, cóng sì jí fēncè kāishǐ yǐ zhǔtí yǐnlǐng, měi gè zhǔtí xià yòu fēnwéi ruògān xiǎo zhǔtí, zhǔtí zhījiān xiānghù liánxì xíngchéng yǒujī de zhīshì wǎngluò, shǐ zhī láogù de xiāngqiàn zài xuéshēng de jìyì shēnchù, bùyì yíwàng.) - Once a topic is fixed, exposure to multiple aspects of learning content related to it accelerates students' internalization and understanding of new content, leads to deeper exploration, and cultivates creative ability; starting from the fourth-level volumes the Course is led by themes, each divided into sub-themes, interconnected into an organic network of knowledge firmly embedded in students' memory.",
+     "type": "sentence",
+     "degree": 100
+    },
+    {
+     "id": "hsk_data_transcripts_level2_page_006_sent3",
+     "label": "这种设计遵循汉语国际教育的理念，注重教材的普适性、应用性和实用性，海内外教学机构可根据学时建议来设计每册书完成的年限。比如，一级的《教程1》规定用34学时完成，如果国内周课时是8课时的话，大概一个月左右就能学完；在海外如果一周是4课时的话，就需要两个月的时间能学完。以此类推。一般来说，学完《教程1》就能通过一级考试，同样学完《教程2》就能通过二级考试，等等。 (Zhè zhǒng shèjì zūnxún Hànyǔ guójì jiàoyù de lǐniàn, zhùzhòng jiàocái de pǔshìxìng, yìngyòngxìng hé shíyòngxìng, hǎinèiwài jiàoxué jīgòu kě gēnjù xuéshí jiànyì lái shèjì měi cè shū wánchéng de niánxiàn. Bǐrú, yī jí de \"Jiàochéng 1\" guīdìng yòng 34 xuéshí wánchéng, rúguǒ guónèi zhōu kèshí shì 8 kèshí dehuà, dàgài yī gè yuè zuǒyòu jiù néng xuéwán; zài hǎiwài rúguǒ yī zhōu shì 4 kèshí dehuà, jiù xūyào liǎng gè yuè de shíjiān néng xuéwán. Yǐ cǐ lèituī. Yībān lái shuō, xuéwán \"Jiàochéng 1\" jiù néng tōngguò yī jí kǎoshì, tóngyàng xuéwán \"Jiàochéng 2\" jiù néng tōngguò èr jí kǎoshì, děngděng.) - The design follows the philosophy of international Chinese education; institutions can set the completion time per volume from the recommended class hours. For example, Course 1 is designed for 34 class hours: about one month at 8 hours per week domestically, two months at 4 hours per week abroad. Generally, finishing Course 1 lets one pass the Level 1 exam, finishing Course 2 the Level 2 exam, and so on.",
+     "type": "sentence",
+     "degree": 80
+    },
+    {
+     "id": "hsk_data_transcripts_level2_page_006_sent2",
+     "label": "汉语水平考试（HSK）共分六个等级，\"教程\"编教人员仔细研读了\"大纲\"和出题指南，并对大量真题进行了统计、分析。根据真题统计结果归纳出每册的重点、难点、语言点、话题、功能、场景等，在遵循HSK大纲词汇要求的前提下，系统设计了各级别的范围、课时等，具体安排如下： (Hànyǔ Shuǐpíng Kǎoshì (HSK) gòng fēn liù gè děngjí, \"jiàochéng\" biānjiào rényuán zǐxì yándúle \"dàgāng\" hé chūtí zhǐnán, bìng duì dàliàng zhēntí jìnxíngle tǒngjì, fēnxī. Gēnjù zhēntí tǒngjì jiéguǒ guīnà chū měi cè de zhòngdiǎn, nándiǎn, yǔyándiǎn, huàtí, gōngnéng, chǎngjǐng děng, zài zūnxún HSK dàgāng cíhuì yāoqiú de qiántí xià, xìtǒng shèjìle gè jíbié de fànwéi, kèshí děng, jùtǐ ānpái rúxià:) - The HSK is divided into six levels; the editors studied the Syllabus and question-writing guidelines and statistically analysed many real exam questions, summarising each volume's key points, difficulties, language points, topics, functions and scenarios, and systematically designed the scope and class hours of each level within the HSK Syllabus vocabulary requirements, as follows:",
+     "type": "sentence",
+     "degree": 75
+    },
+    {
+     "id": "hsk_data_transcripts_level2_page_006_sent4",
+     "label": "为了使学习者适应HSK的考试题型，教材的各级练习册设计的练习题型均与HSK考试题型吻合，从练习的顺序到练习的结构等都与考题试卷保持一致，练习的内容以本课的内容为主，目的是学习者学完教材就能适应HSK考试，不需额外熟悉考试形式。 (Wèile shǐ xuéxízhě shìyìng HSK de kǎoshì tíxíng, jiàocái de gè jí liànxí cè shèjì de liànxí tíxíng jūn yǔ HSK kǎoshì tíxíng wěnhé, cóng liànxí de shùnxù dào liànxí de jiégòu děng dōu yǔ kǎotí shìjuàn bǎochí yīzhì, liànxí de nèiróng yǐ běn kè de nèiróng wéi zhǔ, mùdì shì xuéxízhě xuéwán jiàocái jiù néng shìyìng HSK kǎoshì, bù xū éwài shúxī kǎoshì xíngshì.) - So that learners adapt to the HSK question types, the workbook exercises at every level match the HSK question types in order and structure, with content based mainly on the lesson, so learners can adapt to the HSK exam after finishing the textbook without extra familiarization with the exam format.",
+     "type": "sentence",
+     "degree": 58
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_061_sent1",
+     "label": "在中国，除了跑步、去健身房、打球等现代运动外，一些传统运动也被保留下来，成为人们日常锻炼中的一部分，比如：放风筝、踢毽子、抖空竹、打太极拳等。 (Zài Zhōngguó, chúle pǎobù, qù jiànshēnfáng, dǎ qiú děng xiàndài yùndòng wài, yìxiē chuántǒng yùndòng yě bèi bǎoliú xiàlái, chéngwéi rénmen rìcháng duànliàn zhōng de yí bùfen, bǐrú: fàng fēngzheng, tī jiànzi, dǒu kōngzhú, dǎ tàijíquán děng.) - In China, apart from modern sports like jogging, going to the gym and playing ball games, some traditional sports are preserved as part of people's daily exercise, such as flying kites, kicking shuttlecocks, playing diabolo and practising taijiquan.",
+     "type": "sentence",
+     "degree": 52
+    }
+   ],
+   "text": [
+    {
+     "id": "hsk_data_transcripts_level3_page_185_lesson20_texts",
+     "label": "Lesson 20 Texts: 我被他影响了 (I've Been Influenced by Him)",
+     "type": "text",
+     "degree": 25
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_176_lesson19_texts",
+     "label": "Lesson 19 Texts: 你没看出来吗 (Didn't You Recognize Him?)",
+     "type": "text",
+     "degree": 25
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_081_text3_zaikafeiting",
+     "label": "Text 3: 在咖啡厅 (In a Coffee House)",
+     "type": "text",
+     "degree": 17
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_099_text4_zaikanfangzi",
+     "label": "Text 4: 在看房子 (Seeing an Apartment)",
+     "type": "text",
+     "degree": 15
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_018_dialogue2_at_home",
+     "label": "Text 2: At Home (在家)",
+     "type": "text",
+     "degree": 14
+    }
+   ],
+   "word": [
+    {
+     "id": "w_什么",
+     "label": "什么 (shénme) \"what\"",
+     "type": "word",
+     "degree": 330
+    },
+    {
+     "id": "w_怎么",
+     "label": "怎么 zěnme (pron. how)",
+     "type": "word",
+     "degree": 174
+    },
+    {
+     "id": "w_我们",
+     "label": "我们 (wǒmen) - we, us",
+     "type": "word",
+     "degree": 153
+    },
+    {
+     "id": "w_今天",
+     "label": "今天 jīntiān (n. today)",
+     "type": "word",
+     "degree": 118
+    },
+    {
+     "id": "w_喜欢",
+     "label": "喜欢 xǐhuan (to like, to be fond of)",
+     "type": "word",
+     "degree": 102
+    }
+   ]
+  },
+  "kcore": {
+   "max_core": 9,
+   "main_core_size": 1398,
+   "shell_sizes": [
+    [
+     1,
+     443
+    ],
+    [
+     2,
+     321
+    ],
+    [
+     3,
+     261
+    ],
+    [
+     4,
+     325
+    ],
+    [
+     5,
+     406
+    ],
+    [
+     6,
+     572
+    ],
+    [
+     7,
+     756
+    ],
+    [
+     8,
+     897
+    ],
+    [
+     9,
+     1398
+    ]
+   ],
+   "main_core_type_counts": {
+    "book": 3,
+    "chapter": 50,
+    "char": 192,
+    "culture": 1,
+    "grammar": 45,
+    "radical": 1,
+    "sentence": 931,
+    "text": 4,
+    "word": 171
+   },
+   "tie_break": "k-core ranking ties are broken by degree, then node index"
+  },
+  "eigenvalue_lambda1": 42.1208,
+  "katz_alpha": 0.02018,
+  "note": "closeness, eigenvector, Katz and betweenness are computed on the giant component; Spearman correlations use its nodes; closeness is exact, betweenness uses 300 sampled sources (seed 42); PageRank damping 0.85; Katz alpha = 0.85/lambda1"
+ },
+ "communities": {
+  "louvain_fine": {
+   "count": 32,
+   "Q_weighted_from_file": 0.4703,
+   "Q_unweighted": 0.383,
+   "sizes": [
+    442,
+    261,
+    243,
+    235,
+    230,
+    227,
+    220,
+    219,
+    219,
+    209,
+    208,
+    186,
+    178,
+    178,
+    173,
+    171,
+    170,
+    160,
+    118,
+    116,
+    115,
+    112,
+    112,
+    112,
+    104,
+    101,
+    101,
+    101,
+    100,
+    91,
+    89,
+    78
+   ],
+   "n_strong": 0,
+   "n_weak": 2,
+   "n_neither": 30,
+   "louvain_rerun_unweighted": {
+    "count": 22,
+    "Q": 0.4011,
+    "seed": 42
+   }
+  },
+  "major": {
+   "count": 8,
+   "Q_weighted_from_file": 0.4359,
+   "Q_unweighted": 0.3575,
+   "communities": [
+    {
+     "community": 0,
+     "size": 911,
+     "internal_edges": 2745,
+     "boundary_edges": 4849,
+     "share_edges_inside": 0.3615,
+     "mean_internal_degree": 6.0263,
+     "mean_external_degree": 5.3227,
+     "frac_nodes_kin_gt_kout": 0.5368,
+     "status": "weak",
+     "composition_by_type": {
+      "book": 0,
+      "chapter": 9,
+      "char": 171,
+      "culture": 16,
+      "grammar": 48,
+      "phonetics": 20,
+      "radical": 27,
+      "sentence": 459,
+      "text": 34,
+      "word": 127
+     },
+     "composition_fraction": {
+      "book": 0.0,
+      "chapter": 0.0099,
+      "char": 0.1877,
+      "culture": 0.0176,
+      "grammar": 0.0527,
+      "phonetics": 0.022,
+      "radical": 0.0296,
+      "sentence": 0.5038,
+      "text": 0.0373,
+      "word": 0.1394
+     },
+     "levels": {
+      "level_1": 160,
+      "level_2": 107,
+      "level_3": 581,
+      "multi_level_nodes": 30,
+      "no_level_nodes": 98
+     },
+     "levels_fraction_of_levelled": {
+      "level_1": 0.1968,
+      "level_2": 0.1316,
+      "level_3": 0.7146
+     },
+     "top_nodes": [
+      {
+       "id": "c_个",
+       "label": "个 gè (m. general measure word)",
+       "type": "char",
+       "degree": 244
+      },
+      {
+       "id": "c_这",
+       "label": "这 zhè (pron. this)",
+       "type": "char",
+       "degree": 156
+      },
+      {
+       "id": "ch_3_14",
+       "label": "HSK 3 Lesson 14: Please bring the fruit here 你把水果拿过来",
+       "type": "chapter",
+       "degree": 135
+      },
+      {
+       "id": "c_那",
+       "label": "那 nà (pron. that)",
+       "type": "char",
+       "degree": 132
+      },
+      {
+       "id": "ch_3_19",
+       "label": "HSK 3 Lesson 19: Didn't you recognise him 你没看出来吗",
+       "type": "chapter",
+       "degree": 125
+      }
+     ],
+     "top_chapters": [
+      {
+       "chapter": "HSK 3 Lesson 3: There are plenty of drinks on the table 桌子上放着很多饮料",
+       "nodes": 96
+      },
+      {
+       "chapter": "HSK 3 Lesson 2: When will he come back 他什么时候回来",
+       "nodes": 95
+      },
+      {
+       "chapter": "HSK 3 Lesson 14: Please bring the fruit here 你把水果拿过来",
+       "nodes": 84
+      }
+     ]
+    },
+    {
+     "community": 1,
+     "size": 793,
+     "internal_edges": 2492,
+     "boundary_edges": 4809,
+     "share_edges_inside": 0.3413,
+     "mean_internal_degree": 6.285,
+     "mean_external_degree": 6.0643,
+     "frac_nodes_kin_gt_kout": 0.5233,
+     "status": "weak",
+     "composition_by_type": {
+      "book": 0,
+      "chapter": 7,
+      "char": 102,
+      "culture": 5,
+      "grammar": 47,
+      "phonetics": 39,
+      "radical": 8,
+      "sentence": 467,
+      "text": 26,
+      "word": 92
+     },
+     "composition_fraction": {
+      "book": 0.0,
+      "chapter": 0.0088,
+      "char": 0.1286,
+      "culture": 0.0063,
+      "grammar": 0.0593,
+      "phonetics": 0.0492,
+      "radical": 0.0101,
+      "sentence": 0.5889,
+      "text": 0.0328,
+      "word": 0.116
+     },
+     "levels": {
+      "level_1": 263,
+      "level_2": 120,
+      "level_3": 400,
+      "multi_level_nodes": 28,
+      "no_level_nodes": 45
+     },
+     "levels_fraction_of_levelled": {
+      "level_1": 0.3516,
+      "level_2": 0.1604,
+      "level_3": 0.5348
+     },
+     "top_nodes": [
+      {
+       "id": "c_不",
+       "label": "不 (bù) — no, not",
+       "type": "char",
+       "degree": 376
+      },
+      {
+       "id": "c_好",
+       "label": "好 (hǎo) — good, fine",
+       "type": "char",
+       "degree": 258
+      },
+      {
+       "id": "w_怎么",
+       "label": "怎么 zěnme (pron. how)",
+       "type": "word",
+       "degree": 174
+      },
+      {
+       "id": "c_很",
+       "label": "很 hěn (adv. very, quite)",
+       "type": "char",
+       "degree": 144
+      },
+      {
+       "id": "c_做",
+       "label": "做 zuò (v. to make, to produce)",
+       "type": "char",
+       "degree": 141
+      }
+     ],
+     "top_chapters": [
+      {
+       "chapter": "HSK 3 Lesson 7: I've known her for five years 我跟她都认识五年了",
+       "nodes": 87
+      },
+      {
+       "chapter": "HSK 1 Lesson 12: What will the weather be like tomorrow 明天天气怎么样",
+       "nodes": 82
+      },
+      {
+       "chapter": "HSK 3 Lesson 1: What's your plan for the weekend 周末你有什么打算",
+       "nodes": 74
+      }
+     ]
+    },
+    {
+     "community": 2,
+     "size": 787,
+     "internal_edges": 2215,
+     "boundary_edges": 4463,
+     "share_edges_inside": 0.3317,
+     "mean_internal_degree": 5.629,
+     "mean_external_degree": 5.6709,
+     "frac_nodes_kin_gt_kout": 0.54,
+     "status": "neither",
+     "composition_by_type": {
+      "book": 2,
+      "chapter": 9,
+      "char": 129,
+      "culture": 21,
+      "grammar": 52,
+      "phonetics": 49,
+      "radical": 28,
+      "sentence": 383,
+      "text": 33,
+      "word": 81
+     },
+     "composition_fraction": {
+      "book": 0.0025,
+      "chapter": 0.0114,
+      "char": 0.1639,
+      "culture": 0.0267,
+      "grammar": 0.0661,
+      "phonetics": 0.0623,
+      "radical": 0.0356,
+      "sentence": 0.4867,
+      "text": 0.0419,
+      "word": 0.1029
+     },
+     "levels": {
+      "level_1": 162,
+      "level_2": 272,
+      "level_3": 299,
+      "multi_level_nodes": 21,
+      "no_level_nodes": 76
+     },
+     "levels_fraction_of_levelled": {
+      "level_1": 0.2278,
+      "level_2": 0.3826,
+      "level_3": 0.4205
+     },
+     "top_nodes": [
+      {
+       "id": "c_了",
+       "label": "了 (le) — particle indicating a change/new circumstance",
+       "type": "char",
+       "degree": 632
+      },
+      {
+       "id": "c_有",
+       "label": "有 (yǒu) \"to have, there be\"",
+       "type": "char",
+       "degree": 196
+      },
+      {
+       "id": "c_多",
+       "label": "多 (duō) — adverb indicating degree/extent",
+       "type": "char",
+       "degree": 164
+      },
+      {
+       "id": "c_要",
+       "label": "要 (yào) - aux. to want to",
+       "type": "char",
+       "degree": 144
+      },
+      {
+       "id": "ch_3_04",
+       "label": "HSK 3 Lesson 4: She always smiles when talking to customers 她总是笑着跟客人说话",
+       "type": "chapter",
+       "degree": 109
+      }
+     ],
+     "top_chapters": [
+      {
+       "chapter": "HSK 1 Lesson 5: Her daughter is 20 years old this year 她女儿今年二十岁",
+       "nodes": 83
+      },
+      {
+       "chapter": "HSK 3 Lesson 4: She always smiles when talking to customers 她总是笑着跟客人说话",
+       "nodes": 71
+      },
+      {
+       "chapter": "HSK 3 Lesson 18: I believe they'll agree 我相信他们会同意的",
+       "nodes": 71
+      }
+     ]
+    },
+    {
+     "community": 3,
+     "size": 743,
+     "internal_edges": 1938,
+     "boundary_edges": 3988,
+     "share_edges_inside": 0.327,
+     "mean_internal_degree": 5.2167,
+     "mean_external_degree": 5.3674,
+     "frac_nodes_kin_gt_kout": 0.5357,
+     "status": "neither",
+     "composition_by_type": {
+      "book": 1,
+      "chapter": 6,
+      "char": 222,
+      "culture": 10,
+      "grammar": 41,
+      "phonetics": 2,
+      "radical": 8,
+      "sentence": 328,
+      "text": 26,
+      "word": 99
+     },
+     "composition_fraction": {
+      "book": 0.0013,
+      "chapter": 0.0081,
+      "char": 0.2988,
+      "culture": 0.0135,
+      "grammar": 0.0552,
+      "phonetics": 0.0027,
+      "radical": 0.0108,
+      "sentence": 0.4415,
+      "text": 0.035,
+      "word": 0.1332
+     },
+     "levels": {
+      "level_1": 19,
+      "level_2": 247,
+      "level_3": 325,
+      "multi_level_nodes": 17,
+      "no_level_nodes": 171
+     },
+     "levels_fraction_of_levelled": {
+      "level_1": 0.0332,
+      "level_2": 0.4318,
+      "level_3": 0.5682
+     },
+     "top_nodes": [
+      {
+       "id": "ch_3_15",
+       "label": "HSK 3 Lesson 15: The rest of them are all OK 其他都没什么问题",
+       "type": "chapter",
+       "degree": 170
+      },
+      {
+       "id": "c_就",
+       "label": "就 (jiù) - adverb of conclusion/resolution",
+       "type": "char",
+       "degree": 148
+      },
+      {
+       "id": "c_吧",
+       "label": "吧 (ba) - suggestion particle",
+       "type": "char",
+       "degree": 139
+      },
+      {
+       "id": "c_没",
+       "label": "没 (méi) - there is not (adv., Lesson 10)",
+       "type": "char",
+       "degree": 125
+      },
+      {
+       "id": "ch_3_12",
+       "label": "HSK 3 Lesson 12: Leave the important items with me 把重要的东西放在我这儿吧",
+       "type": "chapter",
+       "degree": 115
+      }
+     ],
+     "top_chapters": [
+      {
+       "chapter": "HSK 3 Lesson 15: The rest of them are all OK 其他都没什么问题",
+       "nodes": 103
+      },
+      {
+       "chapter": "HSK 3 Lesson 12: Leave the important items with me 把重要的东西放在我这儿吧",
+       "nodes": 72
+      },
+      {
+       "chapter": "HSK 3 Lesson 11: Don't forget to turn off the air conditioner 别忘了把空调关了",
+       "nodes": 71
+      }
+     ]
+    },
+    {
+     "community": 4,
+     "size": 723,
+     "internal_edges": 2153,
+     "boundary_edges": 4551,
+     "share_edges_inside": 0.3212,
+     "mean_internal_degree": 5.9557,
+     "mean_external_degree": 6.2946,
+     "frac_nodes_kin_gt_kout": 0.4882,
+     "status": "neither",
+     "composition_by_type": {
+      "book": 0,
+      "chapter": 6,
+      "char": 106,
+      "culture": 7,
+      "grammar": 37,
+      "phonetics": 7,
+      "radical": 10,
+      "sentence": 421,
+      "text": 21,
+      "word": 108
+     },
+     "composition_fraction": {
+      "book": 0.0,
+      "chapter": 0.0083,
+      "char": 0.1466,
+      "culture": 0.0097,
+      "grammar": 0.0512,
+      "phonetics": 0.0097,
+      "radical": 0.0138,
+      "sentence": 0.5823,
+      "text": 0.029,
+      "word": 0.1494
+     },
+     "levels": {
+      "level_1": 213,
+      "level_2": 138,
+      "level_3": 339,
+      "multi_level_nodes": 28,
+      "no_level_nodes": 63
+     },
+     "levels_fraction_of_levelled": {
+      "level_1": 0.3227,
+      "level_2": 0.2091,
+      "level_3": 0.5136
+     },
+     "top_nodes": [
+      {
+       "id": "w_什么",
+       "label": "什么 (shénme) \"what\"",
+       "type": "word",
+       "degree": 330
+      },
+      {
+       "id": "c_去",
+       "label": "去 qù (v. to go)",
+       "type": "char",
+       "degree": 301
+      },
+      {
+       "id": "c_一",
+       "label": "一 (yī) - one (num., Lesson 5 (notes))",
+       "type": "char",
+       "degree": 224
+      },
+      {
+       "id": "ch_3_13",
+       "label": "HSK 3 Lesson 13: I walked back 我是走回来的",
+       "type": "chapter",
+       "degree": 161
+      },
+      {
+       "id": "c_看",
+       "label": "看 (kàn) — to look (hand over eye)",
+       "type": "char",
+       "degree": 143
+      }
+     ],
+     "top_chapters": [
+      {
+       "chapter": "HSK 3 Lesson 13: I walked back 我是走回来的",
+       "nodes": 88
+      },
+      {
+       "chapter": "HSK 3 Lesson 8: I'll go wherever you go 你去哪儿我就去哪儿",
+       "nodes": 75
+      },
+      {
+       "chapter": "HSK 1 Lesson 7: What's the date today 今天几号",
+       "nodes": 73
+      }
+     ]
+    },
+    {
+     "community": 5,
+     "size": 557,
+     "internal_edges": 1439,
+     "boundary_edges": 2955,
+     "share_edges_inside": 0.3275,
+     "mean_internal_degree": 5.167,
+     "mean_external_degree": 5.3052,
+     "frac_nodes_kin_gt_kout": 0.4039,
+     "status": "neither",
+     "composition_by_type": {
+      "book": 0,
+      "chapter": 6,
+      "char": 85,
+      "culture": 6,
+      "grammar": 28,
+      "phonetics": 7,
+      "radical": 15,
+      "sentence": 317,
+      "text": 24,
+      "word": 69
+     },
+     "composition_fraction": {
+      "book": 0.0,
+      "chapter": 0.0108,
+      "char": 0.1526,
+      "culture": 0.0108,
+      "grammar": 0.0503,
+      "phonetics": 0.0126,
+      "radical": 0.0269,
+      "sentence": 0.5691,
+      "text": 0.0431,
+      "word": 0.1239
+     },
+     "levels": {
+      "level_1": 15,
+      "level_2": 240,
+      "level_3": 285,
+      "multi_level_nodes": 21,
+      "no_level_nodes": 38
+     },
+     "levels_fraction_of_levelled": {
+      "level_1": 0.0289,
+      "level_2": 0.4624,
+      "level_3": 0.5491
+     },
+     "top_nodes": [
+      {
+       "id": "ch_3_17",
+       "label": "HSK 3 Lesson 17: Everybody is able to cure your \"disease\" 谁都有办法看好你的\"病\"",
+       "type": "chapter",
+       "degree": 122
+      },
+      {
+       "id": "c_得",
+       "label": "得 de (particle introducing a complement of result/degree)",
+       "type": "char",
+       "degree": 120
+      },
+      {
+       "id": "ch_3_16",
+       "label": "HSK 3 Lesson 16: I am so tired that I want to do nothing but sleep after work 我现在累得下了班就想睡觉",
+       "type": "chapter",
+       "degree": 109
+      },
+      {
+       "id": "ch_3_10",
+       "label": "HSK 3 Lesson 10: Maths is much harder than history 数学比历史难多了",
+       "type": "chapter",
+       "degree": 101
+      },
+      {
+       "id": "ch_2_12",
+       "label": "HSK 2 Lesson 12: You wear too little 你穿得太少了",
+       "type": "chapter",
+       "degree": 94
+      }
+     ],
+     "top_chapters": [
+      {
+       "chapter": "HSK 3 Lesson 16: I am so tired that I want to do nothing but sleep after work 我现在累得下了班就想睡觉",
+       "nodes": 80
+      },
+      {
+       "chapter": "HSK 3 Lesson 17: Everybody is able to cure your \"disease\" 谁都有办法看好你的\"病\"",
+       "nodes": 78
+      },
+      {
+       "chapter": "HSK 3 Lesson 10: Maths is much harder than history 数学比历史难多了",
+       "nodes": 73
+      }
+     ]
+    },
+    {
+     "community": 6,
+     "size": 442,
+     "internal_edges": 1497,
+     "boundary_edges": 4686,
+     "share_edges_inside": 0.2421,
+     "mean_internal_degree": 6.7738,
+     "mean_external_degree": 10.6018,
+     "frac_nodes_kin_gt_kout": 0.6448,
+     "status": "neither",
+     "composition_by_type": {
+      "book": 0,
+      "chapter": 3,
+      "char": 63,
+      "culture": 6,
+      "grammar": 30,
+      "phonetics": 50,
+      "radical": 12,
+      "sentence": 234,
+      "text": 11,
+      "word": 33
+     },
+     "composition_fraction": {
+      "book": 0.0,
+      "chapter": 0.0068,
+      "char": 0.1425,
+      "culture": 0.0136,
+      "grammar": 0.0679,
+      "phonetics": 0.1131,
+      "radical": 0.0271,
+      "sentence": 0.5294,
+      "text": 0.0249,
+      "word": 0.0747
+     },
+     "levels": {
+      "level_1": 292,
+      "level_2": 48,
+      "level_3": 77,
+      "multi_level_nodes": 13,
+      "no_level_nodes": 38
+     },
+     "levels_fraction_of_levelled": {
+      "level_1": 0.7228,
+      "level_2": 0.1188,
+      "level_3": 0.1906
+     },
+     "top_nodes": [
+      {
+       "id": "c_我",
+       "label": "我 wǒ (character, I/me)",
+       "type": "char",
+       "degree": 745
+      },
+      {
+       "id": "c_你",
+       "label": "你 (nǐ) — you",
+       "type": "char",
+       "degree": 680
+      },
+      {
+       "id": "c_的",
+       "label": "的 (de) - attributive particle",
+       "type": "char",
+       "degree": 645
+      },
+      {
+       "id": "c_是",
+       "label": "是 (shì) - to be",
+       "type": "char",
+       "degree": 417
+      },
+      {
+       "id": "c_吗",
+       "label": "吗 (ma) — question particle",
+       "type": "char",
+       "degree": 263
+      }
+     ],
+     "top_chapters": [
+      {
+       "chapter": "HSK 1 Lesson 4: She is my Chinese teacher 她是我的汉语老师",
+       "nodes": 82
+      },
+      {
+       "chapter": "HSK 1 Lesson 15: I came here by air 我是坐飞机来的",
+       "nodes": 71
+      },
+      {
+       "chapter": "HSK 1 Lesson 3: What's your name 你叫什么名字",
+       "nodes": 71
+      }
+     ]
+    },
+    {
+     "community": 7,
+     "size": 423,
+     "internal_edges": 1190,
+     "boundary_edges": 2513,
+     "share_edges_inside": 0.3214,
+     "mean_internal_degree": 5.6265,
+     "mean_external_degree": 5.9409,
+     "frac_nodes_kin_gt_kout": 0.5012,
+     "status": "neither",
+     "composition_by_type": {
+      "book": 0,
+      "chapter": 4,
+      "char": 54,
+      "culture": 2,
+      "grammar": 28,
+      "phonetics": 23,
+      "radical": 14,
+      "sentence": 241,
+      "text": 15,
+      "word": 42
+     },
+     "composition_fraction": {
+      "book": 0.0,
+      "chapter": 0.0095,
+      "char": 0.1277,
+      "culture": 0.0047,
+      "grammar": 0.0662,
+      "phonetics": 0.0544,
+      "radical": 0.0331,
+      "sentence": 0.5697,
+      "text": 0.0355,
+      "word": 0.0993
+     },
+     "levels": {
+      "level_1": 177,
+      "level_2": 184,
+      "level_3": 65,
+      "multi_level_nodes": 25,
+      "no_level_nodes": 25
+     },
+     "levels_fraction_of_levelled": {
+      "level_1": 0.4447,
+      "level_2": 0.4623,
+      "level_3": 0.1633
+     },
+     "top_nodes": [
+      {
+       "id": "c_在",
+       "label": "在 (zài) verb - to be in/on/at",
+       "type": "char",
+       "degree": 241
+      },
+      {
+       "id": "c_呢",
+       "label": "呢 (ne) — question particle",
+       "type": "char",
+       "degree": 119
+      },
+      {
+       "id": "w_喜欢",
+       "label": "喜欢 xǐhuan (to like, to be fond of)",
+       "type": "word",
+       "degree": 102
+      },
+      {
+       "id": "ch_2_04",
+       "label": "HSK 2 Lesson 4: He recommended me for this job 这个工作是他帮我介绍的",
+       "type": "chapter",
+       "degree": 99
+      },
+      {
+       "id": "ch_1_13",
+       "label": "HSK 1 Lesson 13: He is learning to cook Chinese food 他在学做中国菜呢",
+       "type": "chapter",
+       "degree": 96
+      }
+     ],
+     "top_chapters": [
+      {
+       "chapter": "HSK 1 Lesson 13: He is learning to cook Chinese food 他在学做中国菜呢",
+       "nodes": 75
+      },
+      {
+       "chapter": "HSK 2 Lesson 4: He recommended me for this job 这个工作是他帮我介绍的",
+       "nodes": 67
+      },
+      {
+       "chapter": "HSK 2 Lesson 10: Stop looking for your cell phone; it's on the desk 别找了，手机在桌子上呢",
+       "nodes": 62
+      }
+     ]
+    }
+   ],
+   "n_strong": 0,
+   "n_weak": 2
+  },
+  "nmi": {
+   "chapter_coverage_nodes": 4587,
+   "chapter_coverage_by_type": {
+    "char": 261,
+    "culture": 73,
+    "grammar": 311,
+    "phonetics": 197,
+    "radical": 107,
+    "sentence": 2845,
+    "text": 190,
+    "word": 603
+   },
+   "n_chapters": 50,
+   "major_vs_chapter": 0.3885,
+   "fine_vs_chapter": 0.6041,
+   "level_single_nodes": 4642,
+   "major_vs_level": 0.098,
+   "fine_vs_level": 0.1872,
+   "major_vs_level_minlevel": 0.0896,
+   "fine_vs_level_minlevel": 0.1759,
+   "note": "NMI = 2I/(H1+H2). Chapter of a node = chapter node with the largest summed link weight (nodes without a chapter link, chapter and book nodes are excluded); level NMI uses nodes with exactly one HSK level (minlevel variant: lowest level of every levelled node). Louvain saw the chapter links, so chapter NMI is partly built in"
+  },
+  "definitions": "strong: k_in > k_out for every node; weak: sum k_in > sum k_out over the community (lecture 6)"
+ },
+ "overlap": {
+  "char": {
+   "n": 932,
+   "n_with_any_chapter": 626,
+   "mean_chapters": 4.4109,
+   "median_chapters": 1.0,
+   "max_chapters": 50,
+   "mean_levels": 1.1009,
+   "frac_ge2_chapters": 0.3927,
+   "frac_ge2_levels": 0.2897,
+   "frac_all3_levels": 0.1395,
+   "frac_ge2_chapters_among_placed": 0.5847,
+   "frac_ge2_levels_among_placed": 0.4313,
+   "frac_ge2_levels_from_lvs_field": 0.0912,
+   "top15_most_widely_used": [
+    {
+     "id": "c_你",
+     "label": "你 (nǐ) — you",
+     "type": "char",
+     "degree": 680,
+     "n_chapters": 50,
+     "n_levels": 3,
+     "n_sentences": 670
+    },
+    {
+     "id": "c_我",
+     "label": "我 wǒ (character, I/me)",
+     "type": "char",
+     "degree": 745,
+     "n_chapters": 49,
+     "n_levels": 3,
+     "n_sentences": 737
+    },
+    {
+     "id": "c_吗",
+     "label": "吗 (ma) — question particle",
+     "type": "char",
+     "degree": 263,
+     "n_chapters": 46,
+     "n_levels": 3,
+     "n_sentences": 261
+    },
+    {
+     "id": "c_的",
+     "label": "的 (de) - attributive particle",
+     "type": "char",
+     "degree": 645,
+     "n_chapters": 45,
+     "n_levels": 3,
+     "n_sentences": 643
+    },
+    {
+     "id": "c_是",
+     "label": "是 (shì) - to be",
+     "type": "char",
+     "degree": 417,
+     "n_chapters": 44,
+     "n_levels": 3,
+     "n_sentences": 410
+    },
+    {
+     "id": "c_不",
+     "label": "不 (bù) — no, not",
+     "type": "char",
+     "degree": 376,
+     "n_chapters": 44,
+     "n_levels": 3,
+     "n_sentences": 365
+    },
+    {
+     "id": "c_他",
+     "label": "他 (tā) \"he, him\"",
+     "type": "char",
+     "degree": 194,
+     "n_chapters": 44,
+     "n_levels": 3,
+     "n_sentences": 189
+    },
+    {
+     "id": "c_好",
+     "label": "好 (hǎo) — good, fine",
+     "type": "char",
+     "degree": 258,
+     "n_chapters": 43,
+     "n_levels": 3,
+     "n_sentences": 247
+    },
+    {
+     "id": "c_个",
+     "label": "个 gè (m. general measure word)",
+     "type": "char",
+     "degree": 244,
+     "n_chapters": 41,
+     "n_levels": 3,
+     "n_sentences": 234
+    },
+    {
+     "id": "c_了",
+     "label": "了 (le) — particle indicating a change/new circumstance",
+     "type": "char",
+     "degree": 632,
+     "n_chapters": 39,
+     "n_levels": 3,
+     "n_sentences": 625
+    },
+    {
+     "id": "c_去",
+     "label": "去 qù (v. to go)",
+     "type": "char",
+     "degree": 301,
+     "n_chapters": 39,
+     "n_levels": 3,
+     "n_sentences": 294
+    },
+    {
+     "id": "c_这",
+     "label": "这 zhè (pron. this)",
+     "type": "char",
+     "degree": 156,
+     "n_chapters": 38,
+     "n_levels": 3,
+     "n_sentences": 144
+    },
+    {
+     "id": "c_人",
+     "label": "人 (rén) \"human, person\"",
+     "type": "char",
+     "degree": 152,
+     "n_chapters": 37,
+     "n_levels": 3,
+     "n_sentences": 139
+    },
+    {
+     "id": "c_有",
+     "label": "有 (yǒu) \"to have, there be\"",
+     "type": "char",
+     "degree": 196,
+     "n_chapters": 36,
+     "n_levels": 3,
+     "n_sentences": 189
+    },
+    {
+     "id": "c_多",
+     "label": "多 (duō) — adverb indicating degree/extent",
+     "type": "char",
+     "degree": 164,
+     "n_chapters": 36,
+     "n_levels": 3,
+     "n_sentences": 159
+    }
+   ]
+  },
+  "word": {
+   "n": 651,
+   "n_with_any_chapter": 632,
+   "mean_chapters": 4.8571,
+   "median_chapters": 2.0,
+   "max_chapters": 44,
+   "mean_levels": 1.5499,
+   "frac_ge2_chapters": 0.6452,
+   "frac_ge2_levels": 0.4055,
+   "frac_all3_levels": 0.1736,
+   "frac_ge2_chapters_among_placed": 0.6646,
+   "frac_ge2_levels_among_placed": 0.4177,
+   "frac_ge2_levels_from_lvs_field": 0.1505,
+   "top15_most_widely_used": [
+    {
+     "id": "w_什么",
+     "label": "什么 (shénme) \"what\"",
+     "type": "word",
+     "degree": 330,
+     "n_chapters": 44,
+     "n_levels": 3,
+     "n_sentences": 325
+    },
+    {
+     "id": "w_我们",
+     "label": "我们 (wǒmen) - we, us",
+     "type": "word",
+     "degree": 153,
+     "n_chapters": 42,
+     "n_levels": 3,
+     "n_sentences": 143
+    },
+    {
+     "id": "w_怎么",
+     "label": "怎么 zěnme (pron. how)",
+     "type": "word",
+     "degree": 174,
+     "n_chapters": 37,
+     "n_levels": 3,
+     "n_sentences": 168
+    },
+    {
+     "id": "w_今天",
+     "label": "今天 jīntiān (n. today)",
+     "type": "word",
+     "degree": 118,
+     "n_chapters": 33,
+     "n_levels": 3,
+     "n_sentences": 111
+    },
+    {
+     "id": "w_喜欢",
+     "label": "喜欢 xǐhuan (to like, to be fond of)",
+     "type": "word",
+     "degree": 102,
+     "n_chapters": 31,
+     "n_levels": 3,
+     "n_sentences": 98
+    },
+    {
+     "id": "w_时候",
+     "label": "时候 (shíhou) - time, moment",
+     "type": "word",
+     "degree": 99,
+     "n_chapters": 29,
+     "n_levels": 3,
+     "n_sentences": 95
+    },
+    {
+     "id": "w_为什么",
+     "label": "为什么 (wèi shénme) - why",
+     "type": "word",
+     "degree": 86,
+     "n_chapters": 29,
+     "n_levels": 2,
+     "n_sentences": 81
+    },
+    {
+     "id": "w_中国",
+     "label": "中国 (Zhōngguó) - China",
+     "type": "word",
+     "degree": 80,
+     "n_chapters": 28,
+     "n_levels": 3,
+     "n_sentences": 76
+    },
+    {
+     "id": "w_老师",
+     "label": "老师 (lǎoshī) - teacher",
+     "type": "word",
+     "degree": 91,
+     "n_chapters": 27,
+     "n_levels": 3,
+     "n_sentences": 81
+    },
+    {
+     "id": "w_明天",
+     "label": "明天 míngtiān (n. tomorrow)",
+     "type": "word",
+     "degree": 78,
+     "n_chapters": 27,
+     "n_levels": 3,
+     "n_sentences": 72
+    },
+    {
+     "id": "w_哪儿",
+     "label": "哪儿 (nǎr) - where",
+     "type": "word",
+     "degree": 80,
+     "n_chapters": 26,
+     "n_levels": 3,
+     "n_sentences": 72
+    },
+    {
+     "id": "w_没有",
+     "label": "没有 (méiyǒu) - there is not (adv., Lesson 10)",
+     "type": "word",
+     "degree": 63,
+     "n_chapters": 26,
+     "n_levels": 3,
+     "n_sentences": 61
+    },
+    {
+     "id": "w_朋友",
+     "label": "朋友 (péngyou) \"friend\"",
+     "type": "word",
+     "degree": 55,
+     "n_chapters": 26,
+     "n_levels": 3,
+     "n_sentences": 49
+    },
+    {
+     "id": "w_现在",
+     "label": "现在 (xiànzài) - now",
+     "type": "word",
+     "degree": 73,
+     "n_chapters": 25,
+     "n_levels": 3,
+     "n_sentences": 69
+    },
+    {
+     "id": "w_妈妈",
+     "label": "妈妈 māma (mother)",
+     "type": "word",
+     "degree": 50,
+     "n_chapters": 25,
+     "n_levels": 3,
+     "n_sentences": 43
+    }
+   ]
+  },
+  "bridge_nodes": {
+   "min_degree": 10,
+   "top15": [
+    {
+     "id": "c_他",
+     "label": "他 (tā) \"he, him\"",
+     "type": "char",
+     "degree": 194,
+     "participation": 0.8687,
+     "home_community": 6
+    },
+    {
+     "id": "c_我",
+     "label": "我 wǒ (character, I/me)",
+     "type": "char",
+     "degree": 745,
+     "participation": 0.8677,
+     "home_community": 6
+    },
+    {
+     "id": "c_的",
+     "label": "的 (de) - attributive particle",
+     "type": "char",
+     "degree": 645,
+     "participation": 0.8664,
+     "home_community": 6
+    },
+    {
+     "id": "c_你",
+     "label": "你 (nǐ) — you",
+     "type": "char",
+     "degree": 680,
+     "participation": 0.8661,
+     "home_community": 6
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_100_sent10",
+     "label": "你都喝了三四杯咖啡了，别再喝了！ (Nǐ dōu hēle sān sì bēi kāfēi le, bié zài hē le!) - You have already drunk three or four cups of coffee, don't drink any more!",
+     "type": "sentence",
+     "degree": 12,
+     "participation": 0.8611,
+     "home_community": 5
+    },
+    {
+     "id": "c_来",
+     "label": "来 (lái) - to come",
+     "type": "char",
+     "degree": 149,
+     "participation": 0.861,
+     "home_community": 6
+    },
+    {
+     "id": "w_喜欢",
+     "label": "喜欢 xǐhuan (to like, to be fond of)",
+     "type": "word",
+     "degree": 102,
+     "participation": 0.8597,
+     "home_community": 7
+    },
+    {
+     "id": "c_同",
+     "label": "同 (tóng) - same",
+     "type": "char",
+     "degree": 22,
+     "participation": 0.8595,
+     "home_community": 5
+    },
+    {
+     "id": "c_们",
+     "label": "们",
+     "type": "char",
+     "degree": 27,
+     "participation": 0.8587,
+     "home_community": 1
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_079_sent4",
+     "label": "这句话用来比喻如果我们开始时做了一个错误的决定，那么以后的每一次决定都会是错的。 (Zhè jù huà yònglái bǐyù rúguǒ wǒmen kāishǐ shí zuòle yí ge cuòwù de juédìng, nàme yǐhòu de měi yí cì juédìng dōu huì shì cuò de.) - Metaphorically, it means that if we make a wrong decision at the start, every decision after it will be wrong.",
+     "type": "sentence",
+     "degree": 29,
+     "participation": 0.8585,
+     "home_community": 5
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_182_sent1",
+     "label": "最近我一直努力学习，考试考得很好，妈妈送给我一个照相机，让我很高兴，我以后会更努力的。 (Zuìjìn wǒ yìzhí nǔlì xuéxí, kǎoshì kǎo de hěn hǎo, māma sòng gěi wǒ yí ge zhàoxiàngjī, ràng wǒ hěn gāoxìng, wǒ yǐhòu huì gèng nǔlì de.) - Recently I have been studying hard and did very well in the exam; Mom gave me a camera, which made me very happy, and I will work even harder in the future.",
+     "type": "sentence",
+     "degree": 24,
+     "participation": 0.8576,
+     "home_community": 6
+    },
+    {
+     "id": "hsk_data_transcripts_level3_page_155_sent11",
+     "label": "如果我的丈夫能少一些会议，他就会多跟我和孩子在一起了。 (Rúguǒ wǒ de zhàngfu néng shǎo yìxiē huìyì, tā jiù huì duō gēn wǒ hé háizi zài yìqǐ le.) - If my husband could have fewer meetings, he would spend more time with me and the children.",
+     "type": "sentence",
+     "degree": 21,
+     "participation": 0.8571,
+     "home_community": 5
+    },
+    {
+     "id": "c_吧",
+     "label": "吧 (ba) - suggestion particle",
+     "type": "char",
+     "degree": 139,
+     "participation": 0.8566,
+     "home_community": 3
+    },
+    {
+     "id": "c_下",
+     "label": "Hanzi: 下 character origin",
+     "type": "char",
+     "degree": 68,
+     "participation": 0.8547,
+     "home_community": 7
+    },
+    {
+     "id": "c_学",
+     "label": "学 (xué) - to study, to learn (v., Lesson 13)",
+     "type": "char",
+     "degree": 50,
+     "participation": 0.8544,
+     "home_community": 7
+    }
+   ],
+   "mean_participation_all": 0.482,
+   "mean_participation_deg_ge_min": 0.6223,
+   "n_deg_ge_min": 1900,
+   "frac_participation_gt_0.5_deg_ge_min": 0.7763,
+   "mean_participation_by_type": {
+    "book": 0.8181,
+    "chapter": 0.4502,
+    "char": 0.3511,
+    "culture": 0.1633,
+    "grammar": 0.161,
+    "phonetics": 0.0745,
+    "radical": 0.3923,
+    "sentence": 0.617,
+    "text": 0.2055,
+    "word": 0.4893
+   }
+  },
+  "note": "chapters of a char/word = chapters it is linked to directly plus chapters of the sentences containing it; levels are the HSK levels of those chapters. Participation coefficient P=1-sum_c (k_ic/k_i)^2 over the 8 major communities, ranked among nodes with degree >= 10 (P is unreliable for tiny degrees)"
+ },
+ "robustness": {
+  "removed_fraction": [
+   0.0,
+   0.02,
+   0.04,
+   0.06,
+   0.08,
+   0.1,
+   0.12,
+   0.14,
+   0.16,
+   0.18,
+   0.2,
+   0.22,
+   0.24,
+   0.26,
+   0.28,
+   0.3
+  ],
+  "nodes_removed": [
+   0,
+   108,
+   215,
+   323,
+   430,
+   538,
+   645,
+   753,
+   861,
+   968,
+   1076,
+   1183,
+   1291,
+   1399,
+   1506,
+   1614
+  ],
+  "random_failure_mean": [
+   1.0,
+   0.9787,
+   0.9575,
+   0.935,
+   0.9127,
+   0.8906,
+   0.8698,
+   0.8484,
+   0.8257,
+   0.8047,
+   0.7836,
+   0.7627,
+   0.7402,
+   0.7184,
+   0.6968,
+   0.6749
+  ],
+  "random_failure_std": [
+   0.0,
+   0.0011,
+   0.0012,
+   0.0022,
+   0.0028,
+   0.0025,
+   0.0018,
+   0.0027,
+   0.0025,
+   0.0029,
+   0.0034,
+   0.0043,
+   0.004,
+   0.0042,
+   0.0034,
+   0.0027
+  ],
+  "random_runs": 5,
+  "attack_degree_static": [
+   1.0,
+   0.9366,
+   0.8877,
+   0.828,
+   0.7535,
+   0.71,
+   0.6492,
+   0.6018,
+   0.543,
+   0.4782,
+   0.4358,
+   0.3692,
+   0.2997,
+   0.2147,
+   0.1911,
+   0.0171
+  ],
+  "attack_betweenness_static": [
+   1.0,
+   0.9297,
+   0.881,
+   0.8446,
+   0.8119,
+   0.7784,
+   0.7479,
+   0.7111,
+   0.6776,
+   0.6497,
+   0.618,
+   0.5895,
+   0.5525,
+   0.5176,
+   0.4802,
+   0.4525
+  ],
+  "attack_degree_adaptive": [
+   1.0,
+   0.9411,
+   0.8899,
+   0.8193,
+   0.7427,
+   0.6633,
+   0.5767,
+   0.4512,
+   0.3067,
+   0.1346,
+   0.0197,
+   0.0045,
+   0.002,
+   0.0013,
+   0.0007,
+   0.0004
+  ],
+  "first_removed_fraction_giant_below_half": {
+   "random": null,
+   "degree": 0.18,
+   "betweenness": 0.28,
+   "degree_adaptive": 0.14
+  },
+  "molloy_reed_kappa": 72.6234,
+  "random_failure_critical_fraction_theory": 0.986,
+  "top_removed_types": {
+   "degree": {
+    "char": 142,
+    "word": 94,
+    "chapter": 50,
+    "sentence": 31,
+    "grammar": 6
+   },
+   "betweenness": {
+    "char": 104,
+    "word": 63,
+    "chapter": 50,
+    "sentence": 102,
+    "book": 3,
+    "grammar": 1
+   }
+  },
+  "note": "giant-component size as a fraction of the ORIGINAL N; static attacks rank nodes once on the intact graph (betweenness = sampled, k=300); adaptive attack recomputes degree after every removal; theory f_c = 1 - 1/(k2/k - 1) is the Molloy-Reed value for an uncorrelated graph"
+ },
+ "findings": [
+  "The HSK 1-3 network has 5379 nodes and 32076 links (mean degree 11.9, density 0.0022) and 100.0% of nodes lie in a single connected giant component.",
+  "Degrees are very uneven: the mean is 11.9 but the largest hub (char node '我 wǒ (character, I/me)') has 745 links, and k2/k = 72.6.",
+  "A discrete power law fits the tail above degree 8 with exponent alpha = 2.75, and clearly beats an exponential, but a likelihood-ratio test cannot separate the power law from a lognormal (p = 0.320962).",
+  "Average clustering is 0.164, about 79 times that of equal-size random graphs (0.0021), while the average path length of the giant component is 3.45 versus 3.73 for random graphs, so the network is small-world by sigma but not by omega (sigma = 85.8, omega = 0.84; diameter 8).",
+  "The most central node is '我 wǒ (character, I/me)' by degree and '的 (de) - attributive particle' by sampled betweenness; degree and PageRank agree closely (Spearman 0.97) and the innermost k-shell is 9 holding 1398 nodes.",
+  "Louvain finds 32 fine communities (Q = 0.38), merged into 8 major ones (Q = 0.36); 0 of the 8 are strong and 2 are weak, and the strongest keeps 36% of its links inside.",
+  "Major communities line up with the book structure: NMI is 0.39 against chapters and 0.10 against HSK level, and 39% of characters occur in two or more chapters (most widespread: '你 (nǐ) — you' in 50 chapters).",
+  "Removing 20% of nodes at random leaves 78% of the network in the giant component, but removing the top 20% by degree leaves 44% and by sampled betweenness 62%, so the network resists failure better than targeted attack."
+ ]
+}

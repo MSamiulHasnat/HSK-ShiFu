@@ -1,0 +1,205 @@
+[
+ {
+  "grammar": "hsk_data_transcripts_level2_page_019_grammar_syllabus_12a",
+  "label": "Grammar: 程度补语 Complements of Degree (Lesson 12, listed in syllabus)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "程度补语"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_019_grammar_syllabus_13a",
+  "label": "Grammar: 结构助词 \"着\" The Structural Particle \"着\" (Lesson 13, listed in syllabus)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "结构助词",
+   "着"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_019_grammar_syllabus_14a",
+  "label": "Grammar: 结构助词 \"过\" The Structural Particle \"过\" (Lesson 14, listed in syllabus)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "结构助词",
+   "过"
+  ],
+  "n_hits": 0,
+  "candidates": []
+ },
+ {
+  "grammar": "hsk_data_transcripts_level2_page_025_grammar_ji_with_shi",
+  "label": "Grammar: 几 after 十 means 11-19 (十几个人); 几 before 十 means 21-99 (几十个人)",
+  "levels": [
+   2
+  ],
+  "keys": [
+   "几",
+   "十"
+  ],
+  "n_hits": 53,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level2_page_024_sent12",
+    "text": "车上有几个人。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_024_sent13",
+    "text": "我想买几本书。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_023_sent5",
+    "text": "你明天几点能回来？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_023_sent1",
+    "text": "我们要不要买几个新的椅子？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_024_sent3",
+    "text": "我们要不要买几个新的椅子？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_031_sent4",
+    "text": "一米八几。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_032_sent12",
+    "text": "一米八几。",
+    "same_chapter": false
+   },
+   {
+    "sentence": "hsk_data_transcripts_level2_page_030_sent3",
+    "text": "你每天几点起床？",
+    "same_chapter": false
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level3_page_117_cai_jiu_comparison",
+  "label": "Grammar: 才 vs 就 Comparison",
+  "levels": [
+   3
+  ],
+  "keys": [
+   "才",
+   "就"
+  ],
+  "n_hits": 38,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level3_page_115_sent16",
+    "text": "你怎么才来？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_117_sent6",
+    "text": "坐火车八个小时才能到。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_121_sent2",
+    "text": "我每天早上8点才起床。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_115_sent12",
+    "text": "啊？一个星期以后才回来？",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_117_sent5",
+    "text": "八点上课，他九点才起床。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_117_sent7",
+    "text": "弟弟三个小时才做完作业。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_115_sent4",
+    "text": "以前都要12点以后才睡觉。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_117_sent8",
+    "text": "来机场的路上我才发现忘带护照了。",
+    "same_chapter": true
+   }
+  ]
+ },
+ {
+  "grammar": "hsk_data_transcripts_level3_page_144_chule_yiwai_dou_hai_ye",
+  "label": "除了……以外，都/还/也…… Structure (Except For / Besides)",
+  "levels": [
+   3
+  ],
+  "keys": [
+   "除了",
+   "以外",
+   "都",
+   "还",
+   "也"
+  ],
+  "n_hits": 20,
+  "candidates": [
+   {
+    "sentence": "hsk_data_transcripts_level3_page_148_sent7",
+    "text": "过春节的时候，人们都要回家，除了一起吃饭以外，一家人还一起看电视台的春节晚会。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_144_sent2",
+    "text": "除了我以外，大家都听懂了。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_144_sent5",
+    "text": "除了唱歌以外，他还喜欢跳舞。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_144_sent6",
+    "text": "除了汉语以外，我还会说英语。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_144_sent1",
+    "text": "除了这个汉字以外，别的汉字我都认识。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_144_sent10",
+    "text": "除了春节以外，中秋节也是很重要的节日。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_143_sent1",
+    "text": "除了春节、中秋节以外，啤酒节也是这里很重要的一个节日。",
+    "same_chapter": true
+   },
+   {
+    "sentence": "hsk_data_transcripts_level3_page_144_sent8",
+    "text": "除了春节、中秋节以外，啤酒节也是这里很重要的一个节日。",
+    "same_chapter": true
+   }
+  ]
+ }
+]

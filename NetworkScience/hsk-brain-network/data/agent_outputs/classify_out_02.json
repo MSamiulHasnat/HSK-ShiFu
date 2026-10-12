@@ -1,0 +1,912 @@
+[
+ {
+  "id": "hsk_data_transcripts_level3_page_044_saying_cha_hao_ke_chang_lai",
+  "type": "culture",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_021_lesson2_xiexie_ni",
+  "type": "lesson",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_021_vocab_bukeqi",
+  "type": "word",
+  "headword": "不客气",
+  "pinyin": "bú kèqi",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_021_vocab_xiexie",
+  "type": "word",
+  "headword": "谢谢",
+  "pinyin": "xièxie",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_021_vocab_zaijian",
+  "type": "word",
+  "headword": "再见",
+  "pinyin": "zàijiàn",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_133_bukeqi",
+  "type": "word",
+  "headword": "不客气",
+  "pinyin": "bú kèqi",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_021_lesson2_text",
+  "type": "dialogue",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_047_finals_with_without",
+  "type": "phonetics",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_048_aspirated",
+  "type": "phonetics",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_049_strokes5",
+  "type": "radical_stroke",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_050_stroke_order3",
+  "type": "radical_stroke",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_043_lesson5",
+  "type": "lesson",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_050_si",
+  "type": "character",
+  "headword": "四",
+  "pinyin": "sì",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_026_xiao",
+  "type": "character",
+  "headword": "小",
+  "pinyin": "xiǎo",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_049_shui",
+  "type": "character",
+  "headword": "水",
+  "pinyin": "shuǐ",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_050_da_char",
+  "type": "character",
+  "headword": "大",
+  "pinyin": "dà",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_050_le_char",
+  "type": "character",
+  "headword": "了",
+  "pinyin": "le",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_050_nu",
+  "type": "character",
+  "headword": "女",
+  "pinyin": "nǚ",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_037_vocab_chenshan",
+  "type": "word",
+  "headword": "衬衫",
+  "pinyin": "chènshān",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_037_vocab_jide",
+  "type": "word",
+  "headword": "记得",
+  "pinyin": "jìde",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_037_vocab_kuzi",
+  "type": "word",
+  "headword": "裤子",
+  "pinyin": "kùzi",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_037_vocab_tiao",
+  "type": "word",
+  "headword": "条",
+  "pinyin": "tiáo",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_103_tianqi",
+  "type": "word",
+  "headword": "天气",
+  "pinyin": "tiānqì",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_103_zenmeyang",
+  "type": "word",
+  "headword": "怎么样",
+  "pinyin": "zěnmeyàng",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_105_zenmeyang_grammar",
+  "type": "grammar",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_107_char_tian",
+  "type": "character",
+  "headword": "天",
+  "pinyin": "tiān",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_108_char_qi",
+  "type": "character",
+  "headword": "气",
+  "pinyin": "qì",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_106_exercises_lesson12",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_125_nian",
+  "type": "word",
+  "headword": "年",
+  "pinyin": "nián",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_127_grammar_date_expression",
+  "type": "grammar",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_129_character_nian",
+  "type": "character",
+  "headword": "年",
+  "pinyin": "nián",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_130_character_fei",
+  "type": "character",
+  "headword": "飞",
+  "pinyin": "fēi",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_135_nian",
+  "type": "apparatus",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_128_examples_date",
+  "type": "sentence",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_093_jidan",
+  "type": "word",
+  "headword": "鸡蛋",
+  "pinyin": "jīdàn",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_093_lesson_10",
+  "type": "lesson",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_093_xigua",
+  "type": "word",
+  "headword": "西瓜",
+  "pinyin": "xīguā",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_093_xiuxi",
+  "type": "word",
+  "headword": "休息",
+  "pinyin": "xiūxi",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_095_gege",
+  "type": "word",
+  "headword": "哥哥",
+  "pinyin": "gēge",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_095_zhengzai",
+  "type": "word",
+  "headword": "正在",
+  "pinyin": "zhèngzài",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_098_radical_zou",
+  "type": "radical_stroke",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_095_dialogue_home_shopping",
+  "type": "dialogue",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_037_vocab_tian",
+  "type": "word",
+  "headword": "甜",
+  "pinyin": "tián",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_037_vocab_xinxian",
+  "type": "word",
+  "headword": "新鲜",
+  "pinyin": "xīnxiān",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_037_vocab_zhi",
+  "type": "word",
+  "headword": "只",
+  "pinyin": "zhǐ",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_043_character_word_game_xianlai_lengyin",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_157_shenti",
+  "type": "word",
+  "headword": "身体",
+  "pinyin": "shēntǐ",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_160_bao",
+  "type": "word",
+  "headword": "饱",
+  "pinyin": "bǎo",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_160_jueding",
+  "type": "word",
+  "headword": "决定",
+  "pinyin": "juédìng",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_160_weile",
+  "type": "word",
+  "headword": "为了",
+  "pinyin": "wèile",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_166_zao_shui_zao_qi",
+  "type": "culture",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_162_grammar_disyllabic_verb_reduplication",
+  "type": "grammar",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_162_grammar_interrogative_pronoun_flexible3",
+  "type": "grammar",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_134_hanyu",
+  "type": "word",
+  "headword": "汉语",
+  "pinyin": "Hànyǔ",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_138_zhongguo",
+  "type": "word",
+  "headword": "中国",
+  "pinyin": "Zhōngguó",
+  "proper": true
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_139_hanzi",
+  "type": "word",
+  "headword": "汉字",
+  "pinyin": "Hànzì",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_078_word_game_daoshihou",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_086_word_game_zixue",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_094_word_game_kejian",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_138_proper_nouns",
+  "type": "apparatus",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_138_vocabulary_index",
+  "type": "apparatus",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_139_new_words_from_old_chars",
+  "type": "apparatus",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_135_laoshi",
+  "type": "word",
+  "headword": "老师",
+  "pinyin": "lǎoshī",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_135_mai",
+  "type": "word",
+  "headword": "买",
+  "pinyin": "mǎi",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_137_yifu",
+  "type": "word",
+  "headword": "衣服",
+  "pinyin": "yīfu",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_121_exercises_lesson14",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_123_pairwork_what_bought",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_124_groupwork_daily_activities",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_135_vocabulary_index",
+  "type": "apparatus",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_080_adverb_zai",
+  "type": "grammar",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_080_pivotal_sentences",
+  "type": "grammar",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_081_verb_reduplication",
+  "type": "grammar",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level2_page_079_dialogue_store",
+  "type": "dialogue",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_010_saying_great_wall",
+  "type": "culture",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_018_vocab_a_particle",
+  "type": "word",
+  "headword": "啊",
+  "pinyin": "a",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_018_vocab_fuxi",
+  "type": "word",
+  "headword": "复习",
+  "pinyin": "fùxí",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_018_vocab_yizhi",
+  "type": "word",
+  "headword": "一直",
+  "pinyin": "yìzhí",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_018_vocab_youxi",
+  "type": "word",
+  "headword": "游戏",
+  "pinyin": "yóuxì",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_018_vocab_zuoye",
+  "type": "word",
+  "headword": "作业",
+  "pinyin": "zuòyè",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_021_grammar_conjunction_na",
+  "type": "grammar",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_009_lesson1_weekend_plan",
+  "type": "lesson",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_017_warmup_exercise",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_018_dialogue2_at_home",
+  "type": "dialogue",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_046_propernoun_make",
+  "type": "word",
+  "headword": "马可",
+  "pinyin": "Mǎkě",
+  "proper": true
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_089_zhongwen",
+  "type": "word",
+  "headword": "中文",
+  "pinyin": "Zhōngwén",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_091_note_yueAyueB",
+  "type": "grammar",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_088_comparison_table",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_095_pair_work_behaviors",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_076_tongshi",
+  "type": "word",
+  "headword": "同事",
+  "pinyin": "tóngshì",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_076_yiqian",
+  "type": "word",
+  "headword": "以前",
+  "pinyin": "yǐqián",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_078_word_game_yihou",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "s71_tongshi",
+  "type": "word",
+  "headword": "同事",
+  "pinyin": "tóngshì",
+  "proper": false
+ },
+ {
+  "id": "s72_yiqian",
+  "type": "word",
+  "headword": "以前",
+  "pinyin": "yǐqián",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_080_jianmian",
+  "type": "word",
+  "headword": "见面",
+  "pinyin": "jiàn miàn",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_080_xiongmao",
+  "type": "word",
+  "headword": "熊猫",
+  "pinyin": "xióngmāo",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_081_jianmian",
+  "type": "word",
+  "headword": "见面",
+  "pinyin": "jiàn miàn",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_081_xiongmao",
+  "type": "word",
+  "headword": "熊猫",
+  "pinyin": "xióngmāo",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_086_word_game_mianshi",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "s71_huanying",
+  "type": "word",
+  "headword": "欢迎",
+  "pinyin": "huānyíng",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_081_text2_zaixuexiao",
+  "type": "dialogue",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_085_exercise_fillblank2",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_098_ai",
+  "type": "word",
+  "headword": "矮",
+  "pinyin": "ǎi",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_098_gezi",
+  "type": "word",
+  "headword": "个子",
+  "pinyin": "gèzi",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_100_note_bijiaoju2",
+  "type": "grammar",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_097_antonym_exercise",
+  "type": "exercise",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_098_text1_zaijiaoshi",
+  "type": "dialogue",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_107_kuaizi",
+  "type": "word",
+  "headword": "筷子",
+  "pinyin": "kuàizi",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_107_shuang_pair",
+  "type": "word",
+  "headword": "双",
+  "pinyin": "shuāng",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_143_vocab_ge",
+  "type": "word",
+  "headword": "各",
+  "pinyin": "gè",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_143_vocab_jiedao",
+  "type": "word",
+  "headword": "街道",
+  "pinyin": "jiēdào",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_143_vocab_juxing",
+  "type": "word",
+  "headword": "举行",
+  "pinyin": "jǔxíng",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_143_vocab_shijie",
+  "type": "word",
+  "headword": "世界",
+  "pinyin": "shìjiè",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_143_vocab_wenhua",
+  "type": "word",
+  "headword": "文化",
+  "pinyin": "wénhuà",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level3_page_143_transcript",
+  "type": "apparatus",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_016_initials_finals_set1",
+  "type": "phonetics",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_017_syllable_structure",
+  "type": "phonetics",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_024_pinyin_rules_tone_marking_abbreviation",
+  "type": "phonetics",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_025_single_component_chars_kou_jian",
+  "type": "radical_stroke",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_025_strokes_set2",
+  "type": "radical_stroke",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_010_syllabus_lessons_1_5",
+  "type": "apparatus",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_026_shan",
+  "type": "character",
+  "headword": "山",
+  "pinyin": "shān",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_126_fandian",
+  "type": "word",
+  "headword": "饭店",
+  "pinyin": "fàndiàn",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_126_lesson15",
+  "type": "lesson",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_126_yiqi",
+  "type": "word",
+  "headword": "一起",
+  "pinyin": "yìqǐ",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_127_grammar_shi_de",
+  "type": "grammar",
+  "headword": "",
+  "pinyin": "",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_133_de",
+  "type": "word",
+  "headword": "的",
+  "pinyin": "de",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_135_lai",
+  "type": "word",
+  "headword": "来",
+  "pinyin": "lái",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_136_shi",
+  "type": "word",
+  "headword": "是",
+  "pinyin": "shì",
+  "proper": false
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_138_beijing",
+  "type": "word",
+  "headword": "北京",
+  "pinyin": "Běijīng",
+  "proper": true
+ },
+ {
+  "id": "hsk_data_transcripts_level1_page_138_zuo",
+  "type": "word",
+  "headword": "坐",
+  "pinyin": "zuò",
+  "proper": false
+ }
+]

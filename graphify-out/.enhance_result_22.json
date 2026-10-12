@@ -1,0 +1,5387 @@
+{
+ "nodes": [
+  {
+   "id": "hsk_data_transcripts_level3_page_142_vocab_xiaoyun",
+   "label": "小云 (Xiǎoyún) - Xiaoyun, name of a person",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_vocab_dianzi_youjian",
+   "label": "电子邮件 (diànzǐ yóujiàn) - email",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_143_vocab_chunjie",
+   "label": "春节 (Chūnjié) - Spring Festival",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_143.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_143_vocab_zhongqiujie",
+   "label": "中秋节 (Zhōngqiū Jié) - Mid-Autumn Festival",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_143.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_143_vocab_pijiujie",
+   "label": "啤酒节 (píjiǔ jié) - Beer Festival",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_143.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_143_vocab_pijiu",
+   "label": "啤酒 (píjiǔ) - beer",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_143.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_131_vocab_qunzi",
+   "label": "裙子 (qúnzi) - skirt",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_131.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_vocab_hongjiu",
+   "label": "红酒 (hóngjiǔ) - red wine",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_vocab_banzhang",
+   "label": "班长 (bānzhǎng) - class monitor",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_vocab_yujian",
+   "label": "遇见 (yùjiàn) - to meet, to come across",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_vocab_pijiu",
+   "label": "啤酒 (píjiǔ) - beer",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_vocab_xiaozhang",
+   "label": "校长 (xiàozhǎng) - principal",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_vocab_yudao",
+   "label": "遇到 (yùdào) - to come across, to meet",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_vocab_kanjian",
+   "label": "看见 (kànjiàn) - to see",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_vocab_hong",
+   "label": "红 (hóng) - red",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_vocab_ban",
+   "label": "班 (bān) - class",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_vocab_mingdan",
+   "label": "名单 (míngdān) - list of names",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_vocab_duyin",
+   "label": "读音 (dúyīn) - pronunciation",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_vocab_maidan",
+   "label": "买单 (mǎi dān) - to pay the bill",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_vocab_mingzi",
+   "label": "名字 (míngzi) - name",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_vocab_du",
+   "label": "读 (dú) - to read",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_vocab_mai",
+   "label": "买 (mǎi) - to buy",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_132_vocab_dianshi_jiemu",
+   "label": "电视节目 (diànshì jiémù) - TV programme",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_132.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_132_vocab_shua_ya",
+   "label": "刷牙 (shuā yá) - to brush one's teeth",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_132.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_132_vocab_xi_lian",
+   "label": "洗脸 (xǐ liǎn) - to wash one's face",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_132.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_132_vocab_chi_zaofan",
+   "label": "吃早饭 (chī zǎofàn) - to have breakfast",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_132.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_132_vocab_qichuang_yihou",
+   "label": "起床以后 (qǐ chuáng yǐhòu) - after getting up",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_132.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_132_vocab_shuijiao_yiqian",
+   "label": "睡觉以前 (shuì jiào yǐqián) - before going to bed",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_132.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_132_vocab_xiake_yihou",
+   "label": "下课以后 (xià kè yǐhòu) - after class",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_132.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_132_vocab_kaoshi_yihou",
+   "label": "考试以后 (kǎo shì yǐhòu) - after the exam",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_132.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_132_vocab_daojia_yihou",
+   "label": "到家以后 (dào jiā yǐhòu) - after arriving home",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_132.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_132_vocab_chifan_yihou",
+   "label": "吃饭以后 (chī fàn yǐhòu) - after meals",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_132.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_liuxuesheng",
+   "label": "留学生 (liúxuéshēng) - international student, student studying abroad",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_yinliao",
+   "label": "饮料 (yǐnliào) - drink/beverage",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_kafei",
+   "label": "咖啡 (kāfēi) - coffee",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_niunai",
+   "label": "牛奶 (niúnǎi) - milk",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_cha",
+   "label": "茶 (chá) - tea",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_shui",
+   "label": "水 (shuǐ) - water",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_shuiguo",
+   "label": "水果 (shuǐguǒ) - fruit",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_pingguo",
+   "label": "苹果 (píngguǒ) - apple",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_xiangjiao",
+   "label": "香蕉 (xiāngjiāo) - banana",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_xigua",
+   "label": "西瓜 (xīguā) - watermelon",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_xianggua",
+   "label": "香瓜 (xiāngguā) - melon",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_roulei",
+   "label": "肉类 (ròulèi) - meat",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_niurou",
+   "label": "牛肉 (niúròu) - beef",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_yangrou",
+   "label": "羊肉 (yángròu) - mutton",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_jirou",
+   "label": "鸡肉 (jīròu) - chicken",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_yurou",
+   "label": "鱼肉 (yúròu) - fish meat",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_yanse",
+   "label": "颜色 (yánsè) - colour",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_hongse",
+   "label": "红色 (hóngsè) - red",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_baise",
+   "label": "白色 (báisè) - white",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_lvse",
+   "label": "绿色 (lǜsè) - green",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_heise",
+   "label": "黑色 (hēisè) - black",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_yundong",
+   "label": "运动 (yùndòng) - sports/exercise",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_paobu",
+   "label": "跑步 (pǎo bù) - to run/jog",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_pashan",
+   "label": "爬山 (pá shān) - to climb a mountain",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_youyong",
+   "label": "游泳 (yóu yǒng) - to swim",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_dalanqiu",
+   "label": "打篮球 (dǎ lánqiú) - to play basketball",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_xuexi",
+   "label": "学习 (xuéxí) - study",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_shuxue",
+   "label": "数学 (shùxué) - mathematics",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_yingyu",
+   "label": "英语 (yīngyǔ) - English",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_lishi",
+   "label": "历史 (lìshǐ) - history",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_141_vocab_hanyu",
+   "label": "汉语 (Hànyǔ) - Chinese language",
+   "file_type": "concept",
+   "kind": "vocab",
+   "source_file": "level3/page_141.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_zai_vs_you_in_xian_zai_ranhou",
+   "label": "Grammar: 再 vs 又 in 先……，再/又……，然后…… (再 = action not yet happened; 又 = action already happened)",
+   "file_type": "concept",
+   "kind": "grammar",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_chule_dou",
+   "label": "Grammar: 除了……以外，都…… (all except: the rest share the same situation; 以外 can be omitted)",
+   "file_type": "concept",
+   "kind": "grammar",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_chule_hai_ye",
+   "label": "Grammar: 除了……以外，还/也…… (besides: adds others; subject goes at start or before 还/也)",
+   "file_type": "concept",
+   "kind": "grammar",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_dialogue1",
+   "label": "Text 1: 在家 (At home)",
+   "file_type": "concept",
+   "kind": "dialogue",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_dialogue2",
+   "label": "Text 2: 在打电话 (On the phone)",
+   "file_type": "concept",
+   "kind": "dialogue",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_dialogue3",
+   "label": "Text 3: 在小明家 (At Xiaoming's home)",
+   "file_type": "concept",
+   "kind": "dialogue",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_134_text4",
+   "label": "Text 4: 水果饭 (Fruit rice) - passage",
+   "file_type": "concept",
+   "kind": "dialogue",
+   "source_file": "level3/page_134.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_dialogue1",
+   "label": "Text 1: 在办公室 (In the office)",
+   "file_type": "concept",
+   "kind": "dialogue",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_dialogue2",
+   "label": "Text 2: 在教室 (In the classroom)",
+   "file_type": "concept",
+   "kind": "dialogue",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_dialogue3",
+   "label": "Text 3: 在休息室 (In the lounge)",
+   "file_type": "concept",
+   "kind": "dialogue",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_143_text4",
+   "label": "Text 4: 啤酒节 (Beer Festival) - passage",
+   "file_type": "concept",
+   "kind": "dialogue",
+   "source_file": "level3/page_143.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_ba",
+   "label": "爸 (bà) - top-bottom pictophonetic character",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_ping",
+   "label": "苹 (píng) - top-bottom pictophonetic character",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_xiang",
+   "label": "想 (xiǎng) - top-bottom pictophonetic character",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_nu",
+   "label": "努 (nǔ) - top-bottom pictophonetic character",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_ba_comp",
+   "label": "巴 - ba (phonetic component)",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_fu_comp",
+   "label": "父 - semantic component",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_cao_comp",
+   "label": "艹 - semantic component (grass radical)",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_ping_comp",
+   "label": "平 - píng (phonetic component)",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_xiang_comp",
+   "label": "相 - xiāng (phonetic component)",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_xin_comp",
+   "label": "心 - semantic component (heart)",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_nu_comp",
+   "label": "奴 - nú (phonetic component)",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_char_li_comp",
+   "label": "力 - semantic component (strength)",
+   "file_type": "concept",
+   "kind": "character",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_pictophonetic_characters_2",
+   "label": "Character Note: Pictophonetic Characters 2 (形声字2) - top-bottom structure: 上形下声 (semantic on top, phonetic at bottom, e.g. 爸, 苹) vs 下形上声 (phonetic on top, semantic at bottom, e.g. 想, 努)",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "label": "北京地铁线路图 (Beijing Subway Map) - map of Beijing subway lines 1, 2, 4, 5, 6, 8, 9, 10, 13, 14, 15, Fangshan, Batong and Airport lines with transfer stations",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_yonghegong",
+   "label": "雍和宫 (Yōnghégōng) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_wangfujing",
+   "label": "王府井 (Wángfǔjǐng) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_dongsishitiao",
+   "label": "东四十条 (Dōngsìshítiáo) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_tiananmen_xi",
+   "label": "天安门西 (Tiān'ānmén Xī) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_xizhimen",
+   "label": "西直门 (Xīzhímén) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_tiananmen_dong",
+   "label": "天安门东 (Tiān'ānmén Dōng) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_qianmen",
+   "label": "前门 (Qiánmén) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_beihai_bei",
+   "label": "北海北 (Běihǎi Běi) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_beijing_zhan",
+   "label": "北京站 (Běijīng Zhàn) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_xisi",
+   "label": "西四 (Xīsì) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_hepingmen",
+   "label": "和平门 (Hépíngmén) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_139_station_dongdan",
+   "label": "东单 (Dōngdān) - Beijing subway station",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_139.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent1",
+   "label": "周末你们一般在哪儿吃饭？在家吃还是出去吃？ (Zhōumò nǐmen yìbān zài nǎr chī fàn? Zài jiā chī háishi chūqu chī?) - Where do you usually eat on weekends? Eat at home or go out to eat?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent2",
+   "label": "终于考完试了，我们去哪儿玩儿玩儿？ (Zhōngyú kǎo wán shì le, wǒmen qù nǎr wánr wanr?) - We've finally finished the exams, where shall we go to have some fun?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent3",
+   "label": "你应该早睡早起，别睡得那么晚。 (Nǐ yīnggāi zǎo shuì zǎo qǐ, bié shuì de nàme wǎn.) - You should go to bed early and get up early; don't go to bed so late.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent4",
+   "label": "我不愿意去那个公司工作，太远，也太累。 (Wǒ bú yuànyì qù nàge gōngsī gōngzuò, tài yuǎn, yě tài lèi.) - I am not willing to work at that company; it's too far and too tiring.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent5",
+   "label": "那个饭馆离我们学校很近，我们经常去。 (Nàge fànguǎn lí wǒmen xuéxiào hěn jìn, wǒmen jīngcháng qù.) - That restaurant is very close to our school; we often go there.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent6",
+   "label": "一会儿周经理走进来的时候，请大家站起来。 (Yíhuìr Zhōu jīnglǐ zǒu jìnlai de shíhou, qǐng dàjiā zhàn qǐlai.) - When Manager Zhou walks in in a moment, please everyone stand up.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent7",
+   "label": "好，我们知道了。 (Hǎo, wǒmen zhīdào le.) - OK, we understand.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent8",
+   "label": "我忘了把这本书还给他了。 (Wǒ wàng le bǎ zhè běn shū huán gěi tā le.) - I forgot to return this book to him.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent9",
+   "label": "没关系，明天我帮你送过去吧。 (Méi guānxi, míngtiān wǒ bāng nǐ sòng guòqu ba.) - It doesn't matter, I'll take it over for you tomorrow.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent10",
+   "label": "前边那位老人是谁？ (Qiánbian nà wèi lǎorén shì shéi?) - Who is that old man in front?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent11",
+   "label": "他是我们的校长。 (Tā shì wǒmen de xiàozhǎng.) - He is our principal.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent12",
+   "label": "你怎么回来这么晚？ (Nǐ zěnme huílai zhème wǎn?) - Why did you come back so late?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent13",
+   "label": "回家的路上遇到张老师了，跟他聊了一会儿。 (Huí jiā de lùshang yùdào Zhāng lǎoshī le, gēn tā liáo le yíhuìr.) - On the way home I ran into Teacher Zhang and chatted with him for a while.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent14",
+   "label": "下个月是爷爷的生日，你有什么打算？ (Xià ge yuè shì yéye de shēngrì, nǐ yǒu shénme dǎsuàn?) - Next month is Grandpa's birthday, what are your plans?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent15",
+   "label": "我要送他一件特别的礼物。 (Wǒ yào sòng tā yí jiàn tèbié de lǐwù.) - I want to give him a special gift.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent16",
+   "label": "一会儿有朋友过来吗？ (Yíhuìr yǒu péngyou guòlai ma?) - Are friends coming over in a little while?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_128_sent17",
+   "label": "好，我马上去买。 (Hǎo, wǒ mǎshàng qù mǎi.) - OK, I'll go and buy it right away.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_128.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent1",
+   "label": "饭做好了！ (Fàn zuò hǎo le!) - The meal is ready!",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent2",
+   "label": "好，我跟你一起去。 (Hǎo, wǒ gēn nǐ yìqǐ qù.) - OK, I'll go with you.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent3",
+   "label": "对，他刚从国外回来。 (Duì, tā gāng cóng guówài huílai.) - Yes, he has just come back from abroad.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent4",
+   "label": "这是什么？ (Zhè shì shénme?) - What is this?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent5",
+   "label": "小刚买了什么礼物回来？ (Xiǎogāng mǎi le shénme lǐwù huílai?) - What gift did Xiaogang buy and bring back?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent6",
+   "label": "小刚今天做什么了？ (Xiǎogāng jīntiān zuò shénme le?) - What did Xiaogang do today?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent7",
+   "label": "小刚为什么很晚才回家？ (Xiǎogāng wèi shénme hěn wǎn cái huí jiā?) - Why did Xiaogang get home so late?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent8",
+   "label": "小丽更喜欢看电视还是看电影？ (Xiǎolì gèng xǐhuan kàn diànshì háishi kàn diànyǐng?) - Does Xiaoli prefer watching TV or watching movies?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent9",
+   "label": "为什么？ (Wèi shénme?) - Why?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent10",
+   "label": "刚结婚的时候，丈夫习惯做什么？ (Gāng jié hūn de shíhou, zhàngfu xíguàn zuò shénme?) - When they had just got married, what was the husband used to doing?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent11",
+   "label": "现在丈夫的生活什么样？ (Xiànzài zhàngfu de shēnghuó shénme yàng?) - What is the husband's life like now?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_129_sent12",
+   "label": "上下结构的形声字有两种，一种是“上形下声”，也就是形旁在上边，声旁在下边。 (Shàngxià jiégòu de xíngshēngzì yǒu liǎng zhǒng, yì zhǒng shì “shàng xíng xià shēng”, yě jiù shì xíngpáng zài shàngbian, shēngpáng zài xiàbian.) - There are two types of top-bottom pictophonetic characters; one is \"semantic on top, phonetic at the bottom\", i.e. the semantic component is on the top and the phonetic component at the bottom.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_129.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_sent1",
+   "label": "另一种是“下形上声”，也就是声旁在上边，形旁在下边。 (Lìng yì zhǒng shì “xià xíng shàng shēng”, yě jiù shì shēngpáng zài shàngbian, xíngpáng zài xiàbian.) - The other type is \"phonetic on top, semantic at the bottom\", i.e. the phonetic component is on the top and the semantic component at the bottom.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_sent2",
+   "label": "我经常一边开车一边打电话。 (Wǒ jīngcháng yìbiān kāi chē yìbiān dǎ diànhuà.) - I often make phone calls while driving.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_130_sent3",
+   "label": "你不能一边开车一边打电话。 (Nǐ bù néng yìbiān kāi chē yìbiān dǎ diànhuà.) - You must not make phone calls while driving.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_130.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_131_sent1",
+   "label": "我会给妈妈带回来一条红色的裙子。 (Wǒ huì gěi māma dài huílai yì tiáo hóngsè de qúnzi.) - I will bring back a red skirt for my mother.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_131.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_131_sent2",
+   "label": "因为她最喜欢红色。 (Yīnwèi tā zuì xǐhuan hóngsè.) - Because she likes red the most.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_131.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_131_sent3",
+   "label": "“礼轻情意重”，这句话的意思是虽然礼物很轻，但是表达的情意非常深厚。 (“Lǐ qīng qíngyì zhòng”, zhè jù huà de yìsi shì suīrán lǐwù hěn qīng, dànshì biǎodá de qíngyì fēicháng shēnhòu.) - \"礼轻情意重\" means that although the gift itself is light, the goodwill it conveys is very deep.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_131.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_131_sent4",
+   "label": "现在常用来比喻送礼时礼物大小没关系，表达最真挚的情意才是最重要的。 (Xiànzài cháng yòng lái bǐyù sòng lǐ shí lǐwù dàxiǎo méi guānxi, biǎodá zuì zhēnzhì de qíngyì cái shì zuì zhòngyào de.) - Now it is often used to mean that when giving a gift the size of the gift does not matter; expressing the most sincere feelings is what matters most.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_131.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent1",
+   "label": "客人就要来了，你怎么还不打扫房间啊？ (Kèrén jiù yào lái le, nǐ zěnme hái bù dǎsǎo fángjiān a?) - The guests are about to arrive, why haven't you cleaned the room yet?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent2",
+   "label": "别着急，我让孩子们打扫呢，客人来的时候，他们会把房间打扫干净。 (Bié zháojí, wǒ ràng háizimen dǎsǎo ne, kèrén lái de shíhou, tāmen huì bǎ fángjiān dǎsǎo gānjìng.) - Don't worry, I'm having the children clean it; when the guests come, they will have the room cleaned.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent3",
+   "label": "那你也不能看电视啊。 (Nà nǐ yě bù néng kàn diànshì a.) - Then you shouldn't be watching TV either.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent4",
+   "label": "你让我做什么？ (Nǐ ràng wǒ zuò shénme?) - What do you want me to do?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent5",
+   "label": "先把茶和杯子放好，然后把冰箱里的西瓜拿出来。 (Xiān bǎ chá hé bēizi fànghǎo, ránhòu bǎ bīngxiāng li de xīguā ná chulai.) - First put the tea and cups in place, then take the watermelon out of the refrigerator.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent6",
+   "label": "太热了，我还是先把空调打开吧。 (Tài rè le, wǒ háishi xiān bǎ kōngtiáo dǎ kāi ba.) - It's too hot, I'd better turn on the air conditioning first.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent7",
+   "label": "你在忙什么呢？ (Nǐ zài máng shénme ne?) - What are you busy with?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent8",
+   "label": "刚才打你的手机你也不接。 (Gāngcái dǎ nǐ de shǒujī nǐ yě bù jiē.) - I called your mobile phone just now and you didn't answer.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent9",
+   "label": "对不起，我刚洗了个澡，没听见。 (Duìbuqǐ, wǒ gāng xǐle ge zǎo, méi tīngjiàn.) - Sorry, I just took a shower and didn't hear it.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent10",
+   "label": "有什么事吗？ (Yǒu shénme shì ma?) - Is there something the matter?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent11",
+   "label": "我想问问你公司里的一些事情。 (Wǒ xiǎng wènwen nǐ gōngsī li de yìxiē shìqing.) - I'd like to ask you about some things at the company.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent12",
+   "label": "你先等一下，我去把电视关了。 (Nǐ xiān děng yíxià, wǒ qù bǎ diànshì guān le.) - Wait a moment first, I'll go and turn off the TV.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent13",
+   "label": "没关系，你先把电视节目看完吧，然后再给我回电话。 (Méi guānxi, nǐ xiān bǎ diànshì jiémù kànwán ba, ránhòu zài gěi wǒ huí diànhuà.) - It doesn't matter, finish watching the TV programme first, and then call me back.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent14",
+   "label": "今晚的月亮真漂亮，像白色的盘子一样。 (Jīn wǎn de yuèliang zhēn piàoliang, xiàng báisè de pánzi yíyàng.) - The moon tonight is really beautiful, like a white plate.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent15",
+   "label": "是啊，外边也不刮风，我们坐在外边一边看月亮一边吃东西，怎么样？ (Shì a, wàibian yě bù guā fēng, wǒmen zuò zài wàibian yìbiān kàn yuèliang yìbiān chī dōngxi, zěnme yàng?) - Yes, and it's not windy outside either; how about sitting outside, looking at the moon while eating?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent16",
+   "label": "好啊，我先把桌椅搬出去，然后你把水果拿过来，我们听叔叔阿姨讲讲他们年轻时候的故事。 (Hǎo a, wǒ xiān bǎ zhuōyǐ bān chuqu, ránhòu nǐ bǎ shuǐguǒ ná guolai, wǒmen tīng shūshu āyí jiǎngjiang tāmen niánqīng shíhou de gùshì.) - Good, I'll first move the tables and chairs out, then you bring the fruit over, and we'll listen to Uncle and Aunt tell stories of when they were young.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent17",
+   "label": "太好了！ (Tài hǎo le!) - Great!",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent18",
+   "label": "记得给大山打个电话，让他马上过来。 (Jìde gěi Dàshān dǎ ge diànhuà, ràng tā mǎshàng guòlai.) - Remember to call Dashan and have him come over right away.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_133_sent19",
+   "label": "不用打了，你听外边的声音，一定是大山。 (Búyòng dǎ le, nǐ tīng wàibian de shēngyīn, yídìng shì Dàshān.) - No need to call, listen to the sound outside, it must be Dashan.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_133.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_134_sent1",
+   "label": "你吃过水果饭吗？ (Nǐ chī guo shuǐguǒ fàn ma?) - Have you ever eaten fruit rice?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_134.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_134_sent2",
+   "label": "你在饭馆的菜单上见过水果饭吗？ (Nǐ zài fànguǎnr de càidān shang jiàn guo shuǐguǒ fàn ma?) - Have you ever seen fruit rice on a restaurant menu?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_134.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_134_sent3",
+   "label": "你想学着做水果饭吗？ (Nǐ xiǎng xuézhe zuò shuǐguǒ fàn ma?) - Do you want to learn to make fruit rice?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_134.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_134_sent4",
+   "label": "其实做水果饭很简单，先把米饭做好，然后再把一块块新鲜的水果放进去，水果饭就做好了。 (Qíshí zuò shuǐguǒ fàn hěn jiǎndān, xiān bǎ mǐfàn zuòhǎo, ránhòu zài bǎ yí kuàikuài xīnxiān de shuǐguǒ fàng jinqu, shuǐguǒ fàn jiù zuòhǎo le.) - Actually making fruit rice is very simple: first cook the rice, then put pieces of fresh fruit into it, and the fruit rice is done.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_134.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_134_sent5",
+   "label": "你可以做苹果饭、香蕉饭，要是你愿意，还可以做西瓜饭。 (Nǐ kěyǐ zuò píngguǒ fàn, xiāngjiāo fàn, yàoshi nǐ yuànyì, hái kěyǐ zuò xīguā fàn.) - You can make apple rice and banana rice, and if you like you can also make watermelon rice.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_134.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_134_sent6",
+   "label": "多吃新鲜水果对身体好。 (Duō chī xīnxiān shuǐguǒ duì shēntǐ hǎo.) - Eating more fresh fruit is good for your health.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_134.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_sent1",
+   "label": "我把衣服洗干净了。 (Wǒ bǎ yīfu xǐ gānjìng le.) - I have washed the clothes clean.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_sent2",
+   "label": "妈妈还没把饭做好呢。 (Māma hái méi bǎ fàn zuòhǎo ne.) - Mum hasn't finished cooking the meal yet.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_sent3",
+   "label": "请同学们把铅笔拿出来。 (Qǐng tóngxuémen bǎ qiānbǐ ná chulai.) - Students, please take out your pencils.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_sent4",
+   "label": "你把水果拿过来。 (Nǐ bǎ shuǐguǒ ná guolai.) - Bring the fruit over here.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_sent5",
+   "label": "妈妈，让我再看一会儿这个节目吧。 (Māma, ràng wǒ zài kàn yíhuìr zhège jiémù ba.) - Mum, let me watch this programme a little longer.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_sent6",
+   "label": "房间里太热了。 (Fángjiān li tài rè le.) - It's too hot in the room.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_sent7",
+   "label": "我的行李呢？ (Wǒ de xíngli ne?) - Where is my luggage?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_sent8",
+   "label": "回家以后，我先做作业，然后吃饭。 (Huí jiā yǐhòu, wǒ xiān zuò zuòyè, ránhòu chī fàn.) - After getting home, I first do my homework and then eat.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_sent9",
+   "label": "我先坐了一个小时公共汽车，又坐了一会儿地铁才到小刚家。 (Wǒ xiān zuò le yí ge xiǎoshí gōnggòng qìchē, yòu zuò le yíhuìr dìtiě cái dào Xiǎogāng jiā.) - I first took the bus for an hour, then took the subway for a while before I got to Xiaogang's home.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_sent10",
+   "label": "你先把电视节目看完吧，然后再给我回电话。 (Nǐ xiān bǎ diànshì jiémù kànwán ba, ránhòu zài gěi wǒ huí diànhuà.) - Finish watching the TV programme first, and then call me back.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_135_sent11",
+   "label": "先把米饭做好，然后再把一块块新鲜的水果放进去。 (Xiān bǎ mǐfàn zuòhǎo, ránhòu zài bǎ yí kuàikuài xīnxiān de shuǐguǒ fàng jinqu.) - First cook the rice, then put pieces of fresh fruit into it.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent1",
+   "label": "下课以后，你做什么？ (Xià kè yǐhòu, nǐ zuò shénme?) - What do you do after class?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent2",
+   "label": "你妈妈来了，你打算带她去哪儿玩儿？ (Nǐ māma lái le, nǐ dǎsuàn dài tā qù nǎr wánr?) - Your mother has come; where do you plan to take her to have fun?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent3",
+   "label": "考完试了，你有什么打算？ (Kǎo wán shì le, nǐ yǒu shénme dǎsuàn?) - The exams are over; what are your plans?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent4",
+   "label": "你怎么还不打扫房间啊？ (Nǐ zěnme hái bù dǎsǎo fángjiān a?) - Why haven't you cleaned the room yet?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent5",
+   "label": "他们会把房间打扫干净。 (Tāmen huì bǎ fángjiān dǎsǎo gānjìng.) - They will clean the room until it is clean.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent6",
+   "label": "我刚洗了个澡。 (Wǒ gāng xǐ le ge zǎo.) - I just took a shower.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent7",
+   "label": "请看下一个节目。 (Qǐng kàn xià yí ge jiémù.) - Please watch the next programme.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent8",
+   "label": "你先把电视节目看完吧。 (Nǐ xiān bǎ diànshì jiémù kànwán ba.) - Finish watching the TV programme first.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent9",
+   "label": "外面没刮风。 (Wàimian méi guā fēng.) - It isn't windy outside.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent10",
+   "label": "每天晚上，爸爸都要给女儿讲一个故事。 (Měi tiān wǎnshang, bàba dōu yào gěi nǚ'ér jiǎng yí ge gùshì.) - Every evening, Dad tells his daughter a story.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent11",
+   "label": "我来做饭，你来洗盘子，怎么样？ (Wǒ lái zuò fàn, nǐ lái xǐ pánzi, zěnme yàng?) - I'll cook, and you wash the plates, how about it?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent12",
+   "label": "我们买几斤香蕉吧，家里没有水果了。 (Wǒmen mǎi jǐ jīn xiāngjiāo ba, jiāli méiyǒu shuǐguǒ le.) - Let's buy a few jin of bananas; there is no fruit at home.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent13",
+   "label": "跟朋友一起喝着饮料看电视节目，是最快乐的事。 (Gēn péngyou yìqǐ hē zhe yǐnliào kàn diànshì jiémù, shì zuì kuàilè de shì.) - Drinking beverages and watching TV programmes with friends is the happiest thing.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent14",
+   "label": "服务员，请拿菜单过来，我们点菜。 (Fúwùyuán, qǐng ná càidān guòlai, wǒmen diǎn cài.) - Waiter, please bring the menu over; we'd like to order.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent15",
+   "label": "我们什么时候吃晚饭？ (Wǒmen shénme shíhou chī wǎnfàn?) - When do we have dinner?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_136_sent16",
+   "label": "先打扫完房间再吃。 (Xiān dǎsǎo wán fángjiān zài chī.) - Eat after first finishing cleaning the room.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_136.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent1",
+   "label": "听！是谁在外边说话？ (Tīng! Shì shéi zài wàibian shuō huà?) - Listen! Who is talking outside?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent2",
+   "label": "没有声音啊。 (Méiyǒu shēngyīn a.) - There's no sound.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent3",
+   "label": "你觉得洗衣服很简单，可我觉得很难。 (Nǐ juéde xǐ yīfu hěn jiǎndān, kě wǒ juéde hěn nán.) - You think washing clothes is very simple, but I think it is very hard.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent4",
+   "label": "那你觉得做什么不难呢？ (Nà nǐ juéde zuò shénme bù nán ne?) - Then what do you think is not hard to do?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent5",
+   "label": "那么多衣服，终于洗完了！ (Nàme duō yīfu, zhōngyú xǐ wán le!) - So many clothes, finally all washed!",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent6",
+   "label": "都洗干净了吗？ (Dōu xǐ gānjìng le ma?) - Are they all washed clean?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent7",
+   "label": "这个地方真美！ (Zhège dìfang zhēn měi!) - This place is really beautiful!",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent8",
+   "label": "是啊，像画儿一样。 (Shì a, xiàng huàr yíyàng.) - Yes, it's just like a painting.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent9",
+   "label": "今天下午你做什么？ (Jīntiān xiàwǔ nǐ zuò shénme?) - What are you doing this afternoon?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent10",
+   "label": "你要走了？ (Nǐ yào zǒu le?) - You're leaving?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent11",
+   "label": "不吃了，我要迟到了。 (Bù chī le, wǒ yào chídào le.) - I won't eat; I'm going to be late.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent12",
+   "label": "今天你下了课就回家吧。 (Jīntiān nǐ xià le kè jiù huí jiā ba.) - Go straight home after class today.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent13",
+   "label": "今天是周末，你可以休息了吧？ (Jīntiān shì zhōumò, nǐ kěyǐ xiūxi le ba?) - Today is the weekend, so you can rest now, right?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent14",
+   "label": "小刚，你现在去哪儿？ (Xiǎogāng, nǐ xiànzài qù nǎr?) - Xiaogang, where are you going now?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_137_sent15",
+   "label": "我明天要去上海，你帮我准备一下。 (Wǒ míngtiān yào qù Shànghǎi, nǐ bāng wǒ zhǔnbèi yíxià.) - I'm going to Shanghai tomorrow; please help me prepare.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_137.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_sent1",
+   "label": "周明在做什么？ (Zhōu Míng zài zuò shénme?) - What is Zhou Ming doing?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_sent2",
+   "label": "他太太想让他做什么？ (Tā tàitai xiǎng ràng tā zuò shénme?) - What does his wife want him to do?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_sent3",
+   "label": "小刚为什么没接电话？ (Xiǎogāng wèi shénme méi jiē diànhuà?) - Why didn't Xiaogang answer the phone?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_sent4",
+   "label": "同事为什么给小刚打电话？ (Tóngshì wèi shénme gěi Xiǎogāng dǎ diànhuà?) - Why did the colleague call Xiaogang?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_sent5",
+   "label": "小明和同学打算做什么？ (Xiǎomíng hé tóngxué dǎsuàn zuò shénme?) - What do Xiaoming and his classmate plan to do?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_sent6",
+   "label": "怎么做水果饭？ (Zěnme zuò shuǐguǒ fàn?) - How do you make fruit rice?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_sent7",
+   "label": "为什么要多吃水果？ (Wèi shénme yào duō chī shuǐguǒ?) - Why should one eat more fruit?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_sent8",
+   "label": "从雍和宫到王府井，先坐5号线到东单，然后换1号线到王府井。 (Cóng Yōnghégōng dào Wángfǔjǐng, xiān zuò wǔ hào xiàn dào Dōngdān, ránhòu huàn yī hào xiàn dào Wángfǔjǐng.) - From Yonghegong to Wangfujing, first take Line 5 to Dongdan, then transfer to Line 1 to Wangfujing.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_route1",
+   "label": "(1) 从雍和宫到王府井 - From Yonghegong to Wangfujing",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_route2",
+   "label": "(2) 从东四十条到天安门西 - From Dongsishitiao to Tian'anmen West",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_route3",
+   "label": "(3) 从西直门到天安门东 - From Xizhimen to Tian'anmen East",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_route4",
+   "label": "(4) 从前门到北海北 - From Qianmen to Beihai North",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_route5",
+   "label": "(5) 从北京站到西四 - From Beijing Railway Station to Xisi",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_138_route6",
+   "label": "(6) 从和平门到北海北 - From Hepingmen to Beihai North",
+   "file_type": "concept",
+   "kind": "other",
+   "source_file": "level3/page_138.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_140_sent1",
+   "label": "怎么把羊、花儿、老虎送到河对面？ (Zěnme bǎ yáng, huār, lǎohǔ sòng dào hé duìmiàn?) - How can the sheep, the flowers and the tiger be sent to the other side of the river?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_140.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_140_sent2",
+   "label": "老虎吃羊，羊吃花儿。 (Lǎohǔ chī yáng, yáng chī huār.) - The tiger eats sheep, and sheep eat flowers.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_140.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_140_sent3",
+   "label": "“先到先得”，这里“先”是早的意思。 (“Xiān dào xiān dé”, zhèlǐ “xiān” shì zǎo de yìsi.) - In \"先到先得\" (first come, first served), \"先\" means \"early\".",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_140.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_140_sent4",
+   "label": "这句话的意思是东西有限，到得早的人就能得到，到晚了就没有了。 (Zhè jù huà de yìsi shì dōngxi yǒuxiàn, dào de zǎo de rén jiù néng dédào, dào wǎn le jiù méiyǒu le.) - The saying means that the amount of something is limited; those who arrive early can get it, and those who arrive late won't.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_140.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_140_sent5",
+   "label": "现在一般用来比喻做事要积极主动，及早准备，及早动手。 (Xiànzài yìbān yòng lái bǐyù zuò shì yào jījí zhǔdòng, jízǎo zhǔnbèi, jízǎo dòngshǒu.) - Now it is generally used to mean that one should be proactive and prepare and start as early as possible.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_140.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent1",
+   "label": "老师，我来中国留学两年了，但是我的汉语水平提高得一点儿也不快啊。 (Lǎoshī, wǒ lái Zhōngguó liú xué liǎng nián le, dànshì wǒ de Hànyǔ shuǐpíng tí gāo de yìdiǎnr yě bú kuài a.) - Teacher, I have been studying in China for two years, but my Chinese level has not improved quickly at all.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent2",
+   "label": "你每天认真学习，做练习、完成作业，一直不错啊。 (Nǐ měi tiān rènzhēn xuéxí, zuò liànxí, wán chéng zuòyè, yìzhí búcuò a.) - You study seriously every day, do exercises and finish your homework; you have always been doing well.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent3",
+   "label": "这是我昨天的作业，您帮我看看对不对。 (Zhè shì wǒ zuótiān de zuòyè, nín bāng wǒ kànkan duì bu duì.) - This is my homework from yesterday; please help me check if it's right.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent4",
+   "label": "写得不错，除了这个句子意思有些不清楚外，其他都没什么问题。 (Xiě de búcuò, chúle zhège jùzi yìsi yǒuxiē bù qīngchu wài, qítā dōu méi shénme wèntí.) - It's well written; apart from the meaning of this sentence being a bit unclear, the rest has no problems.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent5",
+   "label": "谢谢老师！ (Xièxie lǎoshī!) - Thank you, teacher!",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent6",
+   "label": "以后有什么不明白的地方，可以给我打电话或者发电子邮件。 (Yǐhòu yǒu shénme bù míngbai de dìfang, kěyǐ gěi wǒ dǎ diànhuà huòzhě fā diànzǐ yóujiàn.) - If there is anything you don't understand in future, you can call me or send me an email.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent7",
+   "label": "老师，除了小云，其他人都来了。 (Lǎoshī, chúle Xiǎoyún, qítā rén dōu lái le.) - Teacher, everyone has come except Xiaoyun.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent8",
+   "label": "比赛马上就要开始了，小云怎么还没来？ (Bǐsài mǎshàng jiù yào kāishǐ le, Xiǎoyún zěnme hái méi lái?) - The competition is about to start; why hasn't Xiaoyun come yet?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent9",
+   "label": "刚才给她打电话了，她在路上呢。 (Gāngcái gěi tā dǎ diànhuà le, tā zài lùshang ne.) - I called her just now; she is on the way.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent10",
+   "label": "不等她了，我先给大家讲讲这次比赛的要求和一些需要注意的地方。 (Bù děng tā le, wǒ xiān gěi dàjiā jiǎngjiang zhè cì bǐsài de yāoqiú hé yìxiē xūyào zhù yì de dìfang.) - We won't wait for her; let me first tell everyone about the requirements of this competition and some points that need attention.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent11",
+   "label": "老师，您放心，今天的比赛我们一定能拿第一。 (Lǎoshī, nín fàngxīn, jīntiān de bǐsài wǒmen yídìng néng ná dì yī.) - Teacher, don't worry, we will definitely win first place in today's competition.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent12",
+   "label": "现在用电脑上网真方便啊！ (Xiànzài yòng diànnǎo shàng wǎng zhēn fāngbiàn a!) - It's really convenient to go online with a computer now!",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent13",
+   "label": "是啊，除了看新闻，人们还可以在网上听歌、看电影、买东西。 (Shì a, chúle kàn xīnwén, rénmen hái kěyǐ zài wǎngshang tīng gē, kàn diànyǐng, mǎi dōngxi.) - Yes, besides reading the news, people can also listen to songs, watch movies and shop online.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent14",
+   "label": "对了，你从网上买的那件衣服呢？ (Duìle, nǐ cóng wǎngshang mǎi de nà jiàn yīfu ne?) - By the way, where is the piece of clothing you bought online?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent15",
+   "label": "怎么没见你穿？ (Zěnme méi jiàn nǐ chuān?) - Why haven't I seen you wearing it?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent16",
+   "label": "那件衣服我穿着有点儿小，给我弟弟了。 (Nà jiàn yīfu wǒ chuānzhe yǒudiǎnr xiǎo, gěi wǒ dìdi le.) - That piece of clothing was a bit small for me, so I gave it to my younger brother.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent17",
+   "label": "他满意吗？ (Tā mǎnyì ma?) - Is he satisfied?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_142_sent18",
+   "label": "不用花钱，还有新衣服穿，他满意极了。 (Búyòng huā qián, hái yǒu xīn yīfu chuān, tā mǎnyì jí le.) - He doesn't have to spend money and still has new clothes to wear; he is extremely satisfied.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_142.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_143_sent1",
+   "label": "除了春节、中秋节以外，啤酒节也是这里很重要的一个节日。 (Chúle Chūnjié, Zhōngqiū Jié yǐwài, píjiǔ jié yě shì zhèli hěn zhòngyào de yí ge jiérì.) - Besides the Spring Festival and Mid-Autumn Festival, the Beer Festival is also a very important festival here.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_143.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_143_sent2",
+   "label": "这个地方每年夏天都要举行一次啤酒节。 (Zhège dìfang měi nián xiàtiān dōu yào jǔxíng yí cì píjiǔ jié.) - This place holds a Beer Festival every summer.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_143.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_143_sent3",
+   "label": "在啤酒节上，你可以喝到世界上不同地方的啤酒。 (Zài píjiǔ jié shang, nǐ kěyǐ hēdào shìjiè shang bùtóng dìfang de píjiǔ.) - At the Beer Festival, you can drink beers from different places around the world.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_143.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_143_sent4",
+   "label": "除了喝啤酒，你还可以在街道两边看到世界上不同地方的歌舞。 (Chúle hē píjiǔ, nǐ hái kěyǐ zài jiēdào liǎng biān kàndào shìjiè shang bùtóng dìfang de gēwǔ.) - Besides drinking beer, you can also see songs and dances from different places around the world on both sides of the street.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_143.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_143_sent5",
+   "label": "你想不想了解世界各个地方的啤酒文化？ (Nǐ xiǎng bu xiǎng liǎojiě shìjiè gègè dìfang de píjiǔ wénhuà?) - Do you want to learn about the beer culture of places all over the world?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_143.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_143_sent6",
+   "label": "来这里的啤酒节看看吧。 (Lái zhèli de píjiǔ jié kànkan ba.) - Come and take a look at the Beer Festival here.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_143.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent1",
+   "label": "除了这个汉字以外，别的汉字我都认识。 (Chúle zhège Hànzì yǐwài, bié de Hànzì wǒ dōu rènshi.) - Except for this character, I know all the other characters.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent2",
+   "label": "除了我以外，大家都听懂了。 (Chúle wǒ yǐwài, dàjiā dōu tīngdǒng le.) - Except for me, everyone understood.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent3",
+   "label": "除了这个句子意思有些不清楚外，其他都没什么问题。 (Chúle zhège jùzi yìsi yǒuxiē bù qīngchu wài, qítā dōu méi shénme wèntí.) - Apart from the meaning of this sentence being a bit unclear, the rest has no problems.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent4",
+   "label": "除了小云，其他人都来了。 (Chúle Xiǎoyún, qítā rén dōu lái le.) - Everyone has come except Xiaoyun.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent5",
+   "label": "除了唱歌以外，他还喜欢跳舞。 (Chúle chàng gē yǐwài, tā hái xǐhuan tiào wǔ.) - Besides singing, he also likes dancing.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent6",
+   "label": "除了汉语以外，我还会说英语。 (Chúle Hànyǔ yǐwài, wǒ hái huì shuō Yīngyǔ.) - Besides Chinese, I can also speak English.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent7",
+   "label": "上网除了看新闻，还可以听音乐。 (Shàng wǎng chúle kàn xīnwén, hái kěyǐ tīng yīnyuè.) - Besides reading the news, going online also lets you listen to music.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent8",
+   "label": "除了春节、中秋节以外，啤酒节也是这里很重要的一个节日。 (Chúle Chūnjié, Zhōngqiū Jié yǐwài, píjiǔ jié yě shì zhèli hěn zhòngyào de yí ge jiérì.) - Besides the Spring Festival and Mid-Autumn Festival, the Beer Festival is also a very important festival here.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent9",
+   "label": "春节很重要，中秋节也是很重要的节日。 (Chūnjié hěn zhòngyào, Zhōngqiū Jié yě shì hěn zhòngyào de jiérì.) - The Spring Festival is important, and the Mid-Autumn Festival is also an important festival.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent10",
+   "label": "除了春节以外，中秋节也是很重要的节日。 (Chúle Chūnjié yǐwài, Zhōngqiū Jié yě shì hěn zhòngyào de jiérì.) - Besides the Spring Festival, the Mid-Autumn Festival is also an important festival.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent11",
+   "label": "我喜欢春天，也喜欢夏天。 (Wǒ xǐhuan chūntiān, yě xǐhuan xiàtiān.) - I like spring and I also like summer.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent12",
+   "label": "我们班只有王老师是中国人，其他人都是外国人。 (Wǒmen bān zhǐyǒu Wáng lǎoshī shì Zhōngguó rén, qítā rén dōu shì wàiguó rén.) - In our class only Teacher Wang is Chinese; the others are all foreigners.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_144_sent13",
+   "label": "我只想吃西瓜，其他水果都不想吃。 (Wǒ zhǐ xiǎng chī xīguā, qítā shuǐguǒ dōu bù xiǎng chī.) - I only want to eat watermelon; I don't want to eat any other fruit.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_145_sent1",
+   "label": "这个饭馆有没有什么特别好吃的菜？ (Zhège fànguǎn yǒu méiyǒu shénme tèbié hǎochī de cài?) - Does this restaurant have any especially delicious dishes?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_145.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_145_sent2",
+   "label": "周末你有没有什么打算？ (Zhōumò nǐ yǒu méiyǒu shénme dǎsuàn?) - Do you have any plans for the weekend?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_145.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_145_sent3",
+   "label": "你写得很好，没什么问题。 (Nǐ xiě de hěn hǎo, méi shénme wèntí.) - You write very well; there are no problems.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_145.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_145_sent4",
+   "label": "以后有什么不明白的地方，可以给我打电话或者发电子邮件。 (Yǐhòu yǒu shénme bù míngbai de dìfang, kěyǐ gěi wǒ dǎ diànhuà huòzhě fā diànzǐ yóujiàn.) - If there is anything you don't understand in future, you can call me or send me an email.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_145.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_145_sent5",
+   "label": "周末我跟朋友打算去爬山。 (Zhōumò wǒ gēn péngyou dǎsuàn qù pá shān.) - This weekend I plan to go climbing with friends.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_145.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_145_sent6",
+   "label": "对不起，我很少看电影，不知道哪个好看。 (Duìbuqǐ, wǒ hěn shǎo kàn diànyǐng, bù zhīdào nǎge hǎokàn.) - Sorry, I rarely watch movies, so I don't know which one is good.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_145.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_145_sent7",
+   "label": "没有了，老师，我都懂了。 (Méiyǒu le, lǎoshī, wǒ dōu dǒng le.) - No more, teacher; I understand everything.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_145.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_145_sent8",
+   "label": "我的小狗可爱极了。 (Wǒ de xiǎo gǒu kě'ài jí le.) - My puppy is extremely cute.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_145.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_145_sent9",
+   "label": "今天天气冷极了。 (Jīntiān tiānqì lěng jí le.) - The weather today is extremely cold.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_145.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_145_sent10",
+   "label": "那件衣服我喜欢极了。 (Nà jiàn yīfu wǒ xǐhuan jí le.) - I like that piece of clothing extremely.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_145.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_145_sent11",
+   "label": "他满意极了。 (Tā mǎnyì jí le.) - He is extremely satisfied.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_145.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent1",
+   "label": "除了小云，其他人都来了。 (Chúle Xiǎoyún, qítā rén dōu lái le.) - Everyone has come except Xiaoyun.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent2",
+   "label": "我的汉语水平提高得一点儿也不快。 (Wǒ de Hànyǔ shuǐpíng tí gāo de yìdiǎnr yě bú kuài.) - My Chinese level has not improved quickly at all.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent3",
+   "label": "你每天认真学习，做练习、完成作业。 (Nǐ měi tiān rènzhēn xuéxí, zuò liànxí, wán chéng zuòyè.) - You study seriously every day, do exercises and complete your homework.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent4",
+   "label": "现在用电脑上网真方便啊！ (Xiànzài yòng diànnǎo shàng wǎng zhēn fāngbiàn a!) - It's really convenient to go online with a computer now!",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent5",
+   "label": "我给大家讲讲需要注意的地方。 (Wǒ gěi dàjiā jiǎngjiang xūyào zhù yì de dìfang.) - Let me tell everyone about the points that need attention.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent6",
+   "label": "王经理，电子邮件我已经给您发过去了。 (Wáng jīnglǐ, diànzǐ yóujiàn wǒ yǐjīng gěi nín fā guòqu le.) - Manager Wang, I have already sent the email over to you.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent7",
+   "label": "你每天跟谁练习口语？ (Nǐ měi tiān gēn shéi liànxí kǒuyǔ?) - Who do you practise spoken Chinese with every day?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent8",
+   "label": "已经夜里12点多了，但是今天的作业我还没完成。 (Yǐjīng yèli shí'èr diǎn duō le, dànshì jīntiān de zuòyè wǒ hái méi wán chéng.) - It is already past 12 at night, but I haven't finished today's homework.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent9",
+   "label": "这个月我的钱都花完了，不能再买新衣服了。 (Zhège yuè wǒ de qián dōu huā wán le, bù néng zài mǎi xīn yīfu le.) - I have spent all my money this month and can't buy any more new clothes.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent10",
+   "label": "我在这里只学了三个月汉语，但是水平提高了不少。 (Wǒ zài zhèlǐ zhǐ xué le sān ge yuè Hànyǔ, dànshì shuǐpíng tígāo le bù shǎo.) - I have studied Chinese here for only three months, but my level has improved a lot.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent11",
+   "label": "今天听写五个句子，请大家准备好笔和纸。 (Jīntiān tīngxiě wǔ ge jùzi, qǐng dàjiā zhǔnbèi hǎo bǐ hé zhǐ.) - Today we will do dictation of five sentences; please get your pens and paper ready.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent12",
+   "label": "五个？老师，太多了！ (Wǔ ge? Lǎoshī, tài duō le!) - Five? Teacher, that's too many!",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent13",
+   "label": "世界上有多少个国家？你知道吗？ (Shìjiè shang yǒu duōshao ge guójiā? Nǐ zhīdào ma?) - How many countries are there in the world? Do you know?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent14",
+   "label": "这个……，我真不知道。 (Zhège……, wǒ zhēn bù zhīdào.) - Um..., I really don't know.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent15",
+   "label": "你为什么想去那个地方旅游？ (Nǐ wèi shénme xiǎng qù nàge dìfang lǚyóu?) - Why do you want to travel to that place?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent16",
+   "label": "我对那儿的文化很感兴趣。 (Wǒ duì nàr de wénhuà hěn gǎn xìngqù.) - I am very interested in the culture there.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent17",
+   "label": "你们国家最重要的节日是什么？ (Nǐmen guójiā zuì zhòngyào de jiérì shì shénme?) - What is the most important festival in your country?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent18",
+   "label": "当然是春节！ (Dāngrán shì Chūnjié!) - Of course it's the Spring Festival!",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent19",
+   "label": "刚才电视上的那条新闻真有意思！ (Gāngcái diànshì shang de nà tiáo xīnwén zhēn yǒu yìsi!) - The news item on TV just now was really interesting!",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_146_sent20",
+   "label": "你快说说。 (Nǐ kuài shuōshuo.) - Quick, tell me about it.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_146.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_147_sent1",
+   "label": "这儿的鱼做得最好。 (Zhèr de yú zuò de zuì hǎo.) - The fish is cooked best here.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_147.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_147_sent2",
+   "label": "这儿有一些咖啡。 (Zhèr yǒu yìxiē kāfēi.) - There is some coffee here.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_147.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_147_sent3",
+   "label": "那边还有牛奶和茶。 (Nàbiān hái yǒu niúnǎi hé chá.) - Over there there is also milk and tea.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_147.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_147_sent4",
+   "label": "好的，大家一起努力。 (Hǎo de, dàjiā yìqǐ nǔlì.) - OK, let's all work hard together.",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_147.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_147_sent5",
+   "label": "老师觉得大山的汉语怎么样？ (Lǎoshī juéde Dàshān de Hànyǔ zěnmeyàng?) - What does the teacher think of Dashan's Chinese?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_147.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_147_sent6",
+   "label": "大家都来参加比赛了吗？ (Dàjiā dōu lái cānjiā bǐsài le ma?) - Has everyone come to take part in the competition?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_147.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_147_sent7",
+   "label": "谁没来？ (Shéi méi lái?) - Who didn't come?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_147.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_147_sent8",
+   "label": "老师现在在做什么？ (Lǎoshī xiànzài zài zuò shénme?) - What is the teacher doing now?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_147.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_147_sent9",
+   "label": "大家可以上网做什么？ (Dàjiā kěyǐ shàng wǎng zuò shénme?) - What can people do online?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_147.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_147_sent10",
+   "label": "小刚从网上买的那件衣服怎么了？ (Xiǎogāng cóng wǎngshang mǎi de nà jiàn yīfu zěnme le?) - What happened to the clothes Xiaogang bought online?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_147.md"
+  },
+  {
+   "id": "hsk_data_transcripts_level3_page_147_sent11",
+   "label": "啤酒节上可以做什么？ (Píjiǔ jié shang kěyǐ zuò shénme?) - What can one do at the Beer Festival?",
+   "file_type": "concept",
+   "kind": "sentence",
+   "source_file": "level3/page_147.md"
+  }
+ ],
+ "edges": [
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_kafei",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yinliao",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_niunai",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yinliao",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_cha",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yinliao",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_shui",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yinliao",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_pingguo",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_shuiguo",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_xiangjiao",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_shuiguo",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_xigua",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_shuiguo",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_xianggua",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_shuiguo",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_niurou",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_roulei",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_yangrou",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_roulei",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_jirou",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_roulei",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_yurou",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_roulei",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_hongse",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yanse",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_baise",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yanse",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_lvse",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yanse",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_heise",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yanse",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_paobu",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yundong",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_pashan",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yundong",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_youyong",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yundong",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_dalanqiu",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yundong",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_shuxue",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_xuexi",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_yingyu",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_xuexi",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_lishi",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_xuexi",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_hanyu",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_xuexi",
+   "relation": "category_member_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_xiangjiao",
+   "target": "hsk_data_transcripts_level3_page_134_vocab_xiangjiao",
+   "relation": "same_word_as",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_zai_vs_you_in_xian_zai_ranhou",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_chule_dou",
+   "target": "hsk_data_transcripts_level3_page_144_chule_yiwai_dou_hai_ye",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_chule_hai_ye",
+   "target": "hsk_data_transcripts_level3_page_144_chule_yiwai_dou_hai_ye",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_vocab_chule",
+   "target": "hsk_data_transcripts_level3_page_144_chule_yiwai_dou_hai_ye",
+   "relation": "illustrates_grammar",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_vocab_jile",
+   "target": "hsk_data_transcripts_level3_page_145_jile_degree",
+   "relation": "illustrates_grammar",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_vocab_ranhou",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_132_lesson14_ni_ba_shuiguo_na_guolai",
+   "target": "hsk_data_transcripts_level3_page_133_dialogue1",
+   "relation": "contains_dialogue",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_132_lesson14_ni_ba_shuiguo_na_guolai",
+   "target": "hsk_data_transcripts_level3_page_133_dialogue2",
+   "relation": "contains_dialogue",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_132_lesson14_ni_ba_shuiguo_na_guolai",
+   "target": "hsk_data_transcripts_level3_page_133_dialogue3",
+   "relation": "contains_dialogue",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_132_lesson14_ni_ba_shuiguo_na_guolai",
+   "target": "hsk_data_transcripts_level3_page_134_text4",
+   "relation": "contains_dialogue",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_lesson15_qita_dou_meishenme_wenti",
+   "target": "hsk_data_transcripts_level3_page_142_dialogue1",
+   "relation": "contains_dialogue",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_lesson15_qita_dou_meishenme_wenti",
+   "target": "hsk_data_transcripts_level3_page_142_dialogue2",
+   "relation": "contains_dialogue",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_lesson15_qita_dou_meishenme_wenti",
+   "target": "hsk_data_transcripts_level3_page_142_dialogue3",
+   "relation": "contains_dialogue",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_lesson15_qita_dou_meishenme_wenti",
+   "target": "hsk_data_transcripts_level3_page_143_text4",
+   "relation": "contains_dialogue",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_char_ba",
+   "target": "hsk_data_transcripts_level3_page_130_char_ba_comp",
+   "relation": "has_phonetic_component",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_char_ba",
+   "target": "hsk_data_transcripts_level3_page_130_char_fu_comp",
+   "relation": "has_semantic_component",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_pictophonetic_characters_2",
+   "target": "hsk_data_transcripts_level3_page_130_char_ba",
+   "relation": "illustrated_by_character",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_char_ping",
+   "target": "hsk_data_transcripts_level3_page_130_char_ping_comp",
+   "relation": "has_phonetic_component",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_char_ping",
+   "target": "hsk_data_transcripts_level3_page_130_char_cao_comp",
+   "relation": "has_semantic_component",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_pictophonetic_characters_2",
+   "target": "hsk_data_transcripts_level3_page_130_char_ping",
+   "relation": "illustrated_by_character",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_char_xiang",
+   "target": "hsk_data_transcripts_level3_page_130_char_xiang_comp",
+   "relation": "has_phonetic_component",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_char_xiang",
+   "target": "hsk_data_transcripts_level3_page_130_char_xin_comp",
+   "relation": "has_semantic_component",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_pictophonetic_characters_2",
+   "target": "hsk_data_transcripts_level3_page_130_char_xiang",
+   "relation": "illustrated_by_character",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_char_nu",
+   "target": "hsk_data_transcripts_level3_page_130_char_nu_comp",
+   "relation": "has_phonetic_component",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_char_nu",
+   "target": "hsk_data_transcripts_level3_page_130_char_li_comp",
+   "relation": "has_semantic_component",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_pictophonetic_characters_2",
+   "target": "hsk_data_transcripts_level3_page_130_char_nu",
+   "relation": "illustrated_by_character",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_pingguo",
+   "target": "hsk_data_transcripts_level3_page_130_char_ping",
+   "relation": "character_in",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_vocab_hongjiu",
+   "target": "hsk_data_transcripts_level3_page_130_vocab_hong",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_vocab_hongjiu",
+   "target": "hsk_data_transcripts_level3_page_130_vocab_pijiu",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_vocab_banzhang",
+   "target": "hsk_data_transcripts_level3_page_130_vocab_ban",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_vocab_banzhang",
+   "target": "hsk_data_transcripts_level3_page_130_vocab_xiaozhang",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_vocab_yujian",
+   "target": "hsk_data_transcripts_level3_page_130_vocab_yudao",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_vocab_yujian",
+   "target": "hsk_data_transcripts_level3_page_130_vocab_kanjian",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_vocab_mingdan",
+   "target": "hsk_data_transcripts_level3_page_138_vocab_mingzi",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_vocab_mingdan",
+   "target": "hsk_data_transcripts_level3_page_134_vocab_caidan",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_vocab_duyin",
+   "target": "hsk_data_transcripts_level3_page_138_vocab_du",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_vocab_duyin",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_shengyin",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_vocab_maidan",
+   "target": "hsk_data_transcripts_level3_page_138_vocab_mai",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_vocab_maidan",
+   "target": "hsk_data_transcripts_level3_page_134_vocab_caidan",
+   "relation": "formed_from",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_yonghegong",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_wangfujing",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_dongsishitiao",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_tiananmen_xi",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_xizhimen",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_tiananmen_dong",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_qianmen",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_beihai_bei",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_beijing_zhan",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_xisi",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_hepingmen",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_139_station_dongdan",
+   "target": "hsk_data_transcripts_level3_page_139_beijing_subway_map",
+   "relation": "part_of",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_139.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_128_sent8",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_128.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_129_sent12",
+   "target": "hsk_data_transcripts_level3_page_130_pictophonetic_characters_2",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_129.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_130_sent1",
+   "target": "hsk_data_transcripts_level3_page_130_pictophonetic_characters_2",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_131_sent1",
+   "target": "hsk_data_transcripts_level3_page_131_vocab_qunzi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_131.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_131_liqing_qingyizhong",
+   "target": "hsk_data_transcripts_level3_page_131_sent3",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_131.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_131_liqing_qingyizhong",
+   "target": "hsk_data_transcripts_level3_page_131_sent4",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_131.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent1",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_dasao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_133_sent1",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent2",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_dasao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent2",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ganjing",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent2",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_133_sent2",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_133_sent3",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_133_sent4",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent5",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ranhou",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent5",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_bingxiang",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent5",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent5",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_133_sent5",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent6",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_133_sent6",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_133_sent7",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_133_sent8",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent9",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_xizao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_133_sent9",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_133_sent10",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_133_sent11",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent12",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_133_sent12",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent13",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_jiemu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent13",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ranhou",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent13",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent13",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent13",
+   "target": "hsk_data_transcripts_level3_page_135_zai_vs_you_in_xian_zai_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_133_sent13",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent14",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_yueliang",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent14",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_xiang",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent14",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_panzi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_133_sent14",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent15",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_guafeng",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent15",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_yueliang",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_133_sent15",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent16",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ranhou",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent16",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_shushu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent16",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ayi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent16",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_gushi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent16",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent16",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_133_sent16",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_133_sent17",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_133_sent18",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_sent19",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_shengyin",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_133_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_133_sent19",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_133.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_text4",
+   "target": "hsk_data_transcripts_level3_page_134_sent1",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_sent2",
+   "target": "hsk_data_transcripts_level3_page_134_vocab_caidan",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_text4",
+   "target": "hsk_data_transcripts_level3_page_134_sent2",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_text4",
+   "target": "hsk_data_transcripts_level3_page_134_sent3",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_sent4",
+   "target": "hsk_data_transcripts_level3_page_134_vocab_jiandan",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_sent4",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ranhou",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_sent4",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_sent4",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_sent4",
+   "target": "hsk_data_transcripts_level3_page_135_zai_vs_you_in_xian_zai_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_text4",
+   "target": "hsk_data_transcripts_level3_page_134_sent4",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_sent5",
+   "target": "hsk_data_transcripts_level3_page_134_vocab_xiangjiao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_text4",
+   "target": "hsk_data_transcripts_level3_page_134_sent5",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_134_text4",
+   "target": "hsk_data_transcripts_level3_page_134_sent6",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_134.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent1",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ganjing",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent1",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent2",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent3",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent4",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent5",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_jiemu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent8",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ranhou",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent8",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent9",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent9",
+   "target": "hsk_data_transcripts_level3_page_135_zai_vs_you_in_xian_zai_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent10",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_jiemu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent10",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ranhou",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent10",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent10",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent10",
+   "target": "hsk_data_transcripts_level3_page_135_zai_vs_you_in_xian_zai_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent11",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ranhou",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent11",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent11",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_135_sent11",
+   "target": "hsk_data_transcripts_level3_page_135_zai_vs_you_in_xian_zai_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_135.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent4",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_dasao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent5",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_dasao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent5",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ganjing",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent5",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent6",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_xizao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent7",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_jiemu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent8",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_jiemu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent8",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent8",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent9",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_guafeng",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent10",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_gushi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent11",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_panzi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent12",
+   "target": "hsk_data_transcripts_level3_page_134_vocab_xiangjiao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent13",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_jiemu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent14",
+   "target": "hsk_data_transcripts_level3_page_134_vocab_caidan",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent16",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_dasao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent16",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_136_sent16",
+   "target": "hsk_data_transcripts_level3_page_135_zai_vs_you_in_xian_zai_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_136.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_137_sent2",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_shengyin",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_137.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_137_sent3",
+   "target": "hsk_data_transcripts_level3_page_134_vocab_jiandan",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_137.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_137_sent6",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ganjing",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_137.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_137_sent8",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_xiang",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_137.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_sent8",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_ranhou",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_sent8",
+   "target": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_sent8",
+   "target": "hsk_data_transcripts_level3_page_139_station_yonghegong",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_sent8",
+   "target": "hsk_data_transcripts_level3_page_139_station_wangfujing",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_sent8",
+   "target": "hsk_data_transcripts_level3_page_139_station_dongdan",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_sent8",
+   "target": "hsk_data_transcripts_level3_page_138_route1",
+   "relation": "related_exercise",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route1",
+   "target": "hsk_data_transcripts_level3_page_139_station_yonghegong",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route1",
+   "target": "hsk_data_transcripts_level3_page_139_station_wangfujing",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_sent8",
+   "target": "hsk_data_transcripts_level3_page_138_route2",
+   "relation": "related_exercise",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route2",
+   "target": "hsk_data_transcripts_level3_page_139_station_dongsishitiao",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route2",
+   "target": "hsk_data_transcripts_level3_page_139_station_tiananmen_xi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_sent8",
+   "target": "hsk_data_transcripts_level3_page_138_route3",
+   "relation": "related_exercise",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route3",
+   "target": "hsk_data_transcripts_level3_page_139_station_xizhimen",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route3",
+   "target": "hsk_data_transcripts_level3_page_139_station_tiananmen_dong",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_sent8",
+   "target": "hsk_data_transcripts_level3_page_138_route4",
+   "relation": "related_exercise",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route4",
+   "target": "hsk_data_transcripts_level3_page_139_station_qianmen",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route4",
+   "target": "hsk_data_transcripts_level3_page_139_station_beihai_bei",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_sent8",
+   "target": "hsk_data_transcripts_level3_page_138_route5",
+   "relation": "related_exercise",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route5",
+   "target": "hsk_data_transcripts_level3_page_139_station_beijing_zhan",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route5",
+   "target": "hsk_data_transcripts_level3_page_139_station_xisi",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_sent8",
+   "target": "hsk_data_transcripts_level3_page_138_route6",
+   "relation": "related_exercise",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route6",
+   "target": "hsk_data_transcripts_level3_page_139_station_hepingmen",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_138_route6",
+   "target": "hsk_data_transcripts_level3_page_139_station_beihai_bei",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_138.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_140_sent1",
+   "target": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_140.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_140_xiandao_xiande",
+   "target": "hsk_data_transcripts_level3_page_140_sent3",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_140.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_140_xiandao_xiande",
+   "target": "hsk_data_transcripts_level3_page_140_sent4",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_140.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_140_xiandao_xiande",
+   "target": "hsk_data_transcripts_level3_page_140_sent5",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_140.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent1",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_liuxue",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent1",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_shuiping",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent1",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_tigao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_142_sent1",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent2",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_lianxi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent2",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_wancheng",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_142_sent2",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_142_sent3",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent4",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_chule",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent4",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_juzi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent4",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_qita",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent4",
+   "target": "hsk_data_transcripts_level3_page_144_chule_dou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent4",
+   "target": "hsk_data_transcripts_level3_page_144_interrogative_pronoun_flexible_use_2",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_142_sent4",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_142_sent5",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent6",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_fa",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent6",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_dianzi_youjian",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent6",
+   "target": "hsk_data_transcripts_level3_page_144_interrogative_pronoun_flexible_use_2",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue1",
+   "target": "hsk_data_transcripts_level3_page_142_sent6",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent7",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_chule",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent7",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_qita",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent7",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_xiaoyun",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent7",
+   "target": "hsk_data_transcripts_level3_page_144_chule_dou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_142_sent7",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent8",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_xiaoyun",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_142_sent8",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_142_sent9",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent10",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_yaoqiu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent10",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_zhuyi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_142_sent10",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue2",
+   "target": "hsk_data_transcripts_level3_page_142_sent11",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent12",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_shangwang",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_142_sent12",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent13",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_chule",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent13",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_xinwen",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent13",
+   "target": "hsk_data_transcripts_level3_page_144_chule_hai_ye",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_142_sent13",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_142_sent14",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_142_sent15",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_142_sent16",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_142_sent17",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent18",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_hua",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent18",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_jile",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_sent18",
+   "target": "hsk_data_transcripts_level3_page_145_jile_degree",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_dialogue3",
+   "target": "hsk_data_transcripts_level3_page_142_sent18",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_142_vocab_xiaoyun",
+   "target": "hsk_data_transcripts_level3_page_141_lesson15_qita_dou_meishenme_wenti",
+   "relation": "part_of",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "level3/page_142.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent1",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_chule",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent1",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_jieri",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent1",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_chunjie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent1",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_zhongqiujie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent1",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_pijiujie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent1",
+   "target": "hsk_data_transcripts_level3_page_144_chule_hai_ye",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_text4",
+   "target": "hsk_data_transcripts_level3_page_143_sent1",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent2",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_juxing",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent2",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_pijiujie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_text4",
+   "target": "hsk_data_transcripts_level3_page_143_sent2",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent3",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_shijie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent3",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_pijiujie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent3",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_pijiu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_text4",
+   "target": "hsk_data_transcripts_level3_page_143_sent3",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent4",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_chule",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent4",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_jiedao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent4",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_shijie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent4",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_pijiu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent4",
+   "target": "hsk_data_transcripts_level3_page_144_chule_hai_ye",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_text4",
+   "target": "hsk_data_transcripts_level3_page_143_sent4",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent5",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_shijie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent5",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_ge",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent5",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_wenhua",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent5",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_pijiu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_text4",
+   "target": "hsk_data_transcripts_level3_page_143_sent5",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_sent6",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_pijiujie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_143_text4",
+   "target": "hsk_data_transcripts_level3_page_143_sent6",
+   "relation": "contains_sentence",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_143.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent1",
+   "target": "hsk_data_transcripts_level3_page_144_chule_dou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent2",
+   "target": "hsk_data_transcripts_level3_page_144_chule_dou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent3",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_juzi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent3",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_qita",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent3",
+   "target": "hsk_data_transcripts_level3_page_144_chule_dou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent4",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_qita",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent4",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_xiaoyun",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent4",
+   "target": "hsk_data_transcripts_level3_page_144_chule_dou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent5",
+   "target": "hsk_data_transcripts_level3_page_144_chule_hai_ye",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent6",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_hanyu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent6",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_yingyu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent6",
+   "target": "hsk_data_transcripts_level3_page_144_chule_hai_ye",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent7",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_shangwang",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent7",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_xinwen",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent7",
+   "target": "hsk_data_transcripts_level3_page_144_chule_hai_ye",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent8",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_jieri",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent8",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_chunjie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent8",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_zhongqiujie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent8",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_pijiujie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent8",
+   "target": "hsk_data_transcripts_level3_page_144_chule_hai_ye",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent9",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_jieri",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent9",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_chunjie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent9",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_zhongqiujie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent10",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_jieri",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent10",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_chunjie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent10",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_zhongqiujie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent10",
+   "target": "hsk_data_transcripts_level3_page_144_chule_hai_ye",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent12",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_qita",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent13",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_qita",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_144_sent13",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_xigua",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent1",
+   "target": "hsk_data_transcripts_level3_page_144_interrogative_pronoun_flexible_use_2",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent2",
+   "target": "hsk_data_transcripts_level3_page_144_interrogative_pronoun_flexible_use_2",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent3",
+   "target": "hsk_data_transcripts_level3_page_144_interrogative_pronoun_flexible_use_2",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent4",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_fa",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent4",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_dianzi_youjian",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent4",
+   "target": "hsk_data_transcripts_level3_page_144_interrogative_pronoun_flexible_use_2",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent5",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_pashan",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent8",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_jile",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent8",
+   "target": "hsk_data_transcripts_level3_page_145_jile_degree",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent9",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_jile",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent9",
+   "target": "hsk_data_transcripts_level3_page_145_jile_degree",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent10",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_jile",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent10",
+   "target": "hsk_data_transcripts_level3_page_145_jile_degree",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent11",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_jile",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_145_sent11",
+   "target": "hsk_data_transcripts_level3_page_145_jile_degree",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_145.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent1",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_chule",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent1",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_qita",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent1",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_xiaoyun",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent1",
+   "target": "hsk_data_transcripts_level3_page_144_chule_dou",
+   "relation": "illustrates_grammar",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent2",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_shuiping",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent2",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_tigao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent3",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_lianxi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent3",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_wancheng",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent4",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_shangwang",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent5",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_zhuyi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent6",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_fa",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent6",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_dianzi_youjian",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent7",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_lianxi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent8",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_wancheng",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent9",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_hua",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent10",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_shuiping",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent10",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_tigao",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent11",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_juzi",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent13",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_shijie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent16",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_wenhua",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent17",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_jieri",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent18",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_chunjie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_146_sent19",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_xinwen",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_146.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_147_sent2",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_kafei",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_147.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_147_sent3",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_niunai",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_147.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_147_sent3",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_cha",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_147.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_147_sent5",
+   "target": "hsk_data_transcripts_level3_page_141_vocab_hanyu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_147.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_147_sent9",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_shangwang",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_147.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_147_sent11",
+   "target": "hsk_data_transcripts_level3_page_143_vocab_pijiujie",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_147.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_132_vocab_dianshi_jiemu",
+   "target": "hsk_data_transcripts_level3_page_133_vocab_jiemu",
+   "relation": "contains_word",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_132.md",
+   "weight": 1.0
+  },
+  {
+   "source": "hsk_data_transcripts_level3_page_141_vocab_liuxuesheng",
+   "target": "hsk_data_transcripts_level3_page_142_vocab_liuxue",
+   "relation": "related_to_word",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "level3/page_141.md",
+   "weight": 1.0
+  }
+ ],
+ "hyperedges": [
+  {
+   "id": "hsk_l3_p135_ba3_xian_zai_you_unit",
+   "label": "Lesson 14 sequence-of-actions teaching unit (把 sentence 3 + 先……再/又……然后……)",
+   "nodes": [
+    "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+    "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+    "hsk_data_transcripts_level3_page_135_zai_vs_you_in_xian_zai_ranhou"
+   ],
+   "relation": "form",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "level3/page_135.md"
+  },
+  {
+   "id": "hsk_l3_p144_chule_unit",
+   "label": "除了……以外 structure family (all except / besides)",
+   "nodes": [
+    "hsk_data_transcripts_level3_page_144_chule_yiwai_dou_hai_ye",
+    "hsk_data_transcripts_level3_page_144_chule_dou",
+    "hsk_data_transcripts_level3_page_144_chule_hai_ye"
+   ],
+   "relation": "form",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_144.md"
+  },
+  {
+   "id": "hsk_l3_p130_pictophonetic_unit",
+   "label": "Pictophonetic characters 2 (爸, 苹, 想, 努)",
+   "nodes": [
+    "hsk_data_transcripts_level3_page_130_pictophonetic_characters_2",
+    "hsk_data_transcripts_level3_page_130_char_ba",
+    "hsk_data_transcripts_level3_page_130_char_ping",
+    "hsk_data_transcripts_level3_page_130_char_xiang",
+    "hsk_data_transcripts_level3_page_130_char_nu"
+   ],
+   "relation": "participate_in",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "level3/page_130.md"
+  }
+ ]
+}

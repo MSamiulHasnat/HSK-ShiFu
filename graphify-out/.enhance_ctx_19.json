@@ -1,0 +1,455 @@
+{
+"level3/page_069.md": [
+{
+"id": "s69_word_game3",
+"label": "Word Game: 校园/饭桌/花园",
+"file_type": "concept"
+}
+],
+"level3/page_070.md": [
+{
+"id": "s70_wanshi_kaitou_nan",
+"label": "万事开头难 (The First Step Is Always the Hardest)",
+"file_type": "concept"
+}
+],
+"level3/page_071.md": [
+{
+"id": "s71_lesson7",
+"label": "Lesson 7: 我跟她都认识五年了 (I've Known Her for Five Years)",
+"file_type": "concept"
+}
+],
+"level3/page_072.md": [
+{
+"id": "s71_huanying",
+"label": "欢迎 (huānyíng) — v. to welcome",
+"file_type": "concept"
+},
+{
+"id": "s71_jiehun",
+"label": "结婚 (jié hūn) — v. to marry, to get married",
+"file_type": "concept"
+},
+{
+"id": "s71_tongshi",
+"label": "同事 (tóngshì) — n. colleague",
+"file_type": "concept"
+},
+{
+"id": "s71_yinhang",
+"label": "银行 (yínháng) — n. bank",
+"file_type": "concept"
+},
+{
+"id": "s72_ganxingqu",
+"label": "感兴趣 (gǎn xìngqù) — to be interested in",
+"file_type": "concept"
+},
+{
+"id": "s72_jiu",
+"label": "久 (jiǔ) — adj. for a long time, long",
+"file_type": "concept"
+},
+{
+"id": "s72_yiqian",
+"label": "以前 (yǐqián) — n. before, ago",
+"file_type": "concept"
+}
+],
+"level3/page_073.md": [
+{
+"id": "s71_chidao",
+"label": "迟到 (chídào) — v. to be late",
+"file_type": "concept"
+},
+{
+"id": "s73_ban",
+"label": "半 (bàn) — num. half",
+"file_type": "concept"
+},
+{
+"id": "s73_cha",
+"label": "差 (chà) — v. to fall short of",
+"file_type": "concept"
+},
+{
+"id": "s73_jie",
+"label": "接 (jiē) — v. to meet (sb.), to pick up (sb.)",
+"file_type": "concept"
+},
+{
+"id": "s73_ke",
+"label": "刻 (kè) — m. quarter (of an hour)",
+"file_type": "concept"
+}
+],
+"level3/page_074.md": [
+{
+"id": "s74_biaoda_xingqu",
+"label": "Grammar: 表达兴趣 (Expressing Interest, 对……感兴趣)",
+"file_type": "concept"
+},
+{
+"id": "s74_shiduan_biaoda",
+"label": "Grammar: 时段的表达 (Expressing a Period of Time)",
+"file_type": "concept"
+}
+],
+"level3/page_075.md": [
+{
+"id": "s75_ban_ke_cha_shijian",
+"label": "Grammar: 用\"半\"\"刻\"\"差\"表示时间 (Telling Time with 半/刻/差)",
+"file_type": "concept"
+}
+],
+"level3/page_076.md": [
+{
+"id": "hsk_data_transcripts_level3_page_076_ban",
+"label": "半 (bàn, half)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_cha",
+"label": "差 (chà, to lack/short of)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_chidao",
+"label": "迟到 (chídào, to be late)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_huanying",
+"label": "欢迎 (huānyíng, to welcome)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_jie",
+"label": "接 (jiē, to pick up/meet)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_jiehun",
+"label": "结婚 (jiéhūn, to get married)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_jiu",
+"label": "久 (jiǔ, for a long time)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_ke",
+"label": "刻 (kè, quarter of an hour)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_tongshi",
+"label": "同事 (tóngshì, colleague)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_xingqu",
+"label": "兴趣 (xìngqù, interest)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_yinhang",
+"label": "银行 (yínháng, bank)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_yiqian",
+"label": "以前 (yǐqián, before/previously)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_076_lesson7_exercises",
+"label": "Lesson 7 Exercises (Pronunciation Drills & Fill-in-blank)",
+"file_type": "document"
+}
+],
+"level3/page_077.md": [
+{
+"id": "hsk_data_transcripts_level3_page_077_picture_description_exercise",
+"label": "Picture Description Exercise (Lesson 7)",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level3_page_077_text_comprehension_questions",
+"label": "Text Comprehension Questions (Lesson 7)",
+"file_type": "document"
+}
+],
+"level3/page_078.md": [
+{
+"id": "hsk_data_transcripts_level3_page_078_group_work_weekly_plan",
+"label": "Group Work: Weekly Chinese-Study Plan",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level3_page_078_pair_work_hobbies",
+"label": "Pair Work: Describe Hobbies & Duration",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level3_page_078_word_game_daoshihou",
+"label": "旧字新词: 到+时候→到时候 (when the time comes)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_078_word_game_yihou",
+"label": "旧字新词: 以前+后边→以后 (afterwards)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_078_word_game_yingjie",
+"label": "旧字新词: 欢迎+接→迎接 (to meet/greet)",
+"file_type": "concept"
+}
+],
+"level3/page_079.md": [
+{
+"id": "hsk_data_transcripts_level3_page_079_saying_yibu_zoucuo",
+"label": "Common Saying: 一步走错步步错 (One wrong move makes all moves wrong)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_079_weekly_schedule_table",
+"label": "Weekly Study Schedule Table",
+"file_type": "document"
+}
+],
+"level3/page_080.md": [
+{
+"id": "hsk_data_transcripts_level3_page_080_anjing",
+"label": "安静 (ānjìng, quiet)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_080_dianti",
+"label": "电梯 (diàntī, elevator)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_080_haipa",
+"label": "害怕 (hàipà, to be afraid)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_080_jianmian",
+"label": "见面 (jiàn miàn, to meet)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_080_unit8_title",
+"label": "Unit 8: 你去哪儿我就去哪儿 (I'll go wherever you go)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_080_xiongmao",
+"label": "熊猫 (xióngmāo, panda)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_080_xishoujian",
+"label": "洗手间 (xǐshǒujiān, restroom)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_080_interrogative_pronouns_review",
+"label": "Review: Interrogative Pronouns Learned So Far",
+"file_type": "document"
+}
+],
+"level3/page_081.md": [
+{
+"id": "hsk_data_transcripts_level3_page_081_anjing",
+"label": "安静 (ānjìng, quiet)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_ceng",
+"label": "层 (céng, floor/storey)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_dianti",
+"label": "电梯 (diàntī, elevator)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_haipa",
+"label": "害怕 (hàipà, to be afraid)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_jianmian",
+"label": "见面 (jiàn miàn, to meet)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_kele",
+"label": "可乐 (kělè, cola)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_manyi",
+"label": "满意 (mǎnyì, to be satisfied)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_mashang",
+"label": "马上 (mǎshàng, immediately)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_xiongmao",
+"label": "熊猫 (xióngmāo, panda)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_xishoujian",
+"label": "洗手间 (xǐshǒujiān, restroom)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_yihuir",
+"label": "一会儿 (yíhuìr, a moment)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_you",
+"label": "又 (yòu, again)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_text1_xiuxishi",
+"label": "Text 1: 在休息室 (In the Lounge)",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_text2_zaixuexiao",
+"label": "Text 2: 在学校 (At School)",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level3_page_081_text3_zaikafeiting",
+"label": "Text 3: 在咖啡厅 (In a Coffee House)",
+"file_type": "document"
+}
+],
+"level3/page_082.md": [
+{
+"id": "hsk_data_transcripts_level3_page_082_bianhua",
+"label": "变化 (biànhuà, to change)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_082_jiankang",
+"label": "健康 (jiànkāng, healthy)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_082_jihu",
+"label": "几乎 (jīhū, almost)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_082_lao",
+"label": "老 (lǎo, old)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_082_zhongyao",
+"label": "重要 (zhòngyào, important)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_082_text4_zaizhoumingjia",
+"label": "Text 4: 在周明家 (At Zhou Ming's Home)",
+"file_type": "document"
+}
+],
+"level3/page_083.md": [
+{
+"id": "hsk_data_transcripts_level3_page_083_note_interrogative_pronoun_usage1",
+"label": "Grammar Note: 疑问代词活用1 (就 linking same interrogative pronoun)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_083_note_you_zai",
+"label": "Grammar Note: 又 vs 再 (recurrence of actions)",
+"file_type": "concept"
+}
+],
+"level3/page_084.md": [
+{
+"id": "hsk_data_transcripts_level3_page_084_exercise_fillblank1",
+"label": "Exercise: Fill-in-blank Set 1 (Unit 8)",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level3_page_084_exercise_phrases",
+"label": "Exercise: Read Phrases & Sentences Aloud (Unit 8)",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level3_page_084_note_interrogative_examples",
+"label": "疑问代词活用1 Examples & Practice",
+"file_type": "document"
+}
+],
+"level3/page_085.md": [
+{
+"id": "hsk_data_transcripts_level3_page_085_exercise_fillblank2",
+"label": "Exercise: Fill-in-blank Set 2 (Unit 8)",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level3_page_085_picture_description_exercise",
+"label": "Picture Description Exercise (Unit 8)",
+"file_type": "document"
+}
+],
+"level3/page_086.md": [
+{
+"id": "hsk_data_transcripts_level3_page_086_word_game_zixue",
+"label": "旧字新词: 自己+学习→自学 (self-study)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_086_word_game_lihun",
+"label": "旧字新词: 离开+结婚→离婚 (divorce)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_086_word_game_mianshi",
+"label": "旧字新词: 见面+考试→面试 (interview)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_086_pair_work_survey",
+"label": "Pair Work: Survey using 疑问代词+就+疑问代词",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level3_page_086_text_comprehension_questions",
+"label": "Text Comprehension Questions (Unit 8)",
+"file_type": "document"
+}
+],
+"level3/page_087.md": [
+{
+"id": "hsk_data_transcripts_level3_page_087_saying_zhandegao",
+"label": "Common Saying: 站得高，看得远 (The higher you stand, the farther you'll see)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_087_group_work_travel",
+"label": "Group Work: Travel Experience Discussion",
+"file_type": "document"
+}
+]
+}

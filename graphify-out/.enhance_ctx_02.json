@@ -1,0 +1,392 @@
+{
+"level1/page_021.md": [
+{
+"id": "hsk_data_transcripts_level1_page_021_lesson2_xiexie_ni",
+"label": "Lesson 2: 谢谢你 (Thank You)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_021_vocab_bu",
+"label": "不 (bù) — no, not",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_021_vocab_bukeqi",
+"label": "不客气 (bú kèqi) — you're welcome",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_021_vocab_xiexie",
+"label": "谢谢 (xièxie) — to thank",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_021_vocab_zaijian",
+"label": "再见 (zàijiàn) — to see you around",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_021_lesson2_text",
+"label": "Lesson 2 Text Page (谢谢你)",
+"file_type": "document"
+}
+],
+"level1/page_022.md": [
+{
+"id": "hsk_data_transcripts_level1_page_022_initials_finals_set2",
+"label": "Initials and Finals of Chinese Pinyin (2)",
+"file_type": "concept"
+}
+],
+"level1/page_023.md": [
+{
+"id": "hsk_data_transcripts_level1_page_023_neutral_tone",
+"label": "The Neutral Tone",
+"file_type": "concept"
+}
+],
+"level1/page_024.md": [
+{
+"id": "hsk_data_transcripts_level1_page_024_pinyin_rules_tone_marking_abbreviation",
+"label": "Rules of Pinyin (1): Tone Marking and Abbreviation",
+"file_type": "concept"
+}
+],
+"level1/page_025.md": [
+{
+"id": "hsk_data_transcripts_level1_page_025_classroom_expressions_2",
+"label": "Classroom Expressions — Set 2",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_025_single_component_chars_kou_jian",
+"label": "Single-Component Characters: 口, 见",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_025_strokes_set2",
+"label": "Strokes of Chinese Characters (2): つ, 乚, 亅",
+"file_type": "concept"
+}
+],
+"level1/page_026.md": [
+{
+"id": "hsk_data_transcripts_level1_page_026_shan",
+"label": "山 (shān) \"mountain\" — pictograph origin",
+"file_type": "rationale"
+},
+{
+"id": "hsk_data_transcripts_level1_page_026_xiao",
+"label": "小 (xiǎo) \"small\" — pictograph origin",
+"file_type": "rationale"
+},
+{
+"id": "hsk_data_transcripts_level1_page_026_bu",
+"label": "不 (bù) negation adverb — pictograph origin",
+"file_type": "rationale"
+}
+],
+"level1/page_027.md": [
+{
+"id": "hsk_data_transcripts_level1_page_027_jiao",
+"label": "叫 (jiào) \"to call, to be called\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_027_lesson3",
+"label": "Lesson 3: 你叫什么名字 (What's your name)",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_027_mingzi",
+"label": "名字 (míngzi) \"name\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_027_shenme",
+"label": "什么 (shénme) \"what\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_027_wo",
+"label": "我 (wǒ) \"I, me\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_027_liyue",
+"label": "李月 (Lǐ Yuè) — proper noun",
+"file_type": "document"
+}
+],
+"level1/page_028.md": [
+{
+"id": "hsk_data_transcripts_level1_page_028_laoshi",
+"label": "老师 (lǎoshī) \"teacher\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_028_shenme_grammar",
+"label": "Grammar: Interrogative Pronoun 什么",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_028_ma",
+"label": "吗 (ma) — question particle",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_028_meiguo",
+"label": "美国 (Měiguó) \"the United States\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_028_shi",
+"label": "是 (shì) \"to be\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_028_zhongguo",
+"label": "中国 (Zhōngguó) \"China\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_028_xuesheng",
+"label": "学生 (xuésheng) \"student\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_028_ren",
+"label": "人 (rén) \"human, person\"",
+"file_type": "document"
+}
+],
+"level1/page_029.md": [
+{
+"id": "hsk_data_transcripts_level1_page_029_ma_question",
+"label": "Grammar: Interrogative Sentences with 吗",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_029_shi_sentence",
+"label": "Grammar: the \"是\" Sentence",
+"file_type": "concept"
+}
+],
+"level1/page_030.md": [
+{
+"id": "hsk_data_transcripts_level1_page_030_jqx_zcs",
+"label": "Pinyin: differentiating initials j/q/x and z/c/s",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_030_qiaodan",
+"label": "乔丹 (Qiáodān) — Michael Jordan, proper noun",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_030_yaoming",
+"label": "姚明 (Yáo Míng) — proper noun",
+"file_type": "document"
+}
+],
+"level1/page_031.md": [
+{
+"id": "hsk_data_transcripts_level1_page_031_finals_i_u_u",
+"label": "Pinyin: differentiating finals i, u, ü",
+"file_type": "concept"
+}
+],
+"level1/page_032.md": [
+{
+"id": "hsk_data_transcripts_level1_page_032_bu_tone_sandhi",
+"label": "Tone Sandhi of 不 (bù)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_032_pinyin_rule2",
+"label": "Pinyin Rule 2: ü/finals with ü combined with j, q, x",
+"file_type": "concept"
+}
+],
+"level1/page_033.md": [
+{
+"id": "hsk_data_transcripts_level1_page_033_zhong",
+"label": "中 (zhōng) \"middle\" — pictograph origin",
+"file_type": "rationale"
+},
+{
+"id": "hsk_data_transcripts_level1_page_033_ren_char",
+"label": "人 (rén) \"person\" — pictograph origin",
+"file_type": "rationale"
+},
+{
+"id": "hsk_data_transcripts_level1_page_033_strokes3",
+"label": "Strokes of Chinese Characters (3): 乛, ㄴ",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_033_men",
+"label": "门 (mén) \"door\" — stroke-table example character",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_033_nin",
+"label": "您 (nín) \"(polite) you\" — stroke-table example character",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_033_xin",
+"label": "心 (xīn) \"heart\" — pictograph origin",
+"file_type": "rationale"
+},
+{
+"id": "hsk_data_transcripts_level1_page_033_yue",
+"label": "月 (yuè) \"moon\" — pictograph origin",
+"file_type": "rationale"
+}
+],
+"level1/page_034.md": [
+{
+"id": "hsk_data_transcripts_level1_page_034_dawei",
+"label": "大卫 (Dàwèi) — David, proper noun",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_034_stroke_order1",
+"label": "Stroke Order Rule 1: horizontal before vertical, left-falling before right-falling",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_034_ba",
+"label": "八 (bā) \"eight\" — stroke-order example character",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_034_gong",
+"label": "工 (gōng) \"work, labor\" — stroke-order example character",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_034_shi_num",
+"label": "十 (shí) \"ten\" — stroke-order example character",
+"file_type": "document"
+}
+],
+"level1/page_035.md": [
+{
+"id": "hsk_data_transcripts_level1_page_035_hanyu",
+"label": "汉语 (Hànyǔ) \"Chinese (language)\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_035_de",
+"label": "的 (de) — attributive particle",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_035_lesson4",
+"label": "Lesson 4: 她是我的汉语老师 (She is my Chinese teacher)",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_035_shei",
+"label": "谁 (shéi) \"who, whom\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_035_ta_f",
+"label": "她 (tā) \"she, her\"",
+"file_type": "document"
+}
+],
+"level1/page_036.md": [
+{
+"id": "hsk_data_transcripts_level1_page_036_shei_na_grammar",
+"label": "Grammar: Interrogative Pronouns 谁 and 哪",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_036_na",
+"label": "哪 (nǎ) \"which\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_036_ne",
+"label": "呢 (ne) — question particle",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_036_pengyou",
+"label": "朋友 (péngyou) \"friend\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_036_ta_m",
+"label": "他 (tā) \"he, him\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_036_tongxue",
+"label": "同学 (tóngxué) \"classmate\"",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_036_guo",
+"label": "国 (guó) \"country, nation\"",
+"file_type": "document"
+}
+],
+"level1/page_037.md": [
+{
+"id": "hsk_data_transcripts_level1_page_037_de_grammar",
+"label": "Grammar: Structural Particle 的",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_037_ne_grammar",
+"label": "Grammar: Interrogative Particle 呢 (1)",
+"file_type": "concept"
+}
+],
+"level1/page_038.md": [
+{
+"id": "hsk_data_transcripts_level1_page_038_zhchshr",
+"label": "Pinyin: differentiating initials zh, ch, sh, r",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_038_lina",
+"label": "李娜 (Lǐ Nà) — Li Na, proper noun",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_038_mali",
+"label": "玛丽 (Mǎlì) — Mary, proper noun",
+"file_type": "document"
+},
+{
+"id": "hsk_data_transcripts_level1_page_038_qiaobusi",
+"label": "乔布斯 (Qiáobùsī) — Steve Jobs, proper noun",
+"file_type": "document"
+}
+],
+"level1/page_039.md": [
+{
+"id": "hsk_data_transcripts_level1_page_039_n_ng",
+"label": "Pinyin: differentiating alveolar n and velar ng finals",
+"file_type": "concept"
+}
+],
+"level1/page_040.md": [
+{
+"id": "hsk_data_transcripts_level1_page_040_yi_tone_sandhi",
+"label": "Tone Sandhi of 一 (yī)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level1_page_040_pinyin_rule3",
+"label": "Pinyin Rule 3: use of y and w",
+"file_type": "concept"
+}
+]
+}

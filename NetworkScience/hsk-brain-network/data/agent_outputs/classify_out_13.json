@@ -1,0 +1,912 @@
+[
+{
+"id": "hsk_data_transcripts_level2_page_125_deng",
+"type": "word",
+"headword": "等",
+"pinyin": "děng",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_135_word_meimei",
+"type": "word",
+"headword": "妹妹",
+"pinyin": "mèimei",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_136_grammar_doule",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_135_dialogue_station",
+"type": "dialogue",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_137_exercises",
+"type": "exercise",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_143_vocab_table",
+"type": "apparatus",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_kan",
+"type": "word",
+"headword": "看",
+"pinyin": "kàn",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_qu",
+"type": "word",
+"headword": "去",
+"pinyin": "qù",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_shu",
+"type": "word",
+"headword": "书",
+"pinyin": "shū",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_xuexiao",
+"type": "word",
+"headword": "学校",
+"pinyin": "xuéxiào",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_zai_kafeiguan_text",
+"type": "dialogue",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_063_serial_verb_note",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_076_group_work_weekly_plan",
+"type": "exercise",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_125_daxue",
+"type": "word",
+"headword": "大学",
+"pinyin": "dàxué",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_125_renshi",
+"type": "word",
+"headword": "认识",
+"pinyin": "rènshi",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_125_shi_de_construction",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_126_gaoxing",
+"type": "word",
+"headword": "高兴",
+"pinyin": "gāoxìng",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_134_gaoxing",
+"type": "word",
+"headword": "高兴",
+"pinyin": "gāoxìng",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_139_daxue",
+"type": "word",
+"headword": "大学",
+"pinyin": "dàxué",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_139_yiqi_chaogang",
+"type": "word",
+"headword": "一起",
+"pinyin": "yìqǐ",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_125_dialogue_dining_table",
+"type": "dialogue",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_138_words_not_in_syllabus",
+"type": "apparatus",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_045_lesson_4_zhege_gongzuo_shi_ta_bang_wo_jieshao_de",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_047_dialogue_zai_yundongchang_zuqiu",
+"type": "dialogue",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_047_vocab_feichang",
+"type": "word",
+"headword": "非常",
+"pinyin": "fēicháng",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_047_vocab_kaishi",
+"type": "word",
+"headword": "开始",
+"pinyin": "kāishǐ",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_047_vocab_liang",
+"type": "word",
+"headword": "两",
+"pinyin": "liǎng",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_047_vocab_yijing",
+"type": "word",
+"headword": "已经",
+"pinyin": "yǐjīng",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_048_grammar_de_shihou_time",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_049_grammar_yijing_adverb",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_050_strokes_of_chinese_characters_10",
+"type": "radical_stroke",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_010_saying_fifty_steps",
+"type": "culture",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_010_saying_medicine_cures",
+"type": "culture",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_010_saying_walk_after_dinner",
+"type": "culture",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_012_saying_first_step_hardest",
+"type": "culture",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_012_saying_one_wrong_move",
+"type": "culture",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_014_saying_habit_second_nature",
+"type": "culture",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_016_saying_inured_to_unusual",
+"type": "culture",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_016_saying_money_not_omnipotent",
+"type": "culture",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_016_saying_see_once_better",
+"type": "culture",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_001_hsk_standard_course_3",
+"type": "apparatus",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_001_jiang_liping",
+"type": "apparatus",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_001_li_lin",
+"type": "apparatus",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_001_yu_miao",
+"type": "apparatus",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_009_culture_traditional_sports",
+"type": "culture",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_009_lesson2_when_will_he_come_back",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_009_lesson4_smiles_talking_to_customers",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_009_lesson5_getting_fatter",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_011_lesson6_suddenly_missing",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_011_lesson7_known_her_five_years",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_013_lesson12_leave_important_items",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_015_lesson16_tired_want_to_sleep",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_015_lesson18_believe_they_will_agree",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_015_lesson19_didnt_you_recognise_him",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_098_huan",
+"type": "word",
+"headword": "换",
+"pinyin": "huàn",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_098_jiu",
+"type": "word",
+"headword": "旧",
+"pinyin": "jiù",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_098_qi",
+"type": "word",
+"headword": "骑",
+"pinyin": "qí",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_098_zixingche",
+"type": "word",
+"headword": "自行车",
+"pinyin": "zìxíngchē",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_100_note_gaishu1",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_098_text3_zaixiuxishi",
+"type": "dialogue",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_115_faxian",
+"type": "word",
+"headword": "发现",
+"pinyin": "fāxiàn",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_115_huzhao",
+"type": "word",
+"headword": "护照",
+"pinyin": "hùzhào",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_117_cai_jiu_comparison",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_117_page",
+"type": "apparatus",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_152_ruguo",
+"type": "word",
+"headword": "如果",
+"pinyin": "rúguǒ",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_154_grammar_ruguo_jiu",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_026_saying_bu_dao_changcheng_fei_haohan",
+"type": "culture",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_027_lesson_ta_shenme_shihou_huilai",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_jiao",
+"type": "word",
+"headword": "脚",
+"pinyin": "jiǎo",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_nan",
+"type": "word",
+"headword": "难",
+"pinyin": "nán",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_rongyi",
+"type": "word",
+"headword": "容易",
+"pinyin": "róngyì",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_shu",
+"type": "word",
+"headword": "树",
+"pinyin": "shù",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_teng",
+"type": "word",
+"headword": "疼",
+"pinyin": "téng",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_tui",
+"type": "word",
+"headword": "腿",
+"pinyin": "tuǐ",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_135_word_yin",
+"type": "word",
+"headword": "阴",
+"pinyin": "yīn",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_135_dialogue_cafe",
+"type": "dialogue",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_145_vocab_table",
+"type": "apparatus",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_hao",
+"type": "word",
+"headword": "号",
+"pinyin": "hào",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_jintian",
+"type": "word",
+"headword": "今天",
+"pinyin": "jīntiān",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_lesson7_jintian_jihao",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_qing",
+"type": "word",
+"headword": "请",
+"pinyin": "qǐng",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_xingqi",
+"type": "word",
+"headword": "星期",
+"pinyin": "xīngqī",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_061_zai_yinhang_text",
+"type": "dialogue",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_kan_rili_text",
+"type": "dialogue",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_mingtian",
+"type": "word",
+"headword": "明天",
+"pinyin": "míngtiān",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_062_zuotian",
+"type": "word",
+"headword": "昨天",
+"pinyin": "zuótiān",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_063_date_expression_note",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_063_nominal_predicate_note",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_064_lesson7_exercises",
+"type": "exercise",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_064_weekdays_table",
+"type": "exercise",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_065_describe_pictures_exercise",
+"type": "exercise",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_067_lesson7_application",
+"type": "exercise",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_068_lesson7_group_activity",
+"type": "exercise",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_017_lesson_6",
+"type": "lesson",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_062_wai",
+"type": "word",
+"headword": "外",
+"pinyin": "wài",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_063_gongjin",
+"type": "word",
+"headword": "公斤",
+"pinyin": "gōngjīn",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_063_jingchang",
+"type": "word",
+"headword": "经常",
+"pinyin": "jīngcháng",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_063_youyong",
+"type": "word",
+"headword": "游泳",
+"pinyin": "yóu yǒng",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_133_vocab_jiemu",
+"type": "word",
+"headword": "节目",
+"pinyin": "jiémù",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_133_vocab_ranhou",
+"type": "word",
+"headword": "然后",
+"pinyin": "ránhòu",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_135_ba_sentence_3",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level3_page_135_xian_zai_you_ranhou",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_033_strokes3",
+"type": "radical_stroke",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_062_men",
+"type": "word",
+"headword": "门",
+"pinyin": "mén",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_066_logical_stress",
+"type": "phonetics",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_033_men",
+"type": "character",
+"headword": "门",
+"pinyin": "mén",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_033_nin",
+"type": "character",
+"headword": "您",
+"pinyin": "nín",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_066",
+"type": "apparatus",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_033_xin",
+"type": "character",
+"headword": "心",
+"pinyin": "xīn",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_033_yue",
+"type": "character",
+"headword": "月",
+"pinyin": "yuè",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_081_pinyin_tone_collocation_4th",
+"type": "phonetics",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_text2_at_home",
+"type": "dialogue",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_vocab_dianying",
+"type": "word",
+"headword": "电影",
+"pinyin": "diànyǐng",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_vocab_hui",
+"type": "word",
+"headword": "回",
+"pinyin": "huí",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_vocab_shihou",
+"type": "word",
+"headword": "时候",
+"pinyin": "shíhou",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_096_vocab_women",
+"type": "word",
+"headword": "我们",
+"pinyin": "wǒmen",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_098_exercises",
+"type": "exercise",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_100_hanzi_dian_character",
+"type": "character",
+"headword": "电",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_062_miantiao",
+"type": "word",
+"headword": "面条",
+"pinyin": "miàntiáo",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_104_lai",
+"type": "word",
+"headword": "来",
+"pinyin": "lái",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_104_xia",
+"type": "word",
+"headword": "下",
+"pinyin": "xià",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_104_xiayu",
+"type": "word",
+"headword": "下雨",
+"pinyin": "xià yǔ",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_104_yu",
+"type": "word",
+"headword": "雨",
+"pinyin": "yǔ",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_106_hui_modal",
+"type": "grammar",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_108_char_yu",
+"type": "character",
+"headword": "雨",
+"pinyin": "yǔ",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_104_dialogue_gym",
+"type": "dialogue",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level1_page_109_groupwork_city_weather",
+"type": "exercise",
+"headword": "",
+"pinyin": "",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_045_vocab_kan_shu",
+"type": "word",
+"headword": "看书",
+"pinyin": "kàn shū",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_045_vocab_liang_ge_erzi",
+"type": "word",
+"headword": "两个儿子",
+"pinyin": "liǎng ge érzi",
+"proper": false
+},
+{
+"id": "hsk_data_transcripts_level2_page_045_warmup_vocabulary_matching",
+"type": "exercise",
+"headword": "",
+"pinyin": "",
+"proper": false
+}
+]

@@ -1,0 +1,404 @@
+{
+"level3/page_028.md": [
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_jingli",
+"label": "经理 jīnglǐ (manager)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_propernoun_zhou",
+"label": "周 Zhōu (surname)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_propernoun_zhouming",
+"label": "周明 Zhōu Míng (name of a person)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_ba",
+"label": "把 bǎ (measure word for things with a handle)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_bangongshi",
+"label": "办公室 bàngōngshì (office)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_jiao",
+"label": "脚 jiǎo (foot)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_liang",
+"label": "辆 liàng (measure word for vehicles)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_lou",
+"label": "楼 lóu (building)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_mishu",
+"label": "秘书 mìshū (secretary)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_na",
+"label": "拿 ná (to take, to fetch)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_nan",
+"label": "难 nán (difficult)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_rongyi",
+"label": "容易 róngyì (easy)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_san",
+"label": "伞 sǎn (umbrella)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_shu",
+"label": "树 shù (tree)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_taitai",
+"label": "太太 tàitai (Mrs., madam)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_teng",
+"label": "疼 téng (hurt, painful)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_028_vocab_tui",
+"label": "腿 tuǐ (leg)",
+"file_type": "concept"
+}
+],
+"level3/page_029.md": [
+{
+"id": "hsk_data_transcripts_level3_page_029_vocab_pang",
+"label": "胖 pàng (fat)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_029_vocab_qishi",
+"label": "其实 qíshí (actually)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_029_vocab_shou",
+"label": "瘦 shòu (thin)",
+"file_type": "concept"
+}
+],
+"level3/page_030.md": [
+{
+"id": "hsk_data_transcripts_level3_page_030_grammar_two_successive_actions_v1le_jiu_v2",
+"label": "两个动作连续发生：V₁了……就V₂…… (Successive occurrence of two actions)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_030_example_ni_shanglai_ba",
+"label": "Example: 你上来吧 (illustrating V+来/去 direction complement)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_030_grammar_simple_complement_of_direction",
+"label": "简单趋向补语 Simple Complements of Direction (V+来/去)",
+"file_type": "concept"
+}
+],
+"level3/page_031.md": [
+{
+"id": "hsk_data_transcripts_level3_page_031_example_xiaogang_nale_san_jiu_xialai",
+"label": "Example: 小刚拿了伞就下来 (illustrating V₁了……就V₂……)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_031_example_bu_zuo_zuoye_neng_xuehao_ma",
+"label": "Example: 你不做作业，也不练习，能学好吗？ (illustrating 能……吗 rhetorical question)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_031_grammar_rhetorical_neng_ma",
+"label": "反问的表达：能……吗？ (Rhetorical question 能……吗)",
+"file_type": "concept"
+}
+],
+"level3/page_034.md": [
+{
+"id": "hsk_data_transcripts_level3_page_034_character_word_game_bangonglou",
+"label": "汉字 Word Game: 办公室＋大楼→办公楼",
+"file_type": "concept"
+}
+],
+"level3/page_035.md": [
+{
+"id": "hsk_data_transcripts_level3_page_035_saying_fan_hou_baibu_zou",
+"label": "饭后百步走，活到九十九 (A walk after dinner makes one live to 99)",
+"file_type": "concept"
+}
+],
+"level3/page_036.md": [
+{
+"id": "hsk_data_transcripts_level3_page_036_lesson_zhuozi_shang_fangzhe_hen_duo_yinliao",
+"label": "Lesson 3: 桌子上放着很多饮料 (There are plenty of drinks on the table)",
+"file_type": "concept"
+}
+],
+"level3/page_037.md": [
+{
+"id": "hsk_data_transcripts_level3_page_037_vocab_pashan",
+"label": "爬山 pá shān (to climb a mountain)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_037_vocab_chenshan",
+"label": "衬衫 chènshān (shirt)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_037_vocab_haishi",
+"label": "还是 háishi (or, conj.)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_037_vocab_jide",
+"label": "记得 jìde (to remember)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_037_vocab_kuzi",
+"label": "裤子 kùzi (pants)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_037_vocab_tian",
+"label": "甜 tián (sweet)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_037_vocab_tiao",
+"label": "条 tiáo (measure word for pants, dresses, etc.)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_037_vocab_xiaoxin",
+"label": "小心 xiǎoxīn (careful)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_037_vocab_xinxian",
+"label": "新鲜 xīnxiān (fresh)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_037_vocab_yuan",
+"label": "元 yuán (unit of money)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_037_vocab_zhi",
+"label": "只 zhǐ (only, solely)",
+"file_type": "concept"
+}
+],
+"level3/page_038.md": [
+{
+"id": "hsk_data_transcripts_level3_page_038_vocab_fang",
+"label": "放 fàng (to put, to place)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_038_vocab_hua",
+"label": "花 huā (flower)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_038_vocab_huozhe",
+"label": "或者 huòzhě (or, conj.)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_038_vocab_lv",
+"label": "绿 lǜ (green)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_038_vocab_shufu",
+"label": "舒服 shūfu (comfortable)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_038_vocab_yinliao",
+"label": "饮料 yǐnliào (drink, beverage)",
+"file_type": "concept"
+}
+],
+"level3/page_039.md": [
+{
+"id": "hsk_data_transcripts_level3_page_039_example_ni_yao_he_kafei_haishi_he_cha",
+"label": "Example: 你要喝咖啡还是喝茶？(illustrating 还是 in interrogative sentence)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_039_grammar_haishi_vs_huozhe",
+"label": "\"还是\"和\"或者\" Comparison of 还是 and 或者",
+"file_type": "concept"
+}
+],
+"level3/page_040.md": [
+{
+"id": "hsk_data_transcripts_level3_page_040_example_he_bei_re_cha_hui_hen_shufu",
+"label": "Example: 喝杯热茶会很舒服 (illustrating 会 indicating possibility)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_040_example_zhuozi_shang_fangzhe_hen_duo_yinliao",
+"label": "Example: 桌子上放着很多饮料 (illustrating Location+V着+N existence structure)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_040_grammar_hui_indicating_possibility",
+"label": "\"会\"表示可能 (会 indicating possibility)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_040_grammar_location_v_zhe_existence",
+"label": "存在的表达：Location Word＋V着＋Numeral＋Measure Word＋N",
+"file_type": "concept"
+}
+],
+"level3/page_043.md": [
+{
+"id": "hsk_data_transcripts_level3_page_043_character_word_game_xianlai_lengyin",
+"label": "汉字 Word Game: 新鲜＋牛奶→鲜奶; 冷＋饮料→冷饮",
+"file_type": "concept"
+}
+],
+"level3/page_044.md": [
+{
+"id": "hsk_data_transcripts_level3_page_044_saying_cha_hao_ke_chang_lai",
+"label": "茶好客常来 (Good tea attracts frequenters)",
+"file_type": "concept"
+}
+],
+"level3/page_045.md": [
+{
+"id": "hsk_data_transcripts_level3_page_045_lesson_ta_zongshi_xiaozhe_gen_keren_shuohua",
+"label": "Lesson 4: 她总是笑着跟客人说话 (She always smiles when talking to customers)",
+"file_type": "concept"
+}
+],
+"level3/page_046.md": [
+{
+"id": "hsk_data_transcripts_level3_page_046_propernoun_make",
+"label": "马可 Mǎkě (Marco)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_propernoun_xiaoming",
+"label": "小明 Xiǎomíng (name of a person)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_bisai",
+"label": "比赛 bǐsài (match, competition)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_chaoshi",
+"label": "超市 chāoshì (supermarket)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_congming",
+"label": "聪明 cōngming (clever, smart)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_dangao",
+"label": "蛋糕 dàngāo (cake)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_e",
+"label": "饿 è (hungry)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_huida",
+"label": "回答 huídá (to answer)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_nianji",
+"label": "年级 niánjí (grade)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_nuli",
+"label": "努力 nǔlì (hard-working)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_reqing",
+"label": "热情 rèqíng (warm, enthusiastic)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_you_adv",
+"label": "又 yòu (adv., and/also)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_zhan",
+"label": "站 zhàn (to stand)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_zhaopian",
+"label": "照片 zhàopiàn (photo)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_046_vocab_zongshi",
+"label": "总是 zǒngshì (always)",
+"file_type": "concept"
+}
+],
+"level3/page_047.md": [
+{
+"id": "hsk_data_transcripts_level3_page_047_vocab_keren",
+"label": "客人 kèrén (customer, guest)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_047_propernoun_li_xiaomei",
+"label": "李小美 Lǐ Xiǎoměi (name of a person)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_047_vocab_nianqing",
+"label": "年轻 niánqīng (young)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_047_vocab_renzhen",
+"label": "认真 rènzhēn (serious, earnest)",
+"file_type": "concept"
+}
+]
+}

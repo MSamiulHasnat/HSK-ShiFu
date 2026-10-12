@@ -1,0 +1,287 @@
+{
+"level3/page_048.md": [
+{
+"id": "hsk_data_transcripts_level3_page_048_example_ta_zongshi_xiaozhe_gen_keren_shuohua",
+"label": "Example: 她总是笑着跟客人说话 (illustrating V₁着(O₁)+V₂(O₂))",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_048_grammar_v1zhe_o1_v2_o2_accompanying_action",
+"label": "动作的伴随：V₁着(O₁)+V₂(O₂) Accompanying Action",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_048_example_ta_gongzuo_you_renzhen_you_reqing",
+"label": "Example: 她工作又认真又热情 (illustrating 又……又……)",
+"file_type": "concept"
+},
+{
+"id": "hsk_data_transcripts_level3_page_048_grammar_you_adj_you_adj",
+"label": "又……又…… The Structure 又Adj₁+又Adj₂",
+"file_type": "concept"
+}
+],
+"level3/page_051.md": [
+{
+"id": "s51_v_zhe_structure",
+"label": "V着 Structure (Describing Ongoing Action/State)",
+"file_type": "concept"
+},
+{
+"id": "s51_word_game_nve_zi_xin_ci",
+"label": "Word Game: 女孩/做客/鲜花 (Lesson 4)",
+"file_type": "concept"
+},
+{
+"id": "s51_you_you_structure",
+"label": "又……又…… Structure",
+"file_type": "concept"
+}
+],
+"level3/page_052.md": [
+{
+"id": "s52_wushi_bu_xiao_baibu",
+"label": "五十步笑百步 (The Pot Calling the Kettle Black)",
+"file_type": "concept"
+}
+],
+"level3/page_053.md": [
+{
+"id": "s53_lesson5",
+"label": "Lesson 5: 我最近越来越胖了 (I Am Getting Fatter and Fatter Lately)",
+"file_type": "concept"
+}
+],
+"level3/page_054.md": [
+{
+"id": "s54_cao",
+"label": "草 (cǎo) — n. grass",
+"file_type": "concept"
+},
+{
+"id": "s54_chuntian",
+"label": "春(天) (chūntiān) — n. spring",
+"file_type": "concept"
+},
+{
+"id": "s54_dangran",
+"label": "当然 (dāngrán) — adv. of course",
+"file_type": "concept"
+},
+{
+"id": "s54_fashao",
+"label": "发烧 (fā shāo) — to have a fever",
+"file_type": "concept"
+},
+{
+"id": "s54_ganmao",
+"label": "感冒 (gǎnmào) — v. to catch a cold",
+"file_type": "concept"
+},
+{
+"id": "s54_jijie",
+"label": "季节 (jìjié) — n. season",
+"file_type": "concept"
+},
+{
+"id": "s54_qunzi",
+"label": "裙子 (qúnzi) — n. dress, skirt",
+"file_type": "concept"
+},
+{
+"id": "s54_wei",
+"label": "为 (wèi) — prep. for",
+"file_type": "concept"
+},
+{
+"id": "s54_xiatian",
+"label": "夏(天) (xiàtiān) — n. summer",
+"file_type": "concept"
+},
+{
+"id": "s54_yong",
+"label": "用 (yòng) — v. to need",
+"file_type": "concept"
+},
+{
+"id": "s54_zhaogu",
+"label": "照顾 (zhàogù) — to take care of",
+"file_type": "concept"
+}
+],
+"level3/page_055.md": [
+{
+"id": "s55_yue",
+"label": "越 (yuè) — adv. more, to a greater degree",
+"file_type": "concept"
+},
+{
+"id": "s55_zuijin",
+"label": "最近 (zuìjìn) — adv. lately, recently",
+"file_type": "concept"
+}
+],
+"level3/page_056.md": [
+{
+"id": "s56_le_bianhua",
+"label": "Grammar: \"了\" Indicating a Change",
+"file_type": "concept"
+},
+{
+"id": "s56_yuelaiyue",
+"label": "Grammar: 越来越+Adj/Mental V Structure",
+"file_type": "concept"
+}
+],
+"level3/page_059.md": [
+{
+"id": "s59_cong_char",
+"label": "从 (cóng) — to follow (person behind person)",
+"file_type": "concept"
+},
+{
+"id": "s59_huiyizi",
+"label": "会意字 (Associative Compound Characters)",
+"file_type": "concept"
+},
+{
+"id": "s59_kan_char",
+"label": "看 (kàn) — to look (hand over eye)",
+"file_type": "concept"
+},
+{
+"id": "s59_ming_char",
+"label": "明 (míng) — bright (sun + moon)",
+"file_type": "concept"
+},
+{
+"id": "s59_xiu_char",
+"label": "休 (xiū) — rest (person + tree)",
+"file_type": "concept"
+},
+{
+"id": "s59_word_game2",
+"label": "Word Game: 听说/有点儿/草地",
+"file_type": "concept"
+}
+],
+"level3/page_060.md": [
+{
+"id": "s60_yaodao_bingchu",
+"label": "药到病除 (The Medicine Cures the Disease Instantly)",
+"file_type": "concept"
+}
+],
+"level3/page_061.md": [
+{
+"id": "s61_chuantong_yundong",
+"label": "中国传统运动 (Traditional Chinese Sports: kites, shuttlecock, diabolo, taijiquan)",
+"file_type": "concept"
+}
+],
+"level3/page_062.md": [
+{
+"id": "s62_gongyuan",
+"label": "公园 (gōngyuán) — n. park",
+"file_type": "concept"
+},
+{
+"id": "s62_duanlian",
+"label": "锻炼 (duànliàn) — to do physical exercise",
+"file_type": "concept"
+},
+{
+"id": "s62_lesson6",
+"label": "Lesson 6: 怎么突然找不到了 (Why Are They Suddenly Missing)",
+"file_type": "concept"
+}
+],
+"level3/page_063.md": [
+{
+"id": "s63_qingchu",
+"label": "清楚 (qīngchu) — adj. clear, distinct",
+"file_type": "concept"
+},
+{
+"id": "s63_bangmang",
+"label": "帮忙 (bāng máng) — v. to help",
+"file_type": "concept"
+},
+{
+"id": "s63_gangcai",
+"label": "刚才 (gāngcái) — n. just now",
+"file_type": "concept"
+},
+{
+"id": "s63_jiang",
+"label": "讲 (jiǎng) — v. to explain",
+"file_type": "concept"
+},
+{
+"id": "s63_liaotian",
+"label": "聊天(儿) (liáo tiān(r)) — v. to chat",
+"file_type": "concept"
+},
+{
+"id": "s63_likai",
+"label": "离开 (lí kāi) — v. to leave, to part with",
+"file_type": "concept"
+},
+{
+"id": "s63_mingbai",
+"label": "明白 (míngbai) — adj. clear",
+"file_type": "concept"
+},
+{
+"id": "s63_tebie",
+"label": "特别 (tèbié) — adv. extraordinarily",
+"file_type": "concept"
+},
+{
+"id": "s63_turan",
+"label": "突然 (tūrán) — adv. suddenly",
+"file_type": "concept"
+},
+{
+"id": "s63_yanjing",
+"label": "眼镜 (yǎnjìng) — n. glasses, spectacles",
+"file_type": "concept"
+},
+{
+"id": "s63_yinyue",
+"label": "音乐 (yīnyuè) — n. music",
+"file_type": "concept"
+}
+],
+"level3/page_064.md": [
+{
+"id": "s64_geng",
+"label": "更 (gèng) — adv. more, even more",
+"file_type": "concept"
+},
+{
+"id": "s64_shuizhao",
+"label": "睡着 (shuì zháo) — v. to fall asleep",
+"file_type": "concept"
+}
+],
+"level3/page_065.md": [
+{
+"id": "s65_kenengbuyu",
+"label": "Grammar: 可能补语 V得/不+Complements (Complements of Possibility)",
+"file_type": "concept"
+},
+{
+"id": "s65_ne_wenchusuo",
+"label": "Grammar: \"呢\" Used to Ask about Location (N+呢)",
+"file_type": "concept"
+}
+],
+"level3/page_066.md": [
+{
+"id": "s66_gang_vs_gangcai",
+"label": "Grammar: Comparison of \"刚\" and \"刚才\"",
+"file_type": "concept"
+}
+]
+}
