@@ -1,0 +1,20 @@
+{
+  "search.exclude": {
+    "**/hsk_data/**": true,
+    "**/graphify-out/**": true,
+    "**/HSK-Textbooks/**": true,
+    "**/archive_old_scaffold/**": true,
+    "**/Claude outputs/**": true,
+    "**/.claude-flow/**": true,
+    "**/.swarm/**": true
+  },
+  "files.watcherExclude": {
+    "**/hsk_data/**": true,
+    "**/graphify-out/**": true,
+    "**/HSK-Textbooks/**": true,
+    "**/archive_old_scaffold/**": true,
+    "**/Claude outputs/**": true,
+    "**/.claude-flow/**": true,
+    "**/.swarm/**": true
+  }
+}

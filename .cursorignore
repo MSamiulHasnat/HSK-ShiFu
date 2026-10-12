@@ -1,0 +1,8 @@
+# Keep AI assistants out of the large data folders; use `python -m agent.ask` / the MCP tools instead.
+hsk_data/
+graphify-out/
+HSK-Textbooks/
+archive_old_scaffold/
+Claude outputs/
+.claude-flow/
+.swarm/

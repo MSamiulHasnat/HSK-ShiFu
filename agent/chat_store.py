@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import sqlite3
+from contextlib import contextmanager
 from pathlib import Path
 
 DB_PATH = Path(__file__).resolve().parent / "data" / "chat_sessions.db"
@@ -30,22 +31,32 @@ CREATE TABLE IF NOT EXISTS sessions (
 """
 
 
-def _connect() -> sqlite3.Connection:
+@contextmanager
+def _connect():
+    """A connection that commits on success and is always closed."""
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
-    conn.execute(_SCHEMA)
-    return conn
+    try:
+        with conn:
+            conn.execute(_SCHEMA)
+            columns = {row[1] for row in conn.execute("PRAGMA table_info(sessions)")}
+            if "meta" not in columns:  # added later: topic label, focus, vocabulary entries in play
+                conn.execute("ALTER TABLE sessions ADD COLUMN meta TEXT NOT NULL DEFAULT '{}'")
+            yield conn
+    finally:
+        conn.close()
 
 
 def save(data: dict) -> None:
     with _connect() as conn:
         conn.execute(
             """INSERT INTO sessions
-                 (id, title, created_at, last_active, language, pages, citations, topic_terms, history)
-               VALUES (:id, :title, :created_at, :last_active, :language, :pages, :citations, :topic_terms, :history)
+                 (id, title, created_at, last_active, language, pages, citations, topic_terms, history, meta)
+               VALUES (:id, :title, :created_at, :last_active, :language, :pages, :citations, :topic_terms,
+                       :history, :meta)
                ON CONFLICT(id) DO UPDATE SET
                  title=:title, last_active=:last_active, language=:language,
-                 pages=:pages, citations=:citations, topic_terms=:topic_terms, history=:history""",
+                 pages=:pages, citations=:citations, topic_terms=:topic_terms, history=:history, meta=:meta""",
             {
                 "id": data["id"],
                 "title": data["title"],
@@ -56,6 +67,7 @@ def save(data: dict) -> None:
                 "citations": json.dumps(data["citations"]),
                 "topic_terms": json.dumps(data["topic_terms"]),
                 "history": json.dumps(data["history"]),
+                "meta": json.dumps(data.get("meta") or {}),
             },
         )
 
@@ -63,13 +75,13 @@ def save(data: dict) -> None:
 def load(session_id: str) -> dict | None:
     with _connect() as conn:
         row = conn.execute(
-            "SELECT id, title, created_at, last_active, language, pages, citations, topic_terms, history "
+            "SELECT id, title, created_at, last_active, language, pages, citations, topic_terms, history, meta "
             "FROM sessions WHERE id = ?",
             (session_id,),
         ).fetchone()
     if row is None:
         return None
-    id_, title, created_at, last_active, language, pages, citations, topic_terms, history = row
+    id_, title, created_at, last_active, language, pages, citations, topic_terms, history, meta = row
     return {
         "id": id_,
         "title": title,
@@ -80,6 +92,7 @@ def load(session_id: str) -> dict | None:
         "citations": json.loads(citations),
         "topic_terms": json.loads(topic_terms),
         "history": json.loads(history),
+        "meta": json.loads(meta or "{}"),
     }
 
 

@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "hsk-shifu": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "-m",
+        "agent.mcp_server"
+      ],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}

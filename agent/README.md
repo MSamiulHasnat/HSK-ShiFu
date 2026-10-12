@@ -51,6 +51,12 @@ The web UI at `http://localhost:8000` is a chat with 王老师: tell it what you
 - **Chat history persists** across server restarts in a local SQLite file (`agent/data/chat_sessions.db`, git-ignored). The sidebar in the web UI lists past conversations by title (the first message) and lets you resume or delete them. The 6-hour idle TTL only evicts a conversation from the in-memory cache, not from storage.
 - Known limit with small local models: they follow the conversation well but can misdiagnose *why* an answer is wrong. A larger model (e.g. a 7B+ Qwen, which is strong at Chinese) helps most here.
 
+## Study features (no LLM)
+
+The web app's flashcards, drills, practice tests, course browser and dictionary run entirely on deterministic data parsed from the transcripts (`agent/course.py`, `course_sentences.py`, `course_text.py`, `lexicon.py`) and the student's learning record (`progress.py`, scheduled by `srs.py`), served under `/api` by `api_study.py`. Questions come from `quiz.py`: every correct answer is a book fact, and distractors are other book words filtered so none can also be right.
+
+The tutor uses the same data for grounding: a `focus` (lesson, grammar point, word, or weak-word review) pins exactly those pages plus the book's word-list entries, and `verify.py` looks up every 汉字 (pinyin) example in a reply across all pages, so each is shown as "from the textbook, page N" or "the tutor's own example". It also flags a reply that calls a correct answer wrong while giving the student's own sentence as the correction.
+
 ## Teach mode (one-shot lesson)
 
 `python -m agent.cli --teach "Teach me 把字句"`, or pick "Teach me" in the web UI (`"mode": "teach"` in the `/ask` body).
@@ -99,7 +105,7 @@ export HSK_AGENT_PROVIDER=anthropic
 python -m agent.cli "What does 把字句 mean?"
 ```
 
-Defaults: model `claude-sonnet-5-5` (override with `ANTHROPIC_MODEL`), `max_tokens` 4096 (override with `ANTHROPIC_MAX_TOKENS`). Thinking is left on at the model's own default effort; set `ANTHROPIC_EFFORT` (`low`/`medium`/`high`/`xhigh`/`max`) to tune cost vs. quality.
+Defaults: model `claude-sonnet-5-5` (override with `ANTHROPIC_MODEL`), `max_tokens` 16000 (override with `ANTHROPIC_MAX_TOKENS`). Every request streams, uses prompt caching, shows a summarized thinking trace (`ANTHROPIC_THINKING_DISPLAY=omitted` hides it), and opts into server-side refusal fallbacks (`ANTHROPIC_FALLBACKS=off` disables them). Thinking runs at the model's own default effort; set `ANTHROPIC_EFFORT` (`low`/`medium`/`high`/`xhigh`/`max`) to tune cost vs. quality.
 
 ### Adding another provider (OpenAI, Gemini, ...)
 

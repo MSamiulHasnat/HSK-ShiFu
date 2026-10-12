@@ -2,262 +2,28 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HSK Tutor</title>
-<style>
-  :root {
-    --bg: #f6f5f2; --panel: #ffffff; --text: #1f1f1f; --muted: #6b6b6b;
-    --tutor: #ffffff; --student: #1f6f5c; --student-text: #ffffff;
-    --border: #e3e0d9; --accent: #1f6f5c; --warn-bg: #fff6e0; --warn-border: #e8c46a;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #161616; --panel: #1f1f1f; --text: #ececec; --muted: #9a9a9a;
-      --tutor: #262626; --student: #2c8a72; --student-text: #ffffff;
-      --border: #333; --accent: #3aa88a; --warn-bg: #3a3218; --warn-border: #8a7330;
-    }
-  }
-  * { box-sizing: border-box; }
-  html, body { height: 100%; margin: 0; }
-  body { background: var(--bg); color: var(--text); font-family: -apple-system, "Segoe UI", Roboto, "Noto Sans SC", sans-serif; display: flex; flex-direction: row; }
-  #sidebar { width: 240px; flex-shrink: 0; border-right: 1px solid var(--border); background: var(--panel); display: flex; flex-direction: column; }
-  #sidebar .side-header { padding: 0.7rem; border-bottom: 1px solid var(--border); }
-  #sidebar .side-header button { width: 100%; }
-  #sidebarList { flex: 1; overflow-y: auto; }
-  .session-row { display: flex; align-items: center; gap: 0.4rem; padding: 0.6rem 0.8rem; cursor: pointer; border-bottom: 1px solid var(--border); font-size: 0.82rem; }
-  .session-row:hover { background: var(--bg); }
-  .session-row.active { background: var(--bg); font-weight: 600; }
-  .session-title { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .session-time { color: var(--muted); font-size: 0.68rem; flex-shrink: 0; }
-  .session-del { border: none; background: transparent; color: var(--muted); padding: 0 0.15rem; font-size: 1rem; line-height: 1; flex-shrink: 0; }
-  .session-del:hover { color: var(--accent); }
-  .session-empty { padding: 0.8rem; color: var(--muted); font-size: 0.8rem; }
-  .main { flex: 1; min-width: 0; display: flex; flex-direction: column; }
-  header { padding: 0.8rem 1rem; border-bottom: 1px solid var(--border); background: var(--panel); display: flex; align-items: center; gap: 0.8rem; }
-  header h1 { font-size: 1.05rem; margin: 0; flex: 1; }
-  header .sub { color: var(--muted); font-size: 0.8rem; font-weight: normal; }
-  #menuToggle { display: none; }
-  button { font: inherit; border-radius: 8px; border: 1px solid var(--border); background: var(--panel); color: var(--text); padding: 0.45rem 0.9rem; cursor: pointer; }
-  button:hover { border-color: var(--accent); }
-  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-  button:disabled { opacity: 0.5; cursor: default; }
-  #log { flex: 1; overflow-y: auto; padding: 1rem; }
-  .wrap { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 0.75rem; }
-  .msg { max-width: 85%; padding: 0.7rem 0.95rem; border-radius: 14px; line-height: 1.55; white-space: pre-wrap; word-wrap: break-word; }
-  .tutor { align-self: flex-start; background: var(--tutor); border: 1px solid var(--border); border-bottom-left-radius: 4px; }
-  .student { align-self: flex-end; background: var(--student); color: var(--student-text); border-bottom-right-radius: 4px; }
-  .who { font-size: 0.75rem; color: var(--muted); margin-bottom: 0.2rem; }
-  .student .who { color: rgba(255,255,255,0.75); }
-  .warn { margin-top: 0.6rem; padding: 0.5rem 0.7rem; border-radius: 8px; background: var(--warn-bg); border: 1px solid var(--warn-border); font-size: 0.85rem; }
-  .thinking { margin-bottom: 0.6rem; border: 1px dashed var(--border); border-radius: 8px; padding: 0.4rem 0.6rem; }
-  .thinking summary { cursor: pointer; font-size: 0.78rem; color: var(--muted); font-weight: 600; }
-  .thinking pre { white-space: pre-wrap; word-wrap: break-word; margin: 0.5rem 0 0; font-family: inherit; font-size: 0.78rem; color: var(--muted); max-height: 260px; overflow-y: auto; }
-  .sources { margin-top: 0.5rem; font-size: 0.75rem; color: var(--muted); }
-  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
-  .chips button { font-size: 0.85rem; padding: 0.3rem 0.7rem; border-radius: 999px; }
-  .typing { color: var(--muted); font-style: italic; }
-  footer { border-top: 1px solid var(--border); background: var(--panel); padding: 0.7rem 1rem; }
-  footer .wrap { flex-direction: row; gap: 0.5rem; align-items: flex-end; }
-  textarea { flex: 1; resize: none; font: inherit; padding: 0.6rem 0.8rem; border-radius: 10px; border: 1px solid var(--border); background: var(--bg); color: var(--text); max-height: 9rem; }
-  .hint { max-width: 760px; margin: 0.35rem auto 0; font-size: 0.75rem; color: var(--muted); }
-  @media (max-width: 680px) {
-    #menuToggle { display: inline-block; }
-    #sidebar { position: fixed; inset: 0 auto 0 0; width: 260px; z-index: 10; transform: translateX(-100%); transition: transform 0.2s ease; box-shadow: 2px 0 12px rgba(0,0,0,0.2); }
-    #sidebar.open { transform: translateX(0); }
-  }
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="HSK study app grounded in the HSK Standard Course textbooks (Levels 1–3): tutor, flashcards, drills, practice tests and dictionary, every fact cited to a page.">
+<title>HSK ShiFu</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%2316404f'/><text x='32' y='45' font-size='38' text-anchor='middle' fill='white' font-family='serif'>师</text></svg>">
+<link rel="stylesheet" href="/static/css/app.css">
+<link rel="stylesheet" href="/static/css/views.css">
 </head>
 <body>
-<div id="sidebar">
-  <div class="side-header"><button id="newLesson" class="primary">+ New lesson</button></div>
-  <div id="sidebarList"></div>
+<div class="shell">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="#/tutor"><span class="seal">师</span><span><b>HSK ShiFu</b><small>HSK 1–3 · textbook-grounded</small></span></a>
+    <a class="item hero-item" data-route="tutor" href="#/tutor"><span class="ico">师</span>Ask 王老师</a>
+    <a class="item" data-route="today" href="#/today"><span class="ico">今</span>Today</a>
+    <a class="item" data-route="course" href="#/course"><span class="ico">课</span>Course</a>
+    <a class="item" data-route="review" href="#/review"><span class="ico">卡</span>Review <span class="badge" id="dueBadge" hidden></span></a>
+    <a class="item" data-route="practice" href="#/practice"><span class="ico">练</span>Practice</a>
+    <a class="item" data-route="dictionary" href="#/dictionary"><span class="ico">词</span>Dictionary</a>
+    <div class="spacer"></div>
+    <div class="foot">Every word, sentence and grammar point comes from the <i>HSK Standard Course</i> textbooks, with page references. Audio uses your device’s Chinese voice.</div>
+  </nav>
+  <main id="main" tabindex="-1"></main>
 </div>
-<div class="main">
-  <header>
-    <button id="menuToggle" title="Past conversations">☰</button>
-    <h1>王老师 · HSK Tutor <span class="sub">— grounded in the HSK Standard Course (Levels 1–3)</span></h1>
-  </header>
-  <div id="log"><div class="wrap" id="msgs"></div></div>
-  <footer>
-    <div class="wrap">
-      <textarea id="input" rows="1" placeholder="Answer, ask a question, or say what you want to learn…"></textarea>
-      <button id="send" class="primary">Send</button>
-    </div>
-    <div class="hint">Enter to send · Shift+Enter for a new line · Replies from a local model can take up to a minute.</div>
-  </footer>
-</div>
-<script>
-const msgs = document.getElementById('msgs');
-const log = document.getElementById('log');
-const input = document.getElementById('input');
-const sendBtn = document.getElementById('send');
-const sidebar = document.getElementById('sidebar');
-const sidebarList = document.getElementById('sidebarList');
-let sessionId = null;
-let busy = false;
-
-function esc(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
-function renderMd(s) {
-  return esc(s)
-    .replace(/^#{1,4} (.*)$/gm, '<strong>$1</strong>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>');
-}
-function fmtTime(ts) {
-  const diff = Date.now() / 1000 - ts;
-  if (diff < 60) return 'just now';
-  if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
-  if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
-  return new Date(ts * 1000).toLocaleDateString();
-}
-
-function add(role, text, extra, thinking) {
-  const div = document.createElement('div');
-  div.className = 'msg ' + role;
-  let body = text;
-  let warn = '';
-  if (role === 'tutor') {
-    const i = text.indexOf('⚠️ Fact check');
-    if (i !== -1) { body = text.slice(0, i).trimEnd(); warn = text.slice(i); }
-  }
-  const thinkingHtml = thinking
-    ? '<details class="thinking"><summary>🤔 Thinking</summary><pre>' + esc(thinking) + '</pre></details>'
-    : '';
-  div.innerHTML = '<div class="who">' + (role === 'tutor' ? '王老师' : 'You') + '</div>' +
-    thinkingHtml +
-    (role === 'tutor' ? renderMd(body) : esc(body)) +
-    (warn ? '<div class="warn">' + renderMd(warn) + '</div>' : '');
-  if (extra) div.appendChild(extra);
-  msgs.appendChild(div);
-  log.scrollTop = log.scrollHeight;
-  return div;
-}
-
-function welcome() {
-  msgs.innerHTML = '';
-  sessionId = null;
-  const chips = document.createElement('div');
-  chips.className = 'chips';
-  ['Teach me 把字句', 'Teach me 了', 'Quiz me on 比 comparisons', 'What is the difference between 还是 and 或者?', 'Teach me 着'].forEach(t => {
-    const b = document.createElement('button');
-    b.textContent = t;
-    b.onclick = () => send(t);
-    chips.appendChild(b);
-  });
-  add('tutor', '你好！(Nǐ hǎo!) I\'m 王老师, your HSK tutor. I teach from the HSK Standard Course textbooks, Levels 1–3.\n\nTell me what you\'d like to learn — a grammar point, a word, or a lesson — and we\'ll practise it together. I\'ll ask you questions and check your answers.', chips);
-  highlightActiveSession();
-}
-
-function highlightActiveSession() {
-  sidebarList.querySelectorAll('.session-row').forEach(row => {
-    row.classList.toggle('active', row.dataset.id === sessionId);
-  });
-}
-
-async function loadSessions() {
-  try {
-    const resp = await fetch('/chat/sessions');
-    if (!resp.ok) return;
-    const list = await resp.json();
-    sidebarList.innerHTML = '';
-    if (!list.length) {
-      sidebarList.innerHTML = '<div class="session-empty">No past conversations yet.</div>';
-      return;
-    }
-    list.forEach(s => {
-      const row = document.createElement('div');
-      row.className = 'session-row';
-      row.dataset.id = s.id;
-      const title = document.createElement('span');
-      title.className = 'session-title';
-      title.textContent = s.title || 'New conversation';
-      const time = document.createElement('span');
-      time.className = 'session-time';
-      time.textContent = fmtTime(s.last_active);
-      const del = document.createElement('button');
-      del.className = 'session-del';
-      del.textContent = '×';
-      del.title = 'Delete this conversation';
-      del.onclick = async (e) => {
-        e.stopPropagation();
-        if (busy) return;
-        await fetch('/chat/reset', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: s.id }) });
-        if (s.id === sessionId) welcome();
-        loadSessions();
-      };
-      row.appendChild(title);
-      row.appendChild(time);
-      row.appendChild(del);
-      row.onclick = () => loadSession(s.id);
-      sidebarList.appendChild(row);
-    });
-    highlightActiveSession();
-  } catch (e) { /* sidebar is a convenience -- chat still works without it */ }
-}
-
-async function loadSession(id) {
-  if (busy || id === sessionId) return;
-  try {
-    const resp = await fetch('/chat/sessions/' + id);
-    if (!resp.ok) return;
-    const data = await resp.json();
-    sessionId = data.session_id;
-    msgs.innerHTML = '';
-    data.history.forEach(m => add(m.role === 'assistant' ? 'tutor' : 'student', m.content));
-    highlightActiveSession();
-    sidebar.classList.remove('open');
-  } catch (e) {}
-}
-
-async function send(text) {
-  text = (text ?? input.value).trim();
-  if (!text || busy) return;
-  busy = true; sendBtn.disabled = true;
-  input.value = ''; input.style.height = 'auto';
-  add('student', text);
-  const thinking = add('tutor', '…');
-  thinking.querySelector('.who').nextSibling.textContent = '';
-  thinking.insertAdjacentHTML('beforeend', '<span class="typing">thinking…</span>');
-  try {
-    const resp = await fetch('/chat', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({message: text, session_id: sessionId})
-    });
-    const data = await resp.json();
-    thinking.remove();
-    if (!resp.ok) { add('tutor', 'Sorry — ' + (data.detail || resp.statusText)); return; }
-    sessionId = data.session_id;
-    let extra = null;
-    if (data.topic_changed && data.sources && data.sources.length) {
-      extra = document.createElement('div');
-      extra.className = 'sources';
-      extra.textContent = '📖 Teaching from: ' + data.sources.join(', ');
-    }
-    add('tutor', data.reply, extra, data.thinking);
-    loadSessions();
-  } catch (e) {
-    thinking.remove();
-    add('tutor', 'Sorry — the request failed: ' + e);
-  } finally {
-    busy = false; sendBtn.disabled = false; input.focus();
-  }
-}
-
-sendBtn.onclick = () => send();
-input.addEventListener('keydown', e => {
-  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
-});
-input.addEventListener('input', () => { input.style.height = 'auto'; input.style.height = Math.min(input.scrollHeight, 144) + 'px'; });
-document.getElementById('newLesson').onclick = () => {
-  if (busy) return;
-  welcome();
-  sidebar.classList.remove('open');
-};
-document.getElementById('menuToggle').onclick = () => sidebar.classList.toggle('open');
-welcome();
-loadSessions();
-input.focus();
-</script>
+<script type="module" src="/static/js/app.js"></script>
 </body>
 </html>

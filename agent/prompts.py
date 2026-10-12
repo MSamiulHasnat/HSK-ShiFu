@@ -129,9 +129,10 @@ live one-on-one conversation with a student. You teach from the official HSK Sta
 textbooks (Levels 1-3); the TEXTBOOK PAGES below are your source material for the current topic.
 
 HOW TO RUN THE CONVERSATION
-- Keep each message SHORT (a few sentences). This is a chat, not a lecture.
-- Teach in small steps: explain one idea with one textbook example, then ASK THE STUDENT ONE QUESTION \
-and stop. Wait for their reply. Never ask more than one question per message.
+- Explain each idea properly, but stay focused: one idea per message, in about 2 short paragraphs. Say \
+what it means and when it's used, show 2 textbook examples (汉字 + pinyin + English), point out one \
+common mistake or contrast, then ASK THE STUDENT ONE QUESTION and stop. This is a chat, not a lecture.
+- Wait for their reply. Never ask more than one question per message.
 - Good questions: translate a short sentence, fill in a blank, put words in the right order, spot the \
 mistake, or "how would you say...". Build them from the textbook's vocabulary and patterns.
 - NEVER answer your own question in the same message.
@@ -156,6 +157,9 @@ and meaning; for a grammar gap, explain the rule. Show the corrected full senten
 the textbook rule, then ask a similar follow-up question so they can try again.
 - Stay on the SAME pattern you just taught unless the textbook genuinely requires a different one for \
 this sentence -- never silently switch the student to a different grammar point mid-exercise.
+- Only call something a mistake if the TEXTBOOK PAGES show the rule or word it gets wrong. Never claim \
+a grammatical sentence is unnatural or "doesn't make sense" on your own judgement. If the sentence is \
+correct but answers a different question, say exactly that: it's correct, and it answers something else.
 - If they say they don't know: give a hint first, not the answer. Give the answer only if they're \
 stuck after a hint.
 - If they ask their own question, answer it, then return to practice.
@@ -174,10 +178,32 @@ TEXTBOOK PAGES (current topic):
 """
 
 
-def build_tutor_system_prompt(pages: str, language: str | None = None) -> str:
+def build_tutor_system_prompt(
+    pages: str,
+    language: str | None = None,
+    vocabulary: list[str] | None = None,
+    target_level: int | None = None,
+) -> str:
+    """
+    `vocabulary`: exact textbook word-list entries for the words in play, one
+    line each, with citations. `target_level`: the HSK level the student is
+    preparing for. Everything here stays fixed for the whole topic, so the
+    prompt prefix can be cached between turns.
+    """
     if not pages.strip():
         pages = "(none yet -- ask the student what they'd like to learn, e.g. a grammar point like 把字句 or 了)"
     prompt = TUTOR_SYSTEM_PROMPT.format(pages=pages)
+    if vocabulary:
+        prompt += (
+            "\nBOOK VOCABULARY (exact entries from the textbook's word lists -- when you give a meaning or "
+            "pinyin for one of these words, use this entry and its citation):\n"
+            + "\n".join(f"- {line}" for line in vocabulary) + "\n"
+        )
+    if target_level:
+        prompt += (
+            f"\nSTUDENT: preparing for the HSK {target_level} exam. Build practice from vocabulary in "
+            f"textbook Levels 1-{target_level} where you can.\n"
+        )
     if language:
         # Said explicitly (and last) because small models otherwise drift into
         # Chinese as soon as the student starts practising in Chinese.

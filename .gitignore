@@ -17,3 +17,13 @@ __pycache__/
 
 # Local chat session history (runtime data, not source)
 agent/data/
+
+# Personal Claude Code / Ruflo dev tooling: stays on the developer's machine, not shipped to users
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/agents/
+.claude/commands/
+.claude/helpers/
+.claude/skills/*
+!.claude/skills/hsk-tutor/
+.claude-flow/

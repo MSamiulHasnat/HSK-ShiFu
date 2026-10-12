@@ -2,7 +2,7 @@
 
 **A Chinese tutor that only teaches what's in the textbook.**
 
-HSK ShiFu answers questions about HSK Chinese vocabulary, grammar, and exam content, and it runs interactive practice sessions with a tutor named 王老师 (Wáng lǎoshī). Every fact it states is retrieved from a knowledge graph built from the official *HSK Standard Course* textbooks (Levels 1–3), and every claim comes with a page citation.
+HSK ShiFu is a complete study app for HSK 1–3 candidates: an AI tutor named 王老师 (Wáng lǎoshī), spaced-repetition flashcards, exam-style drills, timed practice tests, a course browser and a dictionary. Every word, sentence and grammar point in it comes from the official *HSK Standard Course* textbooks (Levels 1–3), with a page citation that opens the scanned book page.
 
 It never answers from general knowledge of Chinese. If the textbooks don't cover something, it says so.
 
@@ -35,21 +35,38 @@ Most "AI tutors" answer from whatever the model happens to remember, which means
 | Citations | Often missing or invented | Every textbook fact cites `(HSK Level N, page N)` |
 | Unknown topics | Guesses | Says *"This isn't covered in the HSK textbook materials I have access to."* |
 | Fact checking | None | Code checks every citation and example sentence against the page text |
+| Proof | "Trust me" | Every citation opens the scanned textbook page |
 
-The language model only *writes* the answer. What it's allowed to say is decided by retrieval from the textbooks.
+The language model only *writes* the tutor's replies. What it's allowed to say is decided by retrieval from the textbooks, and everything outside the chat (flashcards, drills, tests, dictionary) involves no language model at all.
 
 ---
 
 ## Features
 
-- **Grounded Q&A.** Ask a question, get a short answer with citations, or the honest "not covered" message.
-- **Teach mode.** A structured one-shot lesson: what it is, the textbook's own examples, how to use it, optional clearly-labelled teacher's notes, and practice questions.
-- **Interactive tutor chat.** A multi-turn conversation that teaches in small steps, asks one question at a time, diagnoses *why* a practice answer is wrong (vocabulary gap, grammar pattern, or tone), and never leaks the answer.
-- **Persistent chat sessions.** Conversations are saved locally. A sidebar lists past sessions so you can resume or delete them.
-- **Automatic fact checking.** Citations must point at pages the model was actually given, and Chinese example sentences shown under a citation must really appear on that page. Anything that doesn't is flagged.
+### Study app (works with no language model)
+
+- **Today dashboard.** Cards due, new words for today, streak, accuracy, vocabulary coverage per HSK level, where to continue in the course, the words you keep missing, and recent test scores. Pick the HSK level you're preparing for.
+- **Spaced-repetition flashcards.** All 596 syllabus words, introduced in textbook order with a daily limit, scheduled Anki-style (Again / Hard / Good / Easy, learning steps, growing intervals). Each card shows the book's pinyin, meaning, page and an example sentence from the lesson. Keyboard-driven, with audio.
+- **Exam-style drills.** Six question types built from the books: meaning, characters, pinyin and tones, listening, fill-the-gap (选词填空) and sentence ordering (连词成句). Wrong options are real book words, filtered so none can also be correct. Every answer shows its source page.
+- **Timed practice tests.** 30 questions in sections (listening, reading, fill-the-blank, plus sentence building at HSK 3), 25 minutes, no feedback until the end, then a section breakdown and a review of every mistake. Clearly labelled as practice material, not an official paper.
+- **Course browser.** All 50 lessons with titles, page ranges, word lists (with your progress on each word), the 136 grammar points and the lesson's sentences, with pinyin and English where the book prints them.
+- **Dictionary.** Search the 717 textbook words by characters, pinyin (tones optional) or English. Each entry shows its lesson, page, the book's sentences that use it, and other entries for the same characters.
+- **Scanned-page viewer.** Every 📖 citation, anywhere in the app, opens the actual book page alongside its transcript.
+- **Tap any word.** Chinese words in the tutor's replies, sentences and examples are linked to their textbook entry, with audio and "add to flashcards".
+
+### 王老师, the tutor
+
+- **Streaming replies** with the model's thinking shown live (collapsible) when the model provides it.
+- **Focused lessons.** Start from any lesson, grammar point, word, or your weak words; the tutor pins exactly those textbook pages plus the book's word-list entries, and knows which HSK level you're preparing for.
+- **Teaching style.** Small steps, one question at a time, diagnoses *why* an answer is wrong (vocabulary, grammar pattern, or tone), never leaks the answer, role-plays the lesson dialogues.
+- **Automatic checks on every reply.** Citations must be pages the tutor was given; examples shown under a citation must be on that page; every 汉字 (pinyin) example is looked up across the books and marked either "✓ from the textbook, page N" or "the tutor's own example"; and if the tutor calls a correct answer wrong while giving the student's own sentence as the "correction", the reply is flagged.
+- **Persistent conversations** with a history drawer.
 - **Swappable model backends.** Run fully local (Ollama, or a llama.cpp server) or use Claude through the Anthropic API.
-- **Reasoning trace (optional).** Models that support it can show their thinking in a collapsible block in the chat UI.
-- **Browser UI and HTTP API.** A single-page chat app and a FastAPI server, plus a command-line interface.
+
+### Also
+
+- **Teach mode and grounded Q&A** from the command line (`agent/cli.py`).
+- **HTTP API** for everything above, documented at `/docs`.
 
 ---
 
@@ -70,23 +87,35 @@ The language model only *writes* the answer. What it's allowed to say is decided
 ┌───────────────┴─────────────────────────────────────────────────┐
 │ agent/                                                          │
 │                                                                 │
+│  course.py ───── the books as data: 717 words, 50 lessons,      │
+│  lexicon.py      136 grammar points, 1,600+ sentences, each     │
+│                  with its page (no LLM)                         │
+│       │                                                         │
+│       ├─► srs.py · progress.py ── flashcard scheduling and the  │
+│       │                           learning record (SQLite)      │
+│       ├─► quiz.py ─────────────── drills and practice tests     │
+│       ▼                                                         │
 │  retrieval.py ── finds relevant graph nodes + textbook pages    │
 │       │                                                         │
 │       ▼                                                         │
 │  prompts.py ──── one shared rule set (grounding, citations,     │
 │       │          diagnosis, language) used by every mode        │
 │       ▼                                                         │
-│  providers.py ── Ollama · llama.cpp · Anthropic (Claude)        │
+│  providers.py ── Ollama · llama.cpp · Anthropic (Claude),       │
+│       │          all streaming                                  │
+│       ▼                                                         │
+│  tutor.py / teacher.py ── chat and lessons, plus fact checks    │
+│  verify.py ────────────── every example looked up in the books  │
 │       │                                                         │
 │       ▼                                                         │
-│  teacher.py / tutor.py ── lessons and chat, plus fact checks    │
-│       │                                                         │
-│       ▼                                                         │
-│  server.py · cli.py ──── HTTP API, web UI, command line         │
+│  server.py · api_study.py · static/ ── HTTP API and web app     │
+│  cli.py ───────────────────────────── command line              │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-The retrieval layer never calls a language model. The model only writes prose from material retrieval already selected, and code checks the result afterwards.
+The course layer parses the transcripts deterministically: the back-of-book vocabulary index (词语总表), each lesson's numbered "New Words" lists, the tables of contents, the "注释 Notes" grammar sections, and the dialogues. It is conservative where accuracy matters: a sentence keeps its pinyin only if the book's own pinyin for the words in it matches, and its English only if the dialogue and its "English Version" line up one-to-one, so nothing is ever shown with someone else's translation.
+
+Neither the course layer nor retrieval calls a language model. The model only writes the tutor's prose from material retrieval already selected, and code checks the result afterwards.
 
 ---
 
@@ -104,9 +133,9 @@ pip install -r requirements.txt
 
 The knowledge graph is already built and committed in `graphify-out/`, so you don't need to rebuild it.
 
-### 2. Pick a model
+### 2. Pick a model (for the tutor only)
 
-Choose one of the backends below. The fastest way to start is Ollama:
+Flashcards, drills, tests, the course and the dictionary work without a model. The tutor chat needs one. The fastest way to start is Ollama:
 
 ```bash
 ollama pull gemma3n:e4b
@@ -115,7 +144,7 @@ export HSK_AGENT_PROVIDER=ollama
 
 See [Choosing a model](#choosing-a-model-providers) for the other options.
 
-### 3. Start the web UI
+### 3. Start the app
 
 ```bash
 python -m agent.server
@@ -171,7 +200,7 @@ export ANTHROPIC_API_KEY=sk-ant-...
 export HSK_AGENT_PROVIDER=anthropic
 ```
 
-Defaults: model `claude-sonnet-5-5`, `max_tokens` 4096. Set `ANTHROPIC_EFFORT` to `low` through `max` to trade cost against quality.
+Defaults: model `claude-sonnet-5-5`, `max_tokens` 16000, streaming, prompt caching (the pinned textbook pages are re-read from cache on later turns), thinking shown as a readable summary, and server-side refusal fallbacks (`fallbacks="default"`: if a safety classifier declines a request, the API re-runs it on Anthropic's recommended fallback model). Set `ANTHROPIC_EFFORT` to `low` through `max` to trade cost against quality, or `ANTHROPIC_MODEL=claude-opus-5-5` for the most capable tutor.
 
 For a fuller description of each provider, including the model-specific notes, see [`agent/README.md`](agent/README.md).
 
@@ -179,15 +208,39 @@ For a fuller description of each provider, including the model-specific notes, s
 
 ## Using it
 
+### A study day
+
+1. **Today**: pick the HSK level you're preparing for, then press **Start review**.
+2. **Review**: <kbd>Space</kbd> shows the answer, <kbd>1</kbd>–<kbd>4</kbd> grades it, <kbd>R</kbd> replays the audio. New words arrive in textbook order, up to your daily limit (Today → Settings).
+3. **Course**: open the next lesson; **Learn these words** queues all its words, **Study with 王老师** starts a tutor session on it, **Drill this lesson** quizzes it.
+4. **Practice**: a quick drill (pick level, lesson and question types) or a timed **practice test**. Mistakes can be drilled again or gone over with 王老师.
+5. **Dictionary**: look anything up by characters, pinyin or English.
+
+Tap any underlined Chinese word for its textbook entry, and any 📖 citation to see the scanned page.
+
+Audio uses your device's own Chinese text-to-speech voice. If none is installed, add one in your operating system's language settings. The pinyin shown in the app is always the textbook's.
+
 ### The tutor chat
 
-Open the web UI and say what you want to learn, for example *"Teach me 把字句"*, or tap one of the suggestion chips.
+Open **Tutor** and pick a starter (study a lesson, role-play its dialogue, explain a grammar point, review your weak words), or say what you want to learn, for example *"Teach me 把字句"* or *"HSK 2 lesson 5"*.
 
 - The tutor teaches one small idea, cites the textbook page, and asks **one** question.
 - Answer in Chinese or English. Explanations stay in the language you started with.
 - If an answer is wrong, the tutor says what kind of mistake it is before correcting it.
-- Use **+ New lesson** to start fresh. Past conversations stay in the sidebar, and **×** deletes one.
-- If the reply includes a 🤔 **Thinking** block, that's the model's reasoning trace. It only appears when reasoning is enabled.
+- Under each reply, **Sentence check** lists the Chinese examples it used: ✓ with the page for textbook sentences, or "the tutor's own example". A ⚠️ **Fact check** box appears if a citation or example doesn't verify.
+- **+ New** starts fresh; **History** lists past conversations.
+- A 🤔 **Thinking** block shows the model's reasoning when the model provides one.
+
+### Inside your AI assistant (no model or API key needed)
+
+If you already use Claude Code, Codex, GitHub Copilot in VS Code, Kimi or a similar assistant, it can be the tutor. Open the repo and ask, e.g. *"Teach me 把字句"*.
+
+The repo is set up so the assistant doesn't read the over-a-million tokens of textbook data:
+
+- **Instructions:** `CLAUDE.md`, `AGENTS.md`, `GEMINI.md` and `.github/copilot-instructions.md` tell it to use the lookups below and not open the data folders.
+- **MCP tools:** `python -m agent.mcp_server` (`hsk_context`, `hsk_word`, `hsk_grammar`, `hsk_lesson`, ...) is registered in `.mcp.json` (Claude Code) and `.vscode/mcp.json` (Copilot). For other assistants, add it as a stdio MCP server, e.g. `codex mcp add hsk-shifu -- python -m agent.mcp_server`.
+- **Command line,** for assistants without MCP: `python -m agent.ask context "What does 已经 mean?"` returns the book's entry, sentences and page citations in a few hundred tokens.
+- **Hard blocks where supported:** Claude Code is denied reads of the data folders (`.claude/settings.json`), VS Code search skips them (`.vscode/settings.json`), and Cursor ignores them (`.cursorignore`). Other assistants rely on the instructions.
 
 ### Teach mode
 
@@ -213,16 +266,43 @@ graphify explain "了"
 
 Interactive docs are served at **`/docs`** when the server is running.
 
+**Tutor and Q&A**
+
 | Method | Endpoint | Purpose |
 |---|---|---|
-| `GET` | `/` | Browser chat UI |
-| `POST` | `/chat` | Send a tutor message. Body: `{"message", "session_id", "provider"}` |
+| `GET` | `/` | The study app |
+| `POST` | `/chat` | Send a tutor message. Body: `{"message", "session_id", "provider", "focus"}` |
+| `POST` | `/chat/stream` | Same body; Server-Sent Events `meta`, `thinking`, `delta`, `done` (or `error`) |
 | `POST` | `/chat/reset` | Delete a conversation. Body: `{"session_id"}` |
 | `GET` | `/chat/sessions` | List saved conversations |
-| `GET` | `/chat/sessions/{id}` | Full history for one conversation |
+| `GET` | `/chat/sessions/{id}` | Full history for one conversation, with sentence checks |
 | `POST` | `/ask` | One-shot answer or lesson. Body: `{"question", "mode": "answer" \| "teach", "dfs", "budget", "provider"}` |
+| `GET` | `/api/status` | Which provider and model the tutor uses |
 | `GET` | `/graph/info` | Node, edge, and hyperedge counts |
 | `GET` | `/healthz` | Liveness check |
+
+`focus` (optional) pins the tutor to a study target: `{"type": "lesson", "level": 2, "lesson": 5}`, `{"type": "grammar", "level": 3, "lesson": 11, "page": 109}`, `{"type": "word", "id": "2:已经"}`, or `{"type": "review", "word_ids": [...]}` (omit the ids to use your weakest words).
+
+**Study features** (no language model involved)
+
+| Method | Endpoint | Purpose |
+|---|---|---|
+| `GET` | `/api/course` | All lessons per level, with your mastery of each |
+| `GET` | `/api/course/{level}/{lesson}` | One lesson: words, grammar points, sentences |
+| `GET` | `/api/words/search?q=` | Search by characters, pinyin or English |
+| `GET` | `/api/words/{id}` | One entry, its textbook sentences and other entries for the same characters |
+| `GET` | `/api/lexicon` | Compact word list used to make words clickable in the browser |
+| `GET` | `/api/page/{level}/{page}` | A textbook page: transcript, lesson, printed page; `.../image` for the scan |
+| `GET` | `/api/review/queue?limit=&level=&lesson=` | Flashcards due now, then new words |
+| `POST` | `/api/review/answer` | Grade a card. Body: `{"word_id", "grade": 1-4}` |
+| `POST` | `/api/review/add` | Put a word into your flashcards. Body: `{"word_id"}` |
+| `GET` | `/api/drill?level=&lesson=&types=&count=&word_ids=` | Practice questions |
+| `POST` | `/api/drill/answer` | Record a drill answer. Body: `{"word_id", "correct", "mode"}` |
+| `GET` | `/api/test/{level}` | A 30-question practice test |
+| `POST` | `/api/test/result` | Save a test score |
+| `GET` | `/api/progress` | Streak, accuracy, coverage per level, activity, weak words, test history |
+| `GET` / `POST` | `/api/settings` | `target_level` (1-3) and `daily_new` |
+| `POST` | `/api/progress/reset` | Erase the learning record. Body: `{"confirm": "RESET"}` |
 
 Example:
 
@@ -264,8 +344,10 @@ curl -s -X POST http://127.0.0.1:8000/ask \
 |---|---|---|
 | `ANTHROPIC_API_KEY` | *(required)* | API key from console.anthropic.com |
 | `ANTHROPIC_MODEL` | `claude-sonnet-5-5` | Model ID |
-| `ANTHROPIC_MAX_TOKENS` | `4096` | Reply length cap |
+| `ANTHROPIC_MAX_TOKENS` | `16000` | Reply length cap (thinking counts toward it) |
 | `ANTHROPIC_EFFORT` | *(model default)* | `low` · `medium` · `high` · `xhigh` · `max` |
+| `ANTHROPIC_THINKING_DISPLAY` | `summarized` | `summarized` shows a readable thinking summary in the chat; `omitted` hides it |
+| `ANTHROPIC_FALLBACKS` | `default` | Server-side refusal fallbacks; `off` disables them (needed if `ANTHROPIC_BASE_URL` points somewhere other than the Claude API) |
 
 ---
 
@@ -274,16 +356,25 @@ curl -s -X POST http://127.0.0.1:8000/ask \
 ```
 HSK-ShiFu/
 ├── agent/                  Standalone agent: retrieval, prompts, providers, server, CLI
-│   ├── server.py           FastAPI app (API + web UI)
-│   ├── cli.py              Command-line interface
-│   ├── tutor.py            Multi-turn tutor chat and session handling
-│   ├── teacher.py          One-shot teach mode and fact checks
+│   ├── server.py           FastAPI app (tutor API + web app)
+│   ├── api_study.py        Study-feature API (/api/...)
+│   ├── course.py           The books as data: words, lessons, grammar points
+│   ├── course_sentences.py Example sentences, with pinyin/English only when certain
+│   ├── course_text.py      Page access and hanzi/pinyin helpers
+│   ├── lexicon.py          Lookup, search, segmentation, lesson references
+│   ├── srs.py              Spaced-repetition scheduling
+│   ├── progress.py         The learning record (SQLite)
+│   ├── quiz.py             Drills and practice tests
+│   ├── tutor.py            Multi-turn tutor chat, topics, streaming
+│   ├── verify.py           Looks up every tutor example in the books
+│   ├── teacher.py          One-shot teach mode and citation fact checks
 │   ├── retrieval.py        Graph and textbook-page retrieval
 │   ├── prompts.py          Shared instruction set used by every mode
-│   ├── providers.py        Ollama, llama.cpp, and Anthropic backends
+│   ├── providers.py        Ollama, llama.cpp, and Anthropic backends (streaming)
 │   ├── chat_store.py       SQLite storage for chat sessions
-│   ├── static/index.html   Browser chat UI
+│   ├── static/             The web app (no build step): index.html, css/, js/
 │   └── README.md           Detailed agent documentation
+├── tests/                  Unit and API tests (python -m unittest discover -s tests -t .)
 ├── ingest/
 │   └── extract_pages.py    PDF → page-image extraction
 ├── graphify-out/           Built knowledge graph (graph.json, GRAPH_REPORT.md, ...)
@@ -297,7 +388,15 @@ HSK-ShiFu/
 └── requirements.txt
 ```
 
-`agent/data/` holds local chat history and is git-ignored.
+`agent/data/` holds local chat history and your learning record (`progress.db`), and is git-ignored.
+
+### Tests
+
+```bash
+python -m unittest discover -s tests -t .
+```
+
+The suite checks the parser against facts printed in the books (word counts, pages, titles, that every extracted sentence is verbatim from its page), the scheduler, that every generated question's answer is the book's own fact and no distractor can also be right, the learning record, the tutor pipeline with a scripted model, and the whole HTTP API, including streaming, on a live local server. It needs no extra packages and never touches `agent/data/`.
 
 ---
 
@@ -313,8 +412,11 @@ The grounding corpus is derived from the official *HSK Standard Course* textbook
 
 ## Known limitations
 
-- **Small local models make mistakes.** A 4-billion-parameter model follows the lesson structure but sometimes misdiagnoses errors or improvises citations. The fact checker catches many of these, but not all. Larger models give noticeably better results.
+- **Small local models make mistakes.** A 4-billion-parameter model follows the lesson structure but sometimes misdiagnoses errors (in testing, gemma3n called a correct 把 sentence wrong) or presents its own sentences as the book's. The checks flag both cases, but they can't make the model reason better. Larger models, especially Claude, give noticeably better tutoring.
+- **Local models are slow to start a topic.** A new topic means the model reads about 3,500 tokens of textbook pages first; on CPU that can take a few minutes. Later turns reuse the cached prompt and start in seconds. If llama-server is holding the GPU, Ollama falls back to the CPU.
 - **Large local models can be slow.** The Bonsai 2 27B ternary model runs at roughly 1.4 tokens per second on a 6 GB GPU, so a single reply takes one to three minutes. Reasoning mode makes this far worse.
+- **Practice tests are practice.** They're built from the textbooks' words and sentences in exam-like sections, not taken from official HSK papers, and the app doesn't claim any score maps to an exam result.
+- **Some sentences have no pinyin or English.** They're attached only where the book prints them and they can be matched with certainty (Level 3 dialogues carry no English in the book).
 - **No image input yet.** The tutor works from text only. Vision support is planned, and Claude models would support it natively.
 - **Teach-mode lessons can be truncated** when `LLAMACPP_MAX_TOKENS` is set low.
 - **Chat history stays on this machine.** Sessions are stored in a local SQLite file and are never sent anywhere except to the model you configure.
