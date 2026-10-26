@@ -50,6 +50,23 @@ async function load(name) {
   camera.up.set(0, 1, 0);
   const controls = new THREE.OrbitControls(camera, canvas);
   controls.enableDamping = true; controls.dampingFactor = 0.08; controls.autoRotateSpeed = 0.6;
+  // drag = rotate, right/middle drag or shift+drag = pan the whole network; wheel zooms toward the pointer
+  controls.enablePan = true; controls.screenSpacePanning = true; controls.enableZoom = false;
+  controls.mouseButtons = { LEFT: THREE.MOUSE.ROTATE, MIDDLE: THREE.MOUSE.PAN, RIGHT: THREE.MOUSE.PAN };
+  canvas.addEventListener('contextmenu', (e) => e.preventDefault());
+  canvas.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    const rect = canvas.getBoundingClientRect(), nx = ((e.clientX - rect.left) / rect.width) * 2 - 1, ny = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+    const dist = camera.position.distanceTo(controls.target);
+    const s = Math.min(Math.max(Math.exp(e.deltaY * (e.deltaMode === 1 ? 0.05 : 0.0015)), 0.5), 2);
+    const nd = Math.min(Math.max(dist * s, R * 0.15), R * 12), k = nd / dist;
+    const ray = new THREE.Vector3(nx, ny, 0.5).unproject(camera).sub(camera.position).normalize();
+    const fwd = camera.getWorldDirection(new THREE.Vector3());
+    const t = dist / Math.max(ray.dot(fwd), 1e-3), p = camera.position.clone().addScaledVector(ray, t); // point under cursor on the target plane
+    camera.position.copy(p).addScaledVector(camera.position.clone().sub(p), k);
+    controls.target.copy(p).addScaledVector(controls.target.clone().sub(p), k);
+    controls.update();
+  }, { passive: false });
   function setView(v) {
     // data axes: x = left-right, y = up, z = back-to-front (see layout.py previews)
     const d = R * 3.0, p = { side: [-d, 0, 0], top: [0, d, 0], front: [0, 0, d] }[v];
