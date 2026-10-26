@@ -1,4 +1,4 @@
-// Thin client for the HSK ShiFu server (agent/server.py + agent/api_study.py).
+// Thin client for the HSK-ShiFu server (agent/server.py + agent/api_study.py).
 
 async function request(method, path, body) {
   const resp = await fetch(path, {

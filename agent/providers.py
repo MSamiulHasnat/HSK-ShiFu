@@ -367,7 +367,7 @@ class OpenRouterProvider(Provider):
         req = urllib.request.Request(
             f"{self.base_url}/chat/completions", data=json.dumps(payload).encode("utf-8"), method="POST",
             headers={"Content-Type": "application/json", "Authorization": f"Bearer {self.key}",
-                     "X-Title": "HSK ShiFu"})
+                     "X-Title": "HSK-ShiFu"})
         got_text = False
         try:
             with urllib.request.urlopen(req, timeout=self.timeout) as resp:

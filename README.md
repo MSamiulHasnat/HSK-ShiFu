@@ -1,8 +1,8 @@
-# HSK ShiFu
+# HSK-ShiFu
 
 **A Chinese tutor that only teaches what's in the textbook.**
 
-HSK ShiFu is a complete study app for HSK 1–3 candidates: an AI tutor named 王老师 (Wáng lǎoshī), spaced-repetition flashcards, exam-style drills, timed practice tests, a course browser and a dictionary. Every word, sentence and grammar point in it comes from the official *HSK Standard Course* textbooks (Levels 1–3), with a page citation that opens the scanned book page.
+HSK-ShiFu is a complete study app for HSK 1–3 candidates: an AI tutor named 王老师 (Wáng lǎoshī), spaced-repetition flashcards, exam-style drills, timed practice tests, a course browser and a dictionary. Every word, sentence and grammar point in it comes from the official *HSK Standard Course* textbooks (Levels 1–3), with a page citation that opens the scanned book page.
 
 It never answers from general knowledge of Chinese. If the textbooks don't cover something, it says so.
 
@@ -27,9 +27,9 @@ It never answers from general knowledge of Chinese. If the textbooks don't cover
 
 ## Why it's different
 
-Most "AI tutors" answer from whatever the model happens to remember, which means confident-sounding mistakes about grammar and characters. HSK ShiFu inverts that:
+Most "AI tutors" answer from whatever the model happens to remember, which means confident-sounding mistakes about grammar and characters. HSK-ShiFu inverts that:
 
-| | Typical AI tutor | HSK ShiFu |
+| | Typical AI tutor | HSK-ShiFu |
 |---|---|---|
 | Source of facts | The model's training data | The HSK textbooks, via a knowledge graph |
 | Citations | Often missing or invented | Every textbook fact cites `(HSK Level N, page N)` |

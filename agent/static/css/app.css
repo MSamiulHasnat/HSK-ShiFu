@@ -1,4 +1,4 @@
-/* HSK ShiFu — design tokens, layout and shared components. View-specific styles live in views.css. */
+/* HSK-ShiFu — design tokens, layout and shared components. View-specific styles live in views.css. */
 
 :root {
   --bg: #f6f3ee; --surface: #fffdf9; --surface-2: #f0ebe3; --border: #e3dccf; --border-strong: #cfc6b6;
